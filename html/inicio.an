@@ -1,0 +1,213 @@
+
+{
+
+	"menu-Default Timeline_playhead_ms":"0",
+	"pref__general__AutoKeyframeProperties":"false",
+	"symbol_aulas":{
+		"element_${_RectangleCopy4}":{
+			"timelineColor2":"0xcbbd71",
+			"timelineColor3":"0x7b7652",
+			"animationEnabled":"true",
+			"timelineColor":"0xeedf79"}},
+	"symbol_contacto":{
+		"element_${_RectangleCopy3}":{
+			"timelineColor2":"0xd8b467",
+			"timelineColor3":"0x81714f",
+			"animationEnabled":"true",
+			"timelineColor":"0xffd46d"}},
+	"nuestrasp-Default Timeline_playhead_ms":"0",
+	"pref__general__FilterNonAnimatedElements":"false",
+	"expanded:images/2.Inicio.png":"nil",
+	"expanded:images/5.%20Conozcanos.png":"nil",
+	"symbol_ingresoClientes":{
+		"element_${_Rectangle}":{
+			"timelineColor2":"0x107faa",
+			"timelineColor3":"0x295a6d",
+			"animationEnabled":"true",
+			"timelineColor":"0x008dc8"}},
+	"CompZoomFactor":"100",
+	"StageZoomFactor":"100",
+	"pixelsPerMs":"0.2",
+	"ingresoClientes-Default Timeline_playhead_ms":"0",
+	"contacto-Default Timeline_mark_ms":"-1",
+	"nextElementColorIndex":"13",
+	"stage-Default Timeline_playhead_ms":"0",
+	"symbol_conozcanos":{
+		"element_${__2Inicio5}":{
+			"timelineColor2":"0x107faa",
+			"timelineColor3":"0x295a6d",
+			"animationEnabled":"true",
+			"timelineColor":"0x008dc8"},
+		"element_${_RectangleCopy2}":{
+			"timelineColor2":"0xba5b89",
+			"timelineColor3":"0x734a5f",
+			"animationEnabled":"true",
+			"timelineColor":"0xdb619d"}},
+	"HTMLFileName":"inicio.html",
+	"symbol_nuestrasp":{
+		"element_${_RectangleCopy}":{
+			"timelineColor2":"0xd35d6e",
+			"timelineColor3":"0x7e4b52",
+			"animationEnabled":"true",
+			"timelineColor":"0xfb657a"}},
+	"ModelData":"{\
+\"stage\": {\
+   \"timelines\": {\
+      \"Default Timeline\": {\
+      }\
+   }},\
+\"Preloader\": {\
+   \"timelines\": {\
+\
+   }},\
+\"Down-level\": {\
+   \"timelines\": {\
+\
+   }},\
+\"menu\": {\
+   \"timelines\": {\
+      \"Default Timeline\": {\
+      }\
+   }},\
+\"ingresoClientes\": {\
+   \"timelines\": {\
+      \"Default Timeline\": {\
+      }\
+   }},\
+\"nuestrasp\": {\
+   \"timelines\": {\
+      \"Default Timeline\": {\
+      }\
+   }},\
+\"conozcanos\": {\
+   \"timelines\": {\
+      \"Default Timeline\": {\
+      }\
+   }},\
+\"contacto\": {\
+   \"timelines\": {\
+      \"Default Timeline\": {\
+      }\
+   }},\
+\"aulas\": {\
+   \"timelines\": {\
+      \"Default Timeline\": {\
+      }\
+   }}\
+}",
+	"expanded:images/5.1.%20Conozcanos.png":"nil",
+	"ingresoClientes-Default Timeline_mark_ms":"-1",
+	"expanded:images/3.Ingreso%20a%20clientes.png":"nil",
+	"aulas-Default Timeline_playhead_ms":"0",
+	"contacto-Default Timeline_playhead_ms":"0",
+	"conozcanos-Default Timeline_mark_ms":"-1",
+	"pref__general__GenerateSmoothTransitions":"true",
+	"nuestrasp-Default Timeline_mark_ms":"-1",
+	"TransitionIdCounter":"17",
+	"expanded:images/1.1.Campa%C3%B1a%20Lanzamiento2.png":"nil",
+	"expanded:images/labels.png":"nil",
+	"symbol_stage":{
+		"dummyStageParentWidth":"1024px",
+		"element_${__2Inicio3}":{
+			"timelineColor2":"0x1aa38f",
+			"timelineColor3":"0x2a6a61",
+			"animationEnabled":"false",
+			"timelineColor":"0x00bda4"},
+		"element_${_menu2}":{
+			"timelineColor2":"0x5a558a",
+			"timelineColor3":"0x4a485e",
+			"animationEnabled":"true",
+			"timelineColor":"0x63599f"},
+		"element_${_Rectangle}":{
+			"timelineColor2":"0xb099ce",
+			"timelineColor3":"0x70657c",
+			"animationEnabled":"false",
+			"timelineColor":"0xceaef4"},
+		"element_${__2Inicio}":{
+			"timelineColor2":"0x81aa62",
+			"timelineColor3":"0x5b6c4d",
+			"animationEnabled":"false",
+			"timelineColor":"0x91c767"},
+		"defaultStageParentHeight":"1975px",
+		"element_${__2Inicio2}":{
+			"timelineColor2":"0x4fa275",
+			"timelineColor3":"0x456a55",
+			"animationEnabled":"false",
+			"timelineColor":"0x50bd82"},
+		"element_${_menu}":{
+			"timelineColor2":"0x326a96",
+			"timelineColor3":"0x385063",
+			"animationEnabled":"true",
+			"timelineColor":"0x2f73ad"},
+		"defaultStageParentWidth":"1024px",
+		"element_${__2Inicio4}":{
+			"timelineColor2":"0x168c84",
+			"timelineColor3":"0x2a605c",
+			"timelineColor":"0x00a096"},
+		"element_${_Stage}":{
+			"timelineColor2":"0xcbbd71",
+			"timelineColor3":"0x7b7652",
+			"timelineColor":"0xeedf79"},
+		"dummyStageParentHeight":"1975px"},
+	"PreloadAudio":"auto",
+	"expanded:images/6.Ingreso%20a%20clientes.png":"nil",
+	"viewStartY":"0",
+	"expanded:images/labels2.png":"nil",
+	"conozcanos-Default Timeline_playhead_ms":"0",
+	"expanded:images/4.Publicaciones.png":"nil",
+	"expanded:images/4.1.Publicaciones%20articulo.png":"nil",
+	"pref__general__AutoKeyframePropertiesArmed":"false",
+	"symbol_menu":{
+		"element_${_RectangleCopy4}":{
+			"timelineColor2":"0xba5b89",
+			"timelineColor3":"0x734a5f",
+			"animationEnabled":"false",
+			"timelineColor":"0xdb619d"},
+		"element_${_RectangleCopy3}":{
+			"timelineColor2":"0xb099ce",
+			"timelineColor3":"0x70657c",
+			"animationEnabled":"false",
+			"timelineColor":"0xceaef4"},
+		"element_${_aulas}":{
+			"timelineColor2":"0xd35d6e",
+			"timelineColor3":"0x7e4b52",
+			"animationEnabled":"true",
+			"timelineColor":"0xfb657a"},
+		"element_${_contacto}":{
+			"timelineColor2":"0x5a558a",
+			"timelineColor3":"0x4a485e",
+			"animationEnabled":"true",
+			"timelineColor":"0x63599f"},
+		"element_${_RectangleCopy2}":{
+			"timelineColor2":"0x1095d2",
+			"timelineColor3":"0x29647e",
+			"animationEnabled":"false",
+			"timelineColor":"0x00a9fa"},
+		"element_${_RectangleCopy}":{
+			"timelineColor2":"0x168c84",
+			"timelineColor3":"0x2a605c",
+			"animationEnabled":"false",
+			"timelineColor":"0x00a096"},
+		"element_${_conozcanos}":{
+			"timelineColor2":"0x326a96",
+			"timelineColor3":"0x385063",
+			"animationEnabled":"true",
+			"timelineColor":"0x2f73ad"},
+		"element_${_ingresoClientes}":{
+			"timelineColor2":"0x81aa62",
+			"timelineColor3":"0x5b6c4d",
+			"animationEnabled":"true",
+			"timelineColor":"0x91c767"},
+		"element_${_Rectangle}":{
+			"timelineColor2":"0x4fa275",
+			"timelineColor3":"0x456a55",
+			"animationEnabled":"false",
+			"timelineColor":"0x50bd82"},
+		"element_${_nuestrasp}":{
+			"timelineColor2":"0x1aa38f",
+			"timelineColor3":"0x2a6a61",
+			"animationEnabled":"true",
+			"timelineColor":"0x00bda4"}},
+	"aulas-Default Timeline_mark_ms":"-1",
+	"expanded:images/1.Campa%C3%B1a%20lanzamiento.png":"nil",
+	"usedBOM":"false"}
