@@ -938,15 +938,15 @@ var symbols = {
         },
     states: {
         "Base State": {
-            "${symbolSelector}": [
-                ["style", "height", '23px'],
-                ["style", "width", '230px']
-            ],
             "${_Rectangle2}": [
                 ["style", "top", '0px'],
                 ["style", "opacity", '0'],
                 ["style", "left", '0px'],
                 ["style", "cursor", 'pointer']
+            ],
+            "${symbolSelector}": [
+                ["style", "height", '23px'],
+                ["style", "width", '230px']
             ]
         }
     },
@@ -1038,15 +1038,15 @@ var symbols = {
         },
     states: {
         "Base State": {
-            "${symbolSelector}": [
-                ["style", "height", '23px'],
-                ["style", "width", '230px']
-            ],
             "${_Rectangle2}": [
                 ["style", "top", '0px'],
                 ["style", "opacity", '0'],
                 ["style", "left", '0px'],
                 ["style", "cursor", 'pointer']
+            ],
+            "${symbolSelector}": [
+                ["style", "height", '23px'],
+                ["style", "width", '230px']
             ]
         }
     },

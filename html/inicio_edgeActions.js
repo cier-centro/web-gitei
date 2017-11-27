@@ -63,6 +63,12 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       });
       //Edge binding end
 
+      Symbol.bindElementAction(compId, symbolName, "${_aulas}", "click", function(sym, e) {
+         window.location.href = 'aulas.html';
+
+      });
+      //Edge binding end
+
    })("menu");
    //Edge symbol end:'menu'
 
@@ -197,6 +203,42 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       });
       //Edge binding end
 
+      Symbol.bindElementAction(compId, symbolName, "${_mision}", "click", function(sym, e) {
+         window.location.href = 'mision.html';
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_Vision}", "click", function(sym, e) {
+         window.location.href = 'vision.html';
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_lineas}", "click", function(sym, e) {
+         window.location.href = 'lineas.html';
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_Actividades}", "click", function(sym, e) {
+         window.location.href = 'actividades.html';
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_historia}", "click", function(sym, e) {
+         window.location.href = 'historia.html';
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_equipo}", "click", function(sym, e) {
+         window.location.href = 'equipo.html';
+
+      });
+      //Edge binding end
+
    })("conozcanos");
    //Edge symbol end:'conozcanos'
 
@@ -315,6 +357,12 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
    //Edge symbol: 'mision'
    (function(symbolName) {   
    
+      Symbol.bindElementAction(compId, symbolName, "${_Rectangle2}", "click", function(sym, e) {
+         window.location.href = 'mision.html';
+
+      });
+      //Edge binding end
+
    })("mision");
    //Edge symbol end:'mision'
 
@@ -323,6 +371,12 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
    //Edge symbol: 'mision_1'
    (function(symbolName) {   
    
+      Symbol.bindElementAction(compId, symbolName, "${_Rectangle2}", "click", function(sym, e) {
+         window.location.href = 'vision.html';
+
+      });
+      //Edge binding end
+
    })("Vision");
    //Edge symbol end:'Vision'
 
@@ -331,6 +385,12 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
    //Edge symbol: 'mision_1'
    (function(symbolName) {   
    
+      Symbol.bindElementAction(compId, symbolName, "${_Rectangle2}", "click", function(sym, e) {
+         window.location.href = 'lineas.html';
+
+      });
+      //Edge binding end
+
    })("lineas");
    //Edge symbol end:'lineas'
 
@@ -339,6 +399,12 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
    //Edge symbol: 'lineas_1'
    (function(symbolName) {   
    
+      Symbol.bindElementAction(compId, symbolName, "${_Rectangle2}", "click", function(sym, e) {
+         window.location.href = 'actividades.html';
+
+      });
+      //Edge binding end
+
    })("Actividades");
    //Edge symbol end:'Actividades'
 
@@ -347,6 +413,12 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
    //Edge symbol: 'Actividades_1'
    (function(symbolName) {   
    
+      Symbol.bindElementAction(compId, symbolName, "${_Rectangle2}", "click", function(sym, e) {
+         window.location.href = 'historia.html';
+
+      });
+      //Edge binding end
+
    })("historia");
    //Edge symbol end:'historia'
 
@@ -355,6 +427,12 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
    //Edge symbol: 'historia_1'
    (function(symbolName) {   
    
+      Symbol.bindElementAction(compId, symbolName, "${_Rectangle2}", "click", function(sym, e) {
+         window.location.href = 'equipo.html';
+
+      });
+      //Edge binding end
+
    })("equipo");
    //Edge symbol end:'equipo'
 
