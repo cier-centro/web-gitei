@@ -27,17 +27,11 @@ var symbols = {
     content: {
             dom: [
             {
-                id: '_52_vision',
+                id: '_51_Mision',
                 type: 'image',
-                rect: ['-98px', '0px','1269px','1178px','auto', 'auto'],
-                clip: ['rect(0px 1123px 1178px 100px)'],
-                fill: ["rgba(0,0,0,0)",im+"Equipo.png",'0px','0px']
-            },
-            {
-                id: 'servicios',
-                type: 'rect',
-                rect: ['83', '110','auto','auto','auto', 'auto'],
-                cursor: ['pointer']
+                rect: ['-97px', '-1px','1269px','1178px','auto', 'auto'],
+                clip: ['rect(0px 1121px 1178px 97px)'],
+                fill: ["rgba(0,0,0,0)",im+"Servicios.png",'0px','0px']
             },
             {
                 id: 'serviciosCopy',
@@ -54,8 +48,9 @@ var symbols = {
             {
                 id: 'vinculacionCopy',
                 type: 'rect',
-                rect: ['309', '110','auto','auto','auto', 'auto'],
-                cursor: ['pointer']
+                rect: ['472px', '110','auto','auto','auto', 'auto'],
+                cursor: ['pointer'],
+                transform: [[],[],[],['0.79213']]
             },
             {
                 id: 'Ideas',
@@ -97,13 +92,6 @@ var symbols = {
                 autoPlay: {
 
                 }
-            },
-            {
-                id: 'servicios',
-                symbolName: 'servicios',
-                autoPlay: {
-
-                }
             }
             ]
         },
@@ -113,14 +101,16 @@ var symbols = {
                 ["style", "cursor", 'pointer'],
                 ["style", "top", '106px']
             ],
-            "${__52_vision}": [
-                ["style", "top", '0px'],
-                ["style", "left", '-98px'],
-                ["style", "clip", [0,1123,1178,100], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ]
-            ],
-            "${_servicios}": [
+            "${_vinculacionCopy}": [
+                ["style", "top", '106px'],
+                ["transform", "scaleX", '0.79213'],
                 ["style", "cursor", 'pointer'],
-                ["style", "top", '106px']
+                ["style", "left", '472px']
+            ],
+            "${__51_Mision}": [
+                ["style", "top", '-1px'],
+                ["style", "left", '-97px'],
+                ["style", "clip", [0,1121,1178,97], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ]
             ],
             "${_Stage}": [
                 ["color", "background-color", 'rgba(255,255,255,1)'],
@@ -131,12 +121,6 @@ var symbols = {
             "${_Ideas}": [
                 ["style", "cursor", 'pointer'],
                 ["style", "top", '106px']
-            ],
-            "${_vinculacionCopy}": [
-                ["transform", "scaleX", '0.8427'],
-                ["style", "top", '106px'],
-                ["style", "left", '474px'],
-                ["style", "cursor", 'pointer']
             ],
             "${_serviciosCopy}": [
                 ["transform", "scaleX", '0.86842'],
@@ -153,13 +137,7 @@ var symbols = {
             duration: 0,
             autoPlay: true,
             timeline: [
-                { id: "eid19", tween: [ "style", "${_servicios}", "top", '106px', { fromValue: '106px'}], position: 0, duration: 0 },
-                { id: "eid13", tween: [ "style", "${_vinculacionCopy}", "left", '474px', { fromValue: '474px'}], position: 0, duration: 0 },
-                { id: "eid17", tween: [ "style", "${_Ideas}", "top", '106px', { fromValue: '106px'}], position: 0, duration: 0 },
-                { id: "eid24", tween: [ "style", "${_vinculacionCopy}", "top", '106px', { fromValue: '106px'}], position: 0, duration: 0 },
-                { id: "eid21", tween: [ "style", "${_vinculacion}", "top", '106px', { fromValue: '106px'}], position: 0, duration: 0 },
-                { id: "eid23", tween: [ "style", "${_serviciosCopy}", "top", '106px', { fromValue: '106px'}], position: 0, duration: 0 },
-                { id: "eid11", tween: [ "transform", "${_vinculacionCopy}", "scaleX", '0.8427', { fromValue: '0.8427'}], position: 0, duration: 0 }            ]
+            ]
         }
     }
 },

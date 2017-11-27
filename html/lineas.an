@@ -1,11 +1,20 @@
 
 {
 
-	"HTMLFileName":"lineas.html",
-	"expanded:images/labels2.png":"nil",
-	"expanded:images/5.3.%20Lineas.png":"nil",
 	"expanded:images/5.4.%20Actividades.png":"nil",
-	"TransitionIdCounter":"8",
+	"servicios-Default Timeline_playhead_ms":"0",
+	"pref__general__FilterNonAnimatedElements":"false",
+	"expanded:images/2.Inicio.png":"nil",
+	"expanded:images/aulas.png":"nil",
+	"expanded:images/5.%20Conozcanos.png":"nil",
+	"CompZoomFactor":"100",
+	"StageZoomFactor":"100",
+	"pixelsPerMs":"0.2",
+	"nextElementColorIndex":"3",
+	"stage-Default Timeline_playhead_ms":"0",
+	"expanded:images/7.Vinculaci%C3%B3n%20a%20proyectos.png":"nil",
+	"HTMLFileName":"lineas.html",
+	"expanded:images/Equipo.png":"nil",
 	"ModelData":"{\
 \"stage\": {\
    \"timelines\": {\
@@ -127,21 +136,18 @@
    }}\
 }",
 	"expanded:images/5.2.%20vision.png":"nil",
+	"expanded:images/5.1.%20Conozcanos.png":"nil",
+	"expanded:images/5.1.%20Mision.png":"nil",
+	"pref__general__AutoKeyframeProperties":"false",
+	"expanded:images/8.aulas.png":"nil",
+	"expanded:images/Servicios.png":"nil",
 	"symbol_servicios":{
 		"element_${_RectangleCopy}":{
 			"timelineColor2":"0xd35d6e",
 			"timelineColor3":"0x7e4b52",
 			"animationEnabled":"true",
 			"timelineColor":"0xfb657a"}},
-	"expanded:images/5.1.%20Conozcanos.png":"nil",
-	"servicios-Default Timeline_playhead_ms":"0",
-	"expanded:images/5.1.%20Mision.png":"nil",
-	"StageZoomFactor":"100",
-	"CompZoomFactor":"100",
-	"pref__general__FilterNonAnimatedElements":"false",
-	"expanded:images/4.1.Publicaciones%20articulo.png":"nil",
-	"pref__general__AutoKeyframePropertiesArmed":"true",
-	"expanded:images/2.Inicio.png":"nil",
+	"expanded:images/5.3.%20Lineas.png":"nil",
 	"expanded:images/1.1.Campa%C3%B1a%20Lanzamiento2.png":"nil",
 	"expanded:images/labels.png":"nil",
 	"symbol_stage":{
@@ -157,6 +163,11 @@
 			"timelineColor3":"0x295a6d",
 			"animationEnabled":"true",
 			"timelineColor":"0x008dc8"},
+		"element_${_vinculacionCopy}":{
+			"timelineColor2":"0x81aa62",
+			"timelineColor3":"0x5b6c4d",
+			"animationEnabled":"true",
+			"timelineColor":"0x91c767"},
 		"element_${_serviciosCopy}":{
 			"timelineColor2":"0xb099ce",
 			"timelineColor3":"0x70657c",
@@ -213,14 +224,14 @@
 			"timelineColor3":"0x81714f",
 			"timelineColor":"0xffd46d"}},
 	"PreloadAudio":"auto",
-	"expanded:images/3.Ingreso%20a%20clientes.png":"nil",
+	"expanded:images/6.Ingreso%20a%20clientes.png":"nil",
 	"viewStartY":"0",
-	"pixelsPerMs":"0.2",
-	"expanded:images/4.Publicaciones.png":"nil",
+	"expanded:images/labels2.png":"nil",
+	"TransitionIdCounter":"25",
 	"expanded:images/1.Campa%C3%B1a%20lanzamiento.png":"nil",
 	"usedBOM":"false",
-	"nextElementColorIndex":"2",
-	"stage-Default Timeline_playhead_ms":"0",
-	"expanded:images/5.%20Conozcanos.png":"nil",
-	"expanded:images/7.Vinculaci%C3%B3n%20a%20proyectos.png":"nil",
-	"expanded:images/6.Ingreso%20a%20clientes.png":"nil"}
+	"expanded:images/historia.png":"nil",
+	"expanded:images/4.1.Publicaciones%20articulo.png":"nil",
+	"pref__general__AutoKeyframePropertiesArmed":"false",
+	"expanded:images/3.Ingreso%20a%20clientes.png":"nil",
+	"expanded:images/4.Publicaciones.png":"nil"}

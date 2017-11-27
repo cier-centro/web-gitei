@@ -52,6 +52,12 @@ var symbols = {
                 cursor: ['pointer']
             },
             {
+                id: 'vinculacionCopy',
+                type: 'rect',
+                rect: ['309', '110','auto','auto','auto', 'auto'],
+                cursor: ['pointer']
+            },
+            {
                 id: 'Ideas',
                 type: 'rect',
                 rect: ['159', '110','auto','auto','auto', 'auto'],
@@ -76,6 +82,10 @@ var symbols = {
                 symbolName: 'vinculacion'
             },
             {
+                id: 'vinculacionCopy',
+                symbolName: 'vinculacion'
+            },
+            {
                 id: 'Ideas',
                 symbolName: 'Ideas'
             },
@@ -88,7 +98,8 @@ var symbols = {
     states: {
         "Base State": {
             "${_vinculacion}": [
-                ["style", "cursor", 'pointer']
+                ["style", "cursor", 'pointer'],
+                ["style", "top", '106px']
             ],
             "${__52_vision}": [
                 ["style", "top", '0px'],
@@ -96,7 +107,8 @@ var symbols = {
                 ["style", "clip", [0,1123,1178,100], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ]
             ],
             "${_servicios}": [
-                ["style", "cursor", 'pointer']
+                ["style", "cursor", 'pointer'],
+                ["style", "top", '106px']
             ],
             "${_Stage}": [
                 ["color", "background-color", 'rgba(255,255,255,1)'],
@@ -105,10 +117,18 @@ var symbols = {
                 ["style", "width", '1024px']
             ],
             "${_Ideas}": [
+                ["style", "cursor", 'pointer'],
+                ["style", "top", '106px']
+            ],
+            "${_vinculacionCopy}": [
+                ["transform", "scaleX", '0.8427'],
+                ["style", "top", '106px'],
+                ["style", "left", '473px'],
                 ["style", "cursor", 'pointer']
             ],
             "${_serviciosCopy}": [
                 ["transform", "scaleX", '0.86842'],
+                ["style", "top", '106px'],
                 ["style", "left", '12px'],
                 ["style", "cursor", 'pointer']
             ]

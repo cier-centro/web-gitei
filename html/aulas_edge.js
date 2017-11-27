@@ -52,6 +52,12 @@ var symbols = {
                 cursor: ['pointer']
             },
             {
+                id: 'vinculacionCopy',
+                type: 'rect',
+                rect: ['309', '110','auto','auto','auto', 'auto'],
+                cursor: ['pointer']
+            },
+            {
                 id: 'Ideas',
                 type: 'rect',
                 rect: ['159', '110','auto','auto','auto', 'auto'],
@@ -82,6 +88,10 @@ var symbols = {
                 }
             },
             {
+                id: 'vinculacionCopy',
+                symbolName: 'vinculacion'
+            },
+            {
                 id: 'Ideas',
                 symbolName: 'Ideas',
                 autoPlay: {
@@ -100,6 +110,11 @@ var symbols = {
     states: {
         "Base State": {
             "${_vinculacion}": [
+                ["style", "cursor", 'pointer']
+            ],
+            "${_vinculacionCopy}": [
+                ["transform", "scaleX", '0.88764'],
+                ["style", "left", '477px'],
                 ["style", "cursor", 'pointer']
             ],
             "${__6Ingreso_a_clientes}": [
@@ -134,7 +149,8 @@ var symbols = {
             duration: 0,
             autoPlay: true,
             timeline: [
-            ]
+                { id: "eid7", tween: [ "style", "${_vinculacionCopy}", "left", '477px', { fromValue: '477px'}], position: 0, duration: 0 },
+                { id: "eid5", tween: [ "transform", "${_vinculacionCopy}", "scaleX", '0.88764', { fromValue: '0.88764'}], position: 0, duration: 0 }            ]
         }
     }
 },

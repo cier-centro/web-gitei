@@ -27,9 +27,10 @@
 			"timelineColor3":"0x70657c",
 			"animationEnabled":"true",
 			"timelineColor":"0xceaef4"}},
-	"nextElementColorIndex":"11",
+	"nextElementColorIndex":"12",
 	"stage-Default Timeline_playhead_ms":"0",
 	"HTMLFileName":"inicio.html",
+	"expanded:images/Equipo.png":"nil",
 	"ModelData":"{\
 \"stage\": {\
    \"timelines\": {\
@@ -131,6 +132,7 @@
 			"timelineColor":"0x91c767"}},
 	"expanded:images/1.1.Campa%C3%B1a%20Lanzamiento2.png":"nil",
 	"expanded:images/labels.png":"nil",
+	"expanded:images/Servicios.png":"nil",
 	"expanded:images/6.Ingreso%20a%20clientes.png":"nil",
 	"symbol_vinculacion":{
 		"element_${_RectangleCopy3}":{
@@ -222,6 +224,8 @@
 			"timelineColor3":"0x734a5f",
 			"animationEnabled":"true",
 			"timelineColor":"0xdb619d"}},
+	"pref__general__GenerateSmoothTransitions":"true",
+	"expanded:images/1.Campa%C3%B1a%20lanzamiento.png":"nil",
 	"equipo-Default Timeline_playhead_ms":"0",
 	"symbol_equipo":{
 		"element_${_Rectangle2}":{
@@ -308,7 +312,7 @@
 			"timelineColor":"0xdb619d"}},
 	"ingresoClientes-Default Timeline_playhead_ms":"0",
 	"aulas-Default Timeline_playhead_ms":"0",
-	"pref__general__GenerateSmoothTransitions":"true",
+	"expanded:images/8.aulas.png":"nil",
 	"symbol_stage":{
 		"element_${_RectangleCopy4}":{
 			"timelineColor2":"0x4fa275",
@@ -341,6 +345,11 @@
 			"timelineColor3":"0x456a55",
 			"animationEnabled":"false",
 			"timelineColor":"0x50bd82"},
+		"element_${_vinculacionCopy}":{
+			"timelineColor2":"0xd35d6e",
+			"timelineColor3":"0x7e4b52",
+			"animationEnabled":"true",
+			"timelineColor":"0xfb657a"},
 		"element_${_Rectangle}":{
 			"timelineColor2":"0xb099ce",
 			"timelineColor3":"0x70657c",
@@ -399,7 +408,7 @@
 			"timelineColor":"0xeedf79"}},
 	"expanded:images/4.Publicaciones.png":"nil",
 	"expanded:images/4.1.Publicaciones%20articulo.png":"nil",
-	"expanded:images/1.Campa%C3%B1a%20lanzamiento.png":"nil",
+	"expanded:images/historia.png":"nil",
 	"TransitionIdCounter":"40",
 	"aulas-Default Timeline_mark_ms":"-1",
 	"expanded:images/3.Ingreso%20a%20clientes.png":"nil",

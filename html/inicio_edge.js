@@ -59,6 +59,13 @@ var symbols = {
                 cursor: ['pointer']
             },
             {
+                id: 'vinculacionCopy',
+                type: 'rect',
+                rect: ['473px', '110','auto','auto','auto', 'auto'],
+                cursor: ['pointer'],
+                transform: [[],[],[],['0.8427']]
+            },
+            {
                 id: 'Ideas',
                 type: 'rect',
                 rect: ['159', '110','auto','auto','auto', 'auto'],
@@ -73,12 +80,16 @@ var symbols = {
                 }
             },
             {
+                id: 'Ideas',
+                symbolName: 'Ideas'
+            },
+            {
                 id: 'vinculacion',
                 symbolName: 'vinculacion'
             },
             {
-                id: 'Ideas',
-                symbolName: 'Ideas'
+                id: 'vinculacionCopy',
+                symbolName: 'vinculacion'
             },
             {
                 id: 'servicios',
@@ -112,6 +123,11 @@ var symbols = {
             "${_Rectangle}": [
                 ["color", "background-color", 'rgba(0,143,255,1.00)'],
                 ["style", "opacity", '0.2']
+            ],
+            "${_vinculacionCopy}": [
+                ["transform", "scaleX", '0.8427'],
+                ["style", "left", '473px'],
+                ["style", "cursor", 'pointer']
             ]
         }
     },
