@@ -13,6 +13,13 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
    (function(symbolName) {
       
       
+      Symbol.bindElementAction(compId, symbolName, "${_vinculacion}", "click", function(sym, e) {
+         window.location.href = 'vinculacion.html';
+         
+
+      });
+      //Edge binding end
+
    })("stage");
    //Edge symbol end:'stage'
 
@@ -21,22 +28,13 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
    //Edge symbol: 'menu'
    (function(symbolName) {   
    
-      Symbol.bindElementAction(compId, symbolName, "${_conozcanos}", "mouseover", function(sym, e) {
-         sym.getSymbol("conozcanos").play();
-         
+      
 
-      });
-      //Edge binding end
-
-      Symbol.bindElementAction(compId, symbolName, "${_conozcanos}", "mouseout", function(sym, e) {
-         sym.getSymbol("conozcanos").stop(0);
-         
-
-      });
-      //Edge binding end
+      
 
       Symbol.bindElementAction(compId, symbolName, "${_ingresoClientes}", "click", function(sym, e) {
-         window.location.href = 'clientes.html';
+         //window.location.href = 'clientes.html';
+         window.open("clientes.html", "_blank");
 
       });
       //Edge binding end
@@ -49,6 +47,18 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
 
       Symbol.bindElementAction(compId, symbolName, "${_contacto}", "click", function(sym, e) {
          window.location.href = 'contacto.html';
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_conozcanos}", "mouseleave", function(sym, e) {
+         sym.getSymbol("conozcanos").stop(0);
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_conozcanos}", "mouseenter", function(sym, e) {
+         sym.getSymbol("conozcanos").play();
 
       });
       //Edge binding end
@@ -104,6 +114,89 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
    //Edge symbol: 'conozcanos'
    (function(symbolName) {   
    
+      Symbol.bindElementAction(compId, symbolName, "${_mision}", "mouseenter", function(sym, e) {
+         sym.getSymbol("mision").play();
+         
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_mision}", "mouseleave", function(sym, e) {
+         sym.getSymbol("mision").stop(0);
+         
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_Vision}", "mouseenter", function(sym, e) {
+         sym.getSymbol("Vision").play();
+         
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_Vision}", "mouseleave", function(sym, e) {
+         sym.getSymbol("Vision").stop(0);
+         
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_lineas}", "mouseenter", function(sym, e) {
+         sym.getSymbol("lineas").play();
+         
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_lineas}", "mouseleave", function(sym, e) {
+         sym.getSymbol("lineas").stop(0);
+         
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_Actividades}", "mouseenter", function(sym, e) {
+         sym.getSymbol("Actividades").play();
+         
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_Actividades}", "mouseleave", function(sym, e) {
+         sym.getSymbol("Actividades").stop(0);
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_historia}", "mouseenter", function(sym, e) {
+         sym.getSymbol("historia").play();
+         
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_historia}", "mouseleave", function(sym, e) {
+         sym.getSymbol("historia").stop(0);
+         
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_equipo}", "mouseenter", function(sym, e) {
+         sym.getSymbol("equipo").play();
+         
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_equipo}", "mouseleave", function(sym, e) {
+         sym.getSymbol("equipo").stop(0);
+         
+
+      });
+      //Edge binding end
+
    })("conozcanos");
    //Edge symbol end:'conozcanos'
 
@@ -150,5 +243,119 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
 
    })("aulas");
    //Edge symbol end:'aulas'
+
+   //=========================================================
+   
+   //Edge symbol: 'servicios'
+   (function(symbolName) {   
+   
+      Symbol.bindElementAction(compId, symbolName, "${_RectangleCopy}", "mouseover", function(sym, e) {
+         sym.play();
+         
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_RectangleCopy}", "mouseout", function(sym, e) {
+         sym.stop(0);
+         
+
+      });
+      //Edge binding end
+
+   })("servicios");
+   //Edge symbol end:'servicios'
+
+   //=========================================================
+   
+   //Edge symbol: 'Ideas'
+   (function(symbolName) {   
+   
+      Symbol.bindElementAction(compId, symbolName, "${_RectangleCopy2}", "mouseover", function(sym, e) {
+         sym.play();
+         
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_RectangleCopy2}", "mouseout", function(sym, e) {
+         sym.stop(0);
+         
+
+      });
+      //Edge binding end
+
+   })("Ideas");
+   //Edge symbol end:'Ideas'
+
+   //=========================================================
+   
+   //Edge symbol: 'vinculacion'
+   (function(symbolName) {   
+   
+      Symbol.bindElementAction(compId, symbolName, "${_RectangleCopy3}", "mouseover", function(sym, e) {
+         sym.play();
+         
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_RectangleCopy3}", "mouseout", function(sym, e) {
+         sym.stop(0);
+         
+
+      });
+      //Edge binding end
+
+   })("vinculacion");
+   //Edge symbol end:'vinculacion'
+
+   //=========================================================
+   
+   //Edge symbol: 'mision'
+   (function(symbolName) {   
+   
+   })("mision");
+   //Edge symbol end:'mision'
+
+   //=========================================================
+   
+   //Edge symbol: 'mision_1'
+   (function(symbolName) {   
+   
+   })("Vision");
+   //Edge symbol end:'Vision'
+
+   //=========================================================
+   
+   //Edge symbol: 'mision_1'
+   (function(symbolName) {   
+   
+   })("lineas");
+   //Edge symbol end:'lineas'
+
+   //=========================================================
+   
+   //Edge symbol: 'lineas_1'
+   (function(symbolName) {   
+   
+   })("Actividades");
+   //Edge symbol end:'Actividades'
+
+   //=========================================================
+   
+   //Edge symbol: 'Actividades_1'
+   (function(symbolName) {   
+   
+   })("historia");
+   //Edge symbol end:'historia'
+
+   //=========================================================
+   
+   //Edge symbol: 'historia_1'
+   (function(symbolName) {   
+   
+   })("equipo");
+   //Edge symbol end:'equipo'
 
 })(jQuery, AdobeEdge, "EDGE-20250397");
