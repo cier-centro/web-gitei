@@ -43,6 +43,12 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       });
       //Edge binding end
 
+      Symbol.bindElementAction(compId, symbolName, "${_Nuestros_proyectos}", "click", function(sym, e) {
+         window.location.href = 'servicios.html';
+
+      });
+      //Edge binding end
+
    })("stage");
    //Edge symbol end:'stage'
 

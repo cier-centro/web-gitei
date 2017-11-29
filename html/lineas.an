@@ -1,9 +1,14 @@
 
 {
 
-	"expanded:images/5.4.%20Actividades.png":"nil",
+	"pref__general__AutoKeyframeProperties":"false",
 	"servicios-Default Timeline_playhead_ms":"0",
-	"pref__general__FilterNonAnimatedElements":"false",
+	"symbol_servicios":{
+		"element_${_RectangleCopy}":{
+			"timelineColor2":"0xd35d6e",
+			"timelineColor3":"0x7e4b52",
+			"animationEnabled":"true",
+			"timelineColor":"0xfb657a"}},
 	"expanded:images/2.Inicio.png":"nil",
 	"expanded:images/aulas.png":"nil",
 	"expanded:images/5.%20Conozcanos.png":"nil",
@@ -50,14 +55,6 @@
    \"timelines\": {\
       \"Default Timeline\": {\
       }\
-   }},\
-\"Precargador\": {\
-   \"timelines\": {\
-\
-   }},\
-\"Nivel inferior\": {\
-   \"timelines\": {\
-\
    }},\
 \"Ideas\": {\
    \"timelines\": {\
@@ -133,22 +130,37 @@
    \"timelines\": {\
       \"Default Timeline\": {\
       }\
+   }},\
+\"Precargador\": {\
+   \"timelines\": {\
+\
+   }},\
+\"Nivel inferior\": {\
+   \"timelines\": {\
+\
    }}\
 }",
 	"expanded:images/5.2.%20vision.png":"nil",
 	"expanded:images/5.1.%20Conozcanos.png":"nil",
 	"expanded:images/5.1.%20Mision.png":"nil",
-	"pref__general__AutoKeyframeProperties":"false",
+	"expanded:images/4.Publicaciones.png":"nil",
+	"expanded:images/3.Ingreso%20a%20clientes.png":"nil",
+	"pref__general__AutoKeyframePropertiesArmed":"false",
+	"expanded:images/4.1.Publicaciones%20articulo.png":"nil",
+	"expanded:images/5.4.%20Actividades.png":"nil",
+	"expanded:images/1.1.Campa%C3%B1a%20Lanzamiento2.png":"nil",
 	"expanded:images/8.aulas.png":"nil",
 	"expanded:images/Servicios.png":"nil",
-	"symbol_servicios":{
-		"element_${_RectangleCopy}":{
-			"timelineColor2":"0xd35d6e",
-			"timelineColor3":"0x7e4b52",
-			"animationEnabled":"true",
-			"timelineColor":"0xfb657a"}},
+	"PreloadAudio":"auto",
+	"expanded:images/6.Ingreso%20a%20clientes.png":"nil",
+	"viewStartY":"0",
+	"expanded:images/labels2.png":"nil",
 	"expanded:images/5.3.%20Lineas.png":"nil",
-	"expanded:images/1.1.Campa%C3%B1a%20Lanzamiento2.png":"nil",
+	"expanded:images/1.Campa%C3%B1a%20lanzamiento.png":"nil",
+	"usedBOM":"false",
+	"expanded:images/historia.png":"nil",
+	"TransitionIdCounter":"25",
+	"pref__general__FilterNonAnimatedElements":"false",
 	"expanded:images/labels.png":"nil",
 	"symbol_stage":{
 		"dummyStageParentWidth":"1024px",
@@ -199,39 +211,27 @@
 			"animationEnabled":"true",
 			"timelineColor":"0x00a9fa"},
 		"defaultStageParentHeight":"1181px",
-		"element_${_Stage}":{
-			"timelineColor2":"0xcbbd71",
-			"timelineColor3":"0x7b7652",
-			"timelineColor":"0xeedf79"},
 		"element_${__51_Mision}":{
 			"timelineColor2":"0xba5b89",
 			"timelineColor3":"0x734a5f",
 			"animationEnabled":"false",
 			"timelineColor":"0xdb619d"},
+		"element_${_menu2}":{
+			"timelineColor2":"0x1aa38f",
+			"timelineColor3":"0x2a6a61",
+			"animationEnabled":"false",
+			"timelineColor":"0x00bda4"},
 		"element_${__41Publicaciones_articulo}":{
 			"timelineColor2":"0x81aa62",
 			"timelineColor3":"0x5b6c4d",
 			"animationEnabled":"false",
 			"timelineColor":"0x91c767"},
 		"defaultStageParentWidth":"1024px",
-		"element_${_menu2}":{
-			"timelineColor2":"0x1aa38f",
-			"timelineColor3":"0x2a6a61",
-			"animationEnabled":"false",
-			"timelineColor":"0x00bda4"},
+		"element_${_Stage}":{
+			"timelineColor2":"0xcbbd71",
+			"timelineColor3":"0x7b7652",
+			"timelineColor":"0xeedf79"},
 		"element_${__52_vision}":{
 			"timelineColor2":"0xd8b467",
 			"timelineColor3":"0x81714f",
-			"timelineColor":"0xffd46d"}},
-	"PreloadAudio":"auto",
-	"expanded:images/6.Ingreso%20a%20clientes.png":"nil",
-	"viewStartY":"0",
-	"expanded:images/labels2.png":"nil",
-	"TransitionIdCounter":"25",
-	"expanded:images/1.Campa%C3%B1a%20lanzamiento.png":"nil",
-	"usedBOM":"false",
-	"expanded:images/historia.png":"nil",
-	"expanded:images/4.1.Publicaciones%20articulo.png":"nil",
-	"pref__general__AutoKeyframePropertiesArmed":"false",
-	"expanded:images/3.Ingreso%20a%20clientes.png":"nil",
-	"expanded:images/4.Publicaciones.png":"nil"}
+			"timelineColor":"0xffd46d"}}}

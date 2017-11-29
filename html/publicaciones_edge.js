@@ -92,7 +92,10 @@ var symbols = {
             },
             {
                 id: 'vinculacionCopy',
-                symbolName: 'vinculacion'
+                symbolName: 'vinculacion',
+                autoPlay: {
+
+                }
             },
             {
                 id: 'Ideas',
@@ -115,9 +118,9 @@ var symbols = {
             "${_vinculacion}": [
                 ["style", "cursor", 'pointer']
             ],
-            "${_vinculacionCopy}": [
-                ["transform", "scaleX", '0.8427'],
-                ["style", "left", '473px'],
+            "${_serviciosCopy}": [
+                ["transform", "scaleX", '0.86842'],
+                ["style", "left", '12px'],
                 ["style", "cursor", 'pointer']
             ],
             "${_servicios}": [
@@ -125,9 +128,9 @@ var symbols = {
             ],
             "${_Stage}": [
                 ["color", "background-color", 'rgba(255,255,255,1)'],
-                ["style", "width", '1024px'],
+                ["style", "overflow", 'hidden'],
                 ["style", "height", '1181px'],
-                ["style", "overflow", 'hidden']
+                ["style", "width", '1024px']
             ],
             "${_Ideas}": [
                 ["style", "cursor", 'pointer']
@@ -137,9 +140,9 @@ var symbols = {
                 ["style", "left", '-99px'],
                 ["style", "clip", [0,1128,1180,97], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ]
             ],
-            "${_serviciosCopy}": [
-                ["transform", "scaleX", '0.86842'],
-                ["style", "left", '12px'],
+            "${_vinculacionCopy}": [
+                ["transform", "scaleX", '0.8427'],
+                ["style", "left", '473px'],
                 ["style", "cursor", 'pointer']
             ]
         }
@@ -169,8 +172,8 @@ var symbols = {
     content: {
             dom: [
                 {
-                    type: 'rect',
                     rect: ['0px', '0px', '136px', '36px', 'auto', 'auto'],
+                    type: 'rect',
                     id: 'RectangleCopy4',
                     stroke: [0, 'rgba(0,0,0,1)', 'none'],
                     cursor: ['pointer'],
@@ -182,16 +185,16 @@ var symbols = {
         },
     states: {
         "Base State": {
+            "${symbolSelector}": [
+                ["style", "height", '36px'],
+                ["style", "width", '136px']
+            ],
             "${_RectangleCopy4}": [
                 ["color", "background-color", 'rgba(0,135,255,1.00)'],
                 ["style", "top", '0px'],
-                ["style", "cursor", 'pointer'],
-                ["style", "opacity", '0'],
                 ["style", "left", '0px'],
-                ["style", "width", '136px']
-            ],
-            "${symbolSelector}": [
-                ["style", "height", '36px'],
+                ["style", "opacity", '0'],
+                ["style", "cursor", 'pointer'],
                 ["style", "width", '136px']
             ]
         }
@@ -314,18 +317,18 @@ var symbols = {
     content: {
             dom: [
                 {
-                    type: 'rect',
                     rect: ['0px', '0px', '91px', '36px', 'auto', 'auto'],
-                    opacity: 0.15,
-                    id: 'RectangleCopy2',
+                    type: 'rect',
                     stroke: [0, 'rgba(0,0,0,1)', 'none'],
+                    id: 'RectangleCopy2',
+                    opacity: 0.15,
                     cursor: ['pointer'],
                     fill: ['rgba(0,135,255,1.00)']
                 },
                 {
-                    type: 'image',
-                    id: '_2Inicio5',
                     rect: ['-1308px', '30px', '1542px', '1992px', 'auto', 'auto'],
+                    id: '_2Inicio5',
+                    type: 'image',
                     clip: ['rect(6px 1542px 239px 1309px)'],
                     fill: ['rgba(0,0,0,0)', 'images/2.Inicio.png', '0px', '0px']
                 }
@@ -335,31 +338,31 @@ var symbols = {
         },
     states: {
         "Base State": {
-            "${_RectangleCopy2}": [
-                ["color", "background-color", 'rgba(0,135,255,1.00)'],
-                ["style", "top", '0px'],
-                ["style", "cursor", 'pointer'],
-                ["style", "opacity", '0'],
-                ["style", "left", '0px'],
-                ["style", "width", '91px']
-            ],
-            "${symbolSelector}": [
-                ["style", "height", '36px'],
-                ["style", "width", '91px']
-            ],
             "${__2Inicio5}": [
                 ["style", "top", '-8px'],
                 ["transform", "scaleY", '0'],
-                ["style", "clip", [6,1542,239,1309], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ],
-                ["transform", "scaleX", '0'],
-                ["style", "opacity", '0'],
-                ["style", "left", '-1310px'],
                 ["style", "-webkit-transform-origin", [84.95,0.35], {valueTemplate:'@@0@@% @@1@@%'} ],
                 ["style", "-moz-transform-origin", [84.95,0.35],{valueTemplate:'@@0@@% @@1@@%'}],
                 ["style", "-ms-transform-origin", [84.95,0.35],{valueTemplate:'@@0@@% @@1@@%'}],
                 ["style", "msTransformOrigin", [84.95,0.35],{valueTemplate:'@@0@@% @@1@@%'}],
                 ["style", "-o-transform-origin", [84.95,0.35],{valueTemplate:'@@0@@% @@1@@%'}],
-                ["style", "transform-origin", [84.95,0.35],{valueTemplate:'@@0@@% @@1@@%'}]
+                ["style", "transform-origin", [84.95,0.35],{valueTemplate:'@@0@@% @@1@@%'}],
+                ["transform", "scaleX", '0'],
+                ["style", "opacity", '0'],
+                ["style", "clip", [6,1542,239,1309], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ],
+                ["style", "left", '-1310px']
+            ],
+            "${symbolSelector}": [
+                ["style", "height", '36px'],
+                ["style", "width", '91px']
+            ],
+            "${_RectangleCopy2}": [
+                ["color", "background-color", 'rgba(0,135,255,1.00)'],
+                ["style", "top", '0px'],
+                ["style", "left", '0px'],
+                ["style", "opacity", '0'],
+                ["style", "cursor", 'pointer'],
+                ["style", "width", '91px']
             ]
         }
     },
@@ -370,8 +373,8 @@ var symbols = {
             duration: 125,
             autoPlay: false,
             timeline: [
-                { id: "eid4", tween: [ "style", "${__2Inicio5}", "opacity", '1', { fromValue: '0'}], position: 0, duration: 125 },
                 { id: "eid8", tween: [ "style", "${__2Inicio5}", "top", '24px', { fromValue: '-8px'}], position: 0, duration: 125 },
+                { id: "eid4", tween: [ "style", "${__2Inicio5}", "opacity", '1', { fromValue: '0'}], position: 0, duration: 125 },
                 { id: "eid6", tween: [ "style", "${__2Inicio5}", "left", '-1309px', { fromValue: '-1310px'}], position: 0, duration: 125 },
                 { id: "eid12", tween: [ "transform", "${__2Inicio5}", "scaleX", '1', { fromValue: '0'}], position: 0, duration: 125 },
                 { id: "eid14", tween: [ "transform", "${__2Inicio5}", "scaleY", '1', { fromValue: '0'}], position: 0, duration: 125 },
@@ -392,8 +395,8 @@ var symbols = {
     content: {
             dom: [
                 {
-                    type: 'rect',
                     rect: ['0px', '0px', '157px', '36px', 'auto', 'auto'],
+                    type: 'rect',
                     id: 'RectangleCopy',
                     stroke: [0, 'rgba(0,0,0,1)', 'none'],
                     cursor: ['pointer'],
@@ -408,9 +411,9 @@ var symbols = {
             "${_RectangleCopy}": [
                 ["style", "top", '0px'],
                 ["color", "background-color", 'rgba(0,135,255,1.00)'],
-                ["style", "cursor", 'pointer'],
-                ["style", "opacity", '0'],
                 ["style", "left", '0px'],
+                ["style", "opacity", '0'],
+                ["style", "cursor", 'pointer'],
                 ["style", "width", '157px']
             ],
             "${symbolSelector}": [
@@ -443,8 +446,8 @@ var symbols = {
     content: {
             dom: [
                 {
-                    type: 'rect',
                     rect: ['0px', '0px', '169px', '36px', 'auto', 'auto'],
+                    type: 'rect',
                     id: 'RectangleCopy3',
                     stroke: [0, 'rgba(0,0,0,1)', 'none'],
                     cursor: ['pointer'],
@@ -456,16 +459,16 @@ var symbols = {
         },
     states: {
         "Base State": {
-            "${symbolSelector}": [
-                ["style", "height", '36px'],
-                ["style", "width", '169px']
-            ],
             "${_RectangleCopy3}": [
                 ["style", "top", '0px'],
                 ["color", "background-color", 'rgba(0,135,255,1.00)'],
-                ["style", "cursor", 'pointer'],
-                ["style", "opacity", '0'],
                 ["style", "left", '0px'],
+                ["style", "opacity", '0'],
+                ["style", "cursor", 'pointer'],
+                ["style", "width", '169px']
+            ],
+            "${symbolSelector}": [
+                ["style", "height", '36px'],
                 ["style", "width", '169px']
             ]
         }
@@ -494,8 +497,8 @@ var symbols = {
     content: {
             dom: [
                 {
-                    type: 'rect',
                     rect: ['0px', '0px', '157px', '36px', 'auto', 'auto'],
+                    type: 'rect',
                     id: 'Rectangle',
                     stroke: [0, 'rgba(0,0,0,1)', 'none'],
                     cursor: ['pointer'],
@@ -507,16 +510,16 @@ var symbols = {
         },
     states: {
         "Base State": {
-            "${symbolSelector}": [
-                ["style", "height", '36px'],
-                ["style", "width", '157px']
-            ],
             "${_Rectangle}": [
                 ["color", "background-color", 'rgba(0,135,255,1.00)'],
                 ["style", "top", '0px'],
-                ["style", "cursor", 'pointer'],
-                ["style", "opacity", '0'],
                 ["style", "left", '0px'],
+                ["style", "opacity", '0'],
+                ["style", "cursor", 'pointer'],
+                ["style", "width", '157px']
+            ],
+            "${symbolSelector}": [
+                ["style", "height", '36px'],
                 ["style", "width", '157px']
             ]
         }
@@ -546,9 +549,9 @@ var symbols = {
             dom: [
                 {
                     rect: ['0px', '0px', '150px', '36px', 'auto', 'auto'],
-                    stroke: [0, 'rgba(0,0,0,1)', 'none'],
-                    id: 'RectangleCopy2',
                     opacity: 0.2,
+                    id: 'RectangleCopy2',
+                    stroke: [0, 'rgba(0,0,0,1)', 'none'],
                     type: 'rect',
                     fill: ['rgba(0,143,255,1.00)']
                 }
@@ -558,15 +561,15 @@ var symbols = {
         },
     states: {
         "Base State": {
-            "${symbolSelector}": [
-                ["style", "height", '36px'],
-                ["style", "width", '150px']
-            ],
             "${_RectangleCopy2}": [
                 ["color", "background-color", 'rgba(0,143,255,1.00)'],
                 ["style", "top", '0px'],
                 ["style", "opacity", '0'],
                 ["style", "left", '0px'],
+                ["style", "width", '150px']
+            ],
+            "${symbolSelector}": [
+                ["style", "height", '36px'],
                 ["style", "width", '150px']
             ]
         }
@@ -596,9 +599,9 @@ var symbols = {
             dom: [
                 {
                     rect: ['0px', '0px', '178px', '36px', 'auto', 'auto'],
-                    stroke: [0, 'rgba(0,0,0,1)', 'none'],
-                    id: 'RectangleCopy3',
                     opacity: 0.2,
+                    id: 'RectangleCopy3',
+                    stroke: [0, 'rgba(0,0,0,1)', 'none'],
                     type: 'rect',
                     fill: ['rgba(0,143,255,1.00)']
                 }
@@ -608,15 +611,15 @@ var symbols = {
         },
     states: {
         "Base State": {
+            "${symbolSelector}": [
+                ["style", "height", '36px'],
+                ["style", "width", '178px']
+            ],
             "${_RectangleCopy3}": [
                 ["color", "background-color", 'rgba(0,143,255,1.00)'],
                 ["style", "top", '0px'],
                 ["style", "opacity", '0'],
                 ["style", "left", '0px'],
-                ["style", "width", '178px']
-            ],
-            "${symbolSelector}": [
-                ["style", "height", '36px'],
                 ["style", "width", '178px']
             ]
         }
@@ -646,9 +649,9 @@ var symbols = {
             dom: [
                 {
                     rect: ['0px', '0px', '76px', '36px', 'auto', 'auto'],
-                    opacity: 0.2,
-                    id: 'RectangleCopy',
                     stroke: [0, 'rgba(0,0,0,1)', 'none'],
+                    id: 'RectangleCopy',
+                    opacity: 0.2,
                     type: 'rect',
                     fill: ['rgba(0,143,255,1.00)']
                 }
@@ -695,11 +698,11 @@ var symbols = {
     content: {
             dom: [
                 {
-                    rect: ['0px', '0px', '230px', '23px', 'auto', 'auto'],
                     type: 'rect',
-                    stroke: [0, 'rgb(0, 0, 0)', 'none'],
-                    id: 'Rectangle2',
+                    rect: ['0px', '0px', '230px', '23px', 'auto', 'auto'],
                     opacity: 0.1,
+                    id: 'Rectangle2',
+                    stroke: [0, 'rgb(0, 0, 0)', 'none'],
                     cursor: ['pointer'],
                     fill: ['rgba(0,135,255,1)']
                 }
@@ -709,15 +712,15 @@ var symbols = {
         },
     states: {
         "Base State": {
+            "${symbolSelector}": [
+                ["style", "height", '23px'],
+                ["style", "width", '230px']
+            ],
             "${_Rectangle2}": [
                 ["style", "top", '0px'],
                 ["style", "opacity", '0'],
                 ["style", "left", '0px'],
                 ["style", "cursor", 'pointer']
-            ],
-            "${symbolSelector}": [
-                ["style", "height", '23px'],
-                ["style", "width", '230px']
             ]
         }
     },
@@ -745,54 +748,54 @@ var symbols = {
     content: {
             dom: [
                 {
-                    rect: ['-1308px', '30px', '1542px', '1992px', 'auto', 'auto'],
-                    id: '_2Inicio5',
                     type: 'image',
+                    id: '_2Inicio5',
+                    rect: ['-1308px', '30px', '1542px', '1992px', 'auto', 'auto'],
                     clip: ['rect(6px 1542px 239px 1309px)'],
                     fill: ['rgba(0,0,0,0)', 'images/2.Inicio.png', '0px', '0px']
                 },
                 {
                     display: 'none',
                     type: 'rect',
-                    rect: ['0', '59', 'auto', 'auto', 'auto', 'auto'],
-                    id: 'mision'
+                    id: 'mision',
+                    rect: ['0', '59', 'auto', 'auto', 'auto', 'auto']
                 },
                 {
                     display: 'none',
                     type: 'rect',
-                    rect: ['0px', '135px', 'auto', 'auto', 'auto', 'auto'],
-                    id: 'lineas'
+                    id: 'lineas',
+                    rect: ['0px', '135px', 'auto', 'auto', 'auto', 'auto']
                 },
                 {
                     display: 'none',
                     type: 'rect',
-                    rect: ['1px', '158px', 'auto', 'auto', 'auto', 'auto'],
-                    id: 'Actividades'
+                    id: 'Actividades',
+                    rect: ['1px', '158px', 'auto', 'auto', 'auto', 'auto']
                 },
                 {
                     display: 'none',
                     type: 'rect',
-                    rect: ['1px', '84px', 'auto', 'auto', 'auto', 'auto'],
-                    id: 'Vision'
+                    id: 'Vision',
+                    rect: ['1px', '84px', 'auto', 'auto', 'auto', 'auto']
                 },
                 {
                     display: 'none',
                     type: 'rect',
-                    rect: ['1', '209px', 'auto', 'auto', 'auto', 'auto'],
-                    id: 'historia'
+                    id: 'historia',
+                    rect: ['1', '209px', 'auto', 'auto', 'auto', 'auto']
                 },
                 {
                     display: 'none',
                     type: 'rect',
-                    rect: ['0', '233px', 'auto', 'auto', 'auto', 'auto'],
-                    id: 'equipo'
+                    id: 'equipo',
+                    rect: ['0', '233px', 'auto', 'auto', 'auto', 'auto']
                 },
                 {
+                    type: 'rect',
                     rect: ['0px', '0px', '91px', '36px', 'auto', 'auto'],
-                    type: 'rect',
-                    stroke: [0, 'rgba(0,0,0,1)', 'none'],
-                    id: 'RectangleCopy2',
                     opacity: 0.15,
+                    id: 'RectangleCopy2',
+                    stroke: [0, 'rgba(0,0,0,1)', 'none'],
                     cursor: ['pointer'],
                     fill: ['rgba(0,135,255,1.00)']
                 }
@@ -863,16 +866,16 @@ var symbols = {
             "${__2Inicio5}": [
                 ["style", "top", '-8px'],
                 ["transform", "scaleY", '0'],
-                ["style", "clip", [6,1542,239,1309], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ],
-                ["transform", "scaleX", '0'],
-                ["style", "opacity", '0'],
-                ["style", "left", '-1310px'],
                 ["style", "-webkit-transform-origin", [84.95,0.35], {valueTemplate:'@@0@@% @@1@@%'} ],
                 ["style", "-moz-transform-origin", [84.95,0.35],{valueTemplate:'@@0@@% @@1@@%'}],
                 ["style", "-ms-transform-origin", [84.95,0.35],{valueTemplate:'@@0@@% @@1@@%'}],
                 ["style", "msTransformOrigin", [84.95,0.35],{valueTemplate:'@@0@@% @@1@@%'}],
                 ["style", "-o-transform-origin", [84.95,0.35],{valueTemplate:'@@0@@% @@1@@%'}],
-                ["style", "transform-origin", [84.95,0.35],{valueTemplate:'@@0@@% @@1@@%'}]
+                ["style", "transform-origin", [84.95,0.35],{valueTemplate:'@@0@@% @@1@@%'}],
+                ["transform", "scaleX", '0'],
+                ["style", "opacity", '0'],
+                ["style", "clip", [6,1542,239,1309], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ],
+                ["style", "left", '-1310px']
             ],
             "${_lineas}": [
                 ["style", "top", '135px'],
@@ -882,18 +885,18 @@ var symbols = {
             "${_RectangleCopy2}": [
                 ["color", "background-color", 'rgba(0,135,255,1.00)'],
                 ["style", "top", '0px'],
-                ["style", "cursor", 'pointer'],
-                ["style", "opacity", '0'],
                 ["style", "left", '0px'],
+                ["style", "opacity", '0'],
+                ["style", "cursor", 'pointer'],
+                ["style", "width", '91px']
+            ],
+            "${symbolSelector}": [
+                ["style", "height", '36px'],
                 ["style", "width", '91px']
             ],
             "${_equipo}": [
                 ["style", "top", '233px'],
                 ["style", "display", 'none']
-            ],
-            "${symbolSelector}": [
-                ["style", "height", '36px'],
-                ["style", "width", '91px']
             ]
         }
     },
@@ -910,12 +913,12 @@ var symbols = {
                 { id: "eid34", tween: [ "style", "${_mision}", "display", 'block', { fromValue: 'none'}], position: 125, duration: 0 },
                 { id: "eid38", tween: [ "style", "${_equipo}", "display", 'block', { fromValue: 'none'}], position: 125, duration: 0 },
                 { id: "eid39", tween: [ "style", "${_historia}", "display", 'block', { fromValue: 'none'}], position: 125, duration: 0 },
-                { id: "eid10", tween: [ "style", "${_RectangleCopy2}", "opacity", '0.15000000596046448', { fromValue: '0'}], position: 0, duration: 125 },
+                { id: "eid12", tween: [ "transform", "${__2Inicio5}", "scaleX", '1', { fromValue: '0'}], position: 0, duration: 125 },
                 { id: "eid6", tween: [ "style", "${__2Inicio5}", "left", '-1309px', { fromValue: '-1310px'}], position: 0, duration: 125 },
                 { id: "eid35", tween: [ "style", "${_Vision}", "display", 'block', { fromValue: 'none'}], position: 125, duration: 0 },
                 { id: "eid4", tween: [ "style", "${__2Inicio5}", "opacity", '1', { fromValue: '0'}], position: 0, duration: 125 },
                 { id: "eid14", tween: [ "transform", "${__2Inicio5}", "scaleY", '1', { fromValue: '0'}], position: 0, duration: 125 },
-                { id: "eid12", tween: [ "transform", "${__2Inicio5}", "scaleX", '1', { fromValue: '0'}], position: 0, duration: 125 }            ]
+                { id: "eid10", tween: [ "style", "${_RectangleCopy2}", "opacity", '0.15000000596046448', { fromValue: '0'}], position: 0, duration: 125 }            ]
         }
     }
 },
@@ -932,11 +935,11 @@ var symbols = {
     content: {
             dom: [
                 {
-                    rect: ['0px', '0px', '230px', '23px', 'auto', 'auto'],
                     type: 'rect',
-                    stroke: [0, 'rgb(0, 0, 0)', 'none'],
-                    id: 'Rectangle2',
+                    rect: ['0px', '0px', '230px', '23px', 'auto', 'auto'],
                     opacity: 0.1,
+                    id: 'Rectangle2',
+                    stroke: [0, 'rgb(0, 0, 0)', 'none'],
                     cursor: ['pointer'],
                     fill: ['rgba(0,135,255,1)']
                 }
@@ -946,15 +949,15 @@ var symbols = {
         },
     states: {
         "Base State": {
+            "${symbolSelector}": [
+                ["style", "height", '23px'],
+                ["style", "width", '230px']
+            ],
             "${_Rectangle2}": [
                 ["style", "top", '0px'],
                 ["style", "opacity", '0'],
                 ["style", "left", '0px'],
                 ["style", "cursor", 'pointer']
-            ],
-            "${symbolSelector}": [
-                ["style", "height", '23px'],
-                ["style", "width", '230px']
             ]
         }
     },
@@ -982,11 +985,11 @@ var symbols = {
     content: {
             dom: [
                 {
-                    rect: ['0px', '0px', '230px', '23px', 'auto', 'auto'],
                     type: 'rect',
-                    stroke: [0, 'rgb(0, 0, 0)', 'none'],
-                    id: 'Rectangle2',
+                    rect: ['0px', '0px', '230px', '23px', 'auto', 'auto'],
                     opacity: 0.1,
+                    id: 'Rectangle2',
+                    stroke: [0, 'rgb(0, 0, 0)', 'none'],
                     cursor: ['pointer'],
                     fill: ['rgba(0,135,255,1)']
                 }
@@ -996,15 +999,15 @@ var symbols = {
         },
     states: {
         "Base State": {
+            "${symbolSelector}": [
+                ["style", "height", '23px'],
+                ["style", "width", '230px']
+            ],
             "${_Rectangle2}": [
                 ["style", "top", '0px'],
                 ["style", "opacity", '0'],
                 ["style", "left", '0px'],
                 ["style", "cursor", 'pointer']
-            ],
-            "${symbolSelector}": [
-                ["style", "height", '23px'],
-                ["style", "width", '230px']
             ]
         }
     },
@@ -1032,11 +1035,11 @@ var symbols = {
     content: {
             dom: [
                 {
-                    rect: ['0px', '0px', '230px', '23px', 'auto', 'auto'],
                     type: 'rect',
-                    stroke: [0, 'rgb(0, 0, 0)', 'none'],
-                    id: 'Rectangle2',
+                    rect: ['0px', '0px', '230px', '23px', 'auto', 'auto'],
                     opacity: 0.1,
+                    id: 'Rectangle2',
+                    stroke: [0, 'rgb(0, 0, 0)', 'none'],
                     cursor: ['pointer'],
                     fill: ['rgba(0,135,255,1)']
                 }
@@ -1046,15 +1049,15 @@ var symbols = {
         },
     states: {
         "Base State": {
+            "${symbolSelector}": [
+                ["style", "height", '23px'],
+                ["style", "width", '230px']
+            ],
             "${_Rectangle2}": [
                 ["style", "top", '0px'],
                 ["style", "opacity", '0'],
                 ["style", "left", '0px'],
                 ["style", "cursor", 'pointer']
-            ],
-            "${symbolSelector}": [
-                ["style", "height", '23px'],
-                ["style", "width", '230px']
             ]
         }
     },
@@ -1082,11 +1085,11 @@ var symbols = {
     content: {
             dom: [
                 {
-                    rect: ['0px', '0px', '230px', '23px', 'auto', 'auto'],
                     type: 'rect',
-                    stroke: [0, 'rgb(0, 0, 0)', 'none'],
-                    id: 'Rectangle2',
+                    rect: ['0px', '0px', '230px', '23px', 'auto', 'auto'],
                     opacity: 0.1,
+                    id: 'Rectangle2',
+                    stroke: [0, 'rgb(0, 0, 0)', 'none'],
                     cursor: ['pointer'],
                     fill: ['rgba(0,135,255,1)']
                 }
@@ -1096,15 +1099,15 @@ var symbols = {
         },
     states: {
         "Base State": {
-            "${symbolSelector}": [
-                ["style", "height", '23px'],
-                ["style", "width", '230px']
-            ],
             "${_Rectangle2}": [
                 ["style", "top", '0px'],
                 ["style", "opacity", '0'],
                 ["style", "left", '0px'],
                 ["style", "cursor", 'pointer']
+            ],
+            "${symbolSelector}": [
+                ["style", "height", '23px'],
+                ["style", "width", '230px']
             ]
         }
     },
@@ -1132,11 +1135,11 @@ var symbols = {
     content: {
             dom: [
                 {
-                    rect: ['0px', '0px', '230px', '23px', 'auto', 'auto'],
                     type: 'rect',
-                    stroke: [0, 'rgb(0, 0, 0)', 'none'],
-                    id: 'Rectangle2',
+                    rect: ['0px', '0px', '230px', '23px', 'auto', 'auto'],
                     opacity: 0.1,
+                    id: 'Rectangle2',
+                    stroke: [0, 'rgb(0, 0, 0)', 'none'],
                     cursor: ['pointer'],
                     fill: ['rgba(0,135,255,1)']
                 }
@@ -1146,15 +1149,15 @@ var symbols = {
         },
     states: {
         "Base State": {
-            "${symbolSelector}": [
-                ["style", "height", '23px'],
-                ["style", "width", '230px']
-            ],
             "${_Rectangle2}": [
                 ["style", "top", '0px'],
                 ["style", "opacity", '0'],
                 ["style", "left", '0px'],
                 ["style", "cursor", 'pointer']
+            ],
+            "${symbolSelector}": [
+                ["style", "height", '23px'],
+                ["style", "width", '230px']
             ]
         }
     },
