@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Página de Inicio - GITEI</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="home header">
+  <div class="logo-container">
+      <img class="img-responsive gitei-logo">
+      <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-menu-hamburger"></span></button>
+  </div>
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog modal-lg">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Modal Header</h4>
+        </div>
+        <div class="modal-body">
+          <p>Some text in the modal.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="cd-slider">
+    <ul>
+      <li>
+        <div class="image" style="background:yellow"></div>
+        <div class="content">
+          <h2>Noticia N°1</h2>
+          <a href="#">Ver Más</a>
+        </div>
+      </li>
+      <li>
+        <div class="image" style="background:blue"></div>
+        <div class="content">
+          <h2>Noticia N°2</h2>
+          <a href="#">Ver Más</a>
+        </div>
+      </li>
+      <li>
+        <div class="image" style="background:red"></div>
+        <div class="content">
+          <h2>Noticia N°3</h2>
+          <a href="#">Ver Más</a>
+        </div>
+      </li>
+      <li>
+        <div class="image" style="background:green"></div>
+        <div class="content">
+          <h2>Noticia N°4</h2>
+          <a href="#">Ver Más</a>
+        </div>
+      </li>
+      <li>
+        <div class="image" style="background:purple"></div>
+        <div class="content">
+          <h2>Noticia N°5</h2>
+          <a href="#">Ver Más</a>
+        </div>
+      </li>
+    </ul>
+  </div> <!--/.cd-slider-->
+  <div class="header-links">
+    <a href="#" class="btn btn-link" role="button">Lo que más nos gusta</a>
+    <div class="vertical-separator" />
+    <a href="#" class="btn btn-link" role="button">Nos conocen por</a>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      One of three columns
+    </div>
+    <div class="col-sm-4">
+      One of three columns
+    </div>
+    <div class="col-sm-4">
+      One of three columns
+    </div>
+  </div>
+</div>
+<script src="js/index.js"></script>
+</body>
+</html>
