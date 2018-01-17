@@ -321,6 +321,47 @@
          }
       }
   }
+  .education-trends {
+      h1 {
+          background: $section-title-bg;
+          font-size: 30px;
+          color: white;
+          text-align: center;
+          padding: 10px;
+          margin-bottom: 0;
+      }
+      a {
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+          padding: 10px 0;
+          border-bottom: 1px solid lightgray;
+      }
+      label {
+          display: block;
+          line-height: 100%;
+      }
+      .badge {
+          min-height: 40px;
+          min-width: 40px;
+          border-radius: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 19px;
+          margin-right: 15px;
+          border: 2px solid black;
+      }
+      .title {
+         font-size: 20px;
+         margin-bottom: 10px;
+      }
+      .subtitle {
+         font-size: 15px;
+         color: gray;
+         margin-bottom: 0;
+      }
+  }
 @media screen and (min-width: 992px) {
   .horizontal-item {
       display: flex;
