@@ -1,0 +1,4 @@
+estando en -> cd C:\Users\CEN_3F_CDO_PC04\Documents\web-gitei\template
+ejecutar -> sass --watch scss/styles.scss:css/styles.css
+
+desde casa -> cd /d D:\Documentos\developer\web-gitei\template
