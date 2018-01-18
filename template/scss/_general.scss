@@ -328,9 +328,11 @@
       font-size: 25px;
       color: white;
       padding: 10px;
-      margin-bottom: 0;
+      margin: 0;
   }
   .education-trends {
+      margin-top: 15px;
+      
       h1 {
           text-align: center;
       }
@@ -379,6 +381,9 @@
       }
   }
   .videos-section {
+      border: 1px solid #666;
+      margin: 15px 0;
+
       h1 {
         position: relative;
         display: flex;
@@ -398,6 +403,14 @@
                   margin-bottom: 20px;
               }
           }
+      }
+  }
+  .footer-buttons {
+      margin: 10px -15px;
+      background: black;
+
+      .btn-link {
+          color: white;
       }
   }
 @media screen and (min-width: 992px) {
