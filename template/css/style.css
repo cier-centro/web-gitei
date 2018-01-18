@@ -217,11 +217,10 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 20%;
+  padding: 0 10%;
   margin: 10px 0; }
   .home-header .logo-container .gitei-logo {
-    content: url("../img/logo_GITEI.png");
-    max-width: 12vw;
+    max-width: 14vw;
     min-width: 180px; }
 .home-header .header-links {
   display: flex;
@@ -289,6 +288,12 @@ nav {
     background: #55ACEE; }
   .home-header .social-bar .fa-linkedin::after {
     background: #007bb5; }
+
+.gitei-logo {
+  content: url("../img/logo_GITEI.png"); }
+
+.unal-logo {
+  content: url("../img/logo_unal.png"); }
 
 .container {
   width: 80%;
@@ -379,6 +384,41 @@ nav {
   .footer-buttons .btn-link {
     color: white; }
 
+.footer {
+  padding-bottom: 30px; }
+  .footer .logo-container a {
+    display: block; }
+  .footer .links-container {
+    width: 100%;
+    display: flex;
+    align-items: flex-start; }
+    .footer .links-container a {
+      width: 46%;
+      margin: 0 2%;
+      border-bottom: 1px solid lightgray; }
+  .footer .right-section .title {
+    border-bottom: 1px solid lightgray;
+    width: 100%;
+    text-align: left;
+    display: flex;
+    padding: 0 15px;
+    align-items: center;
+    justify-content: space-between; }
+    .footer .right-section .title a {
+      padding-right: 0;
+      font-size: 12px; }
+  .footer .right-section form {
+    padding: 15px; }
+    .footer .right-section form .checkbox-inline {
+      font-size: 12px;
+      margin: 30px 0;
+      width: 100%; }
+      .footer .right-section form .checkbox-inline input {
+        margin-top: 2px; }
+  .footer img {
+    max-width: 11vw;
+    margin-bottom: 15px; }
+
 @media screen and (min-width: 992px) {
   .horizontal-item {
     display: flex;
@@ -386,6 +426,21 @@ nav {
 
   .videos-section > div:last-child {
     height: 31.5vw;
-    overflow: auto; } }
+    overflow: auto; }
+
+  .footer .left-section {
+    display: flex; }
+  .footer .links-container a {
+    text-align: left; } }
+@media screen and (max-width: 991px) {
+  .footer .logo-container {
+    display: flex; }
+    .footer .logo-container a {
+      width: 50%; }
+  .footer img {
+    min-width: 150px;
+    margin: 0 auto 15px; }
+  .footer .right-section .title {
+    padding-top: 30px; } }
 
 /*# sourceMappingURL=style.css.map */

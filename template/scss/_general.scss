@@ -207,16 +207,14 @@
      	display: flex;
      	justify-content: space-between;
       align-items: center;
-     	padding: 0 20%;
+     	padding: 0 10%;
       margin: 10px 0;
 
         .gitei-logo {
-          	content: url("../img/logo_GITEI.png");
-          	max-width: 12vw;
+          	max-width: 14vw;
           	min-width: 180px;
         }
       }
-
       .header-links {
            display: flex;
            align-items: center;
@@ -232,7 +230,6 @@
                border-left: 1px solid gray;
            }
       }
-
       .social-bar {
         text-align: center;
         padding: 12px 0;
@@ -292,6 +289,12 @@
         }
       }
   }
+  .gitei-logo {
+      content: url("../img/logo_GITEI.png");
+  }
+  .unal-logo {
+      content: url("../img/logo_unal.png");
+  }
   .container {
       width: 80%;
       background: $main-bg;
@@ -332,7 +335,7 @@
   }
   .education-trends {
       margin-top: 15px;
-      
+
       h1 {
           text-align: center;
       }
@@ -413,6 +416,60 @@
           color: white;
       }
   }
+  .footer {
+      padding-bottom: 30px;
+
+      .logo-container {
+          a {
+             display: block;
+          }
+      }
+      .links-container {
+          width: 100%;
+          display: flex;
+          align-items: flex-start;
+
+          a {
+              width: 46%;
+              margin: 0 2%;
+              border-bottom: 1px solid lightgray;
+          }
+      }
+      .right-section {
+          .title {
+              border-bottom: 1px solid lightgray;
+              width: 100%;
+              text-align: left;
+              display: flex;
+              padding: 0 15px;
+              align-items: center;
+              justify-content: space-between;
+
+              a {
+                  padding-right: 0;
+                  font-size: 12px;
+              }
+          }
+          form {
+              padding: 15px;
+
+              .checkbox-inline {
+                  font-size: 12px;
+                  margin: 30px 0;
+                  width: 100%;
+
+                  input {
+                      margin-top: 2px;
+                  }
+              }
+          }
+      }
+      img {
+          max-width: 11vw;
+          margin-bottom: 15px;
+      }
+
+  }
 @media screen and (min-width: 992px) {
   .horizontal-item {
       display: flex;
@@ -421,5 +478,35 @@
   .videos-section > div:last-child {
       height: 31.5vw;
       overflow: auto;
+  }
+  .footer {
+      .left-section {
+          display: flex;
+      }
+      .links-container {
+          a {
+              text-align: left;
+          }
+      }
+  }
+}
+@media screen and (max-width: 991px) {
+  .footer {
+      .logo-container {
+          display: flex;
+
+          a {
+             width: 50%;
+          }
+      }
+      img {
+          min-width: 150px;
+          margin: 0 auto 15px;
+      }
+      .right-section {
+          .title {
+              padding-top: 30px;
+          }
+      }
   }
 }
