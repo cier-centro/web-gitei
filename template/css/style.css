@@ -213,15 +213,15 @@ nav {
     right: auto; } }
 /*New Styles
 -------------------------------------*/
+.home-header .gitei-logo {
+  max-width: 14vw;
+  min-width: 180px; }
 .home-header .logo-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 10%;
   margin: 10px 0; }
-  .home-header .logo-container .gitei-logo {
-    max-width: 14vw;
-    min-width: 180px; }
 .home-header .header-links {
   display: flex;
   align-items: center;
@@ -288,6 +288,25 @@ nav {
     background: #55ACEE; }
   .home-header .social-bar .fa-linkedin::after {
     background: #007bb5; }
+.home-header .modal-content {
+  background-color: rgba(0, 0, 0, 0.85); }
+  .home-header .modal-content .close {
+    color: white;
+    font-size: 40px; }
+  .home-header .modal-content .modal-body a, .home-header .modal-content .modal-body p {
+    color: white; }
+  .home-header .modal-content .modal-body .menu {
+    margin: 20px 0;
+    border-bottom: 1px solid white; }
+    .home-header .modal-content .modal-body .menu a {
+      display: block; }
+  .home-header .modal-content .modal-body .links-container {
+    margin-top: 50px; }
+    .home-header .modal-content .modal-body .links-container .vertical-separator {
+      border-left: 1px solid white; }
+
+.modal-backdrop.in {
+  opacity: 0.7; }
 
 .gitei-logo {
   content: url("../img/logo_GITEI.png"); }
@@ -420,6 +439,11 @@ nav {
     margin-bottom: 15px; }
 
 @media screen and (min-width: 992px) {
+  .modal-content .modal-body .menu a {
+    margin: 15px 10px; }
+  .modal-content .modal-body .links-container {
+    display: flex; }
+
   .horizontal-item {
     display: flex;
     align-items: center; }
@@ -433,6 +457,9 @@ nav {
   .footer .links-container a {
     text-align: left; } }
 @media screen and (max-width: 991px) {
+  .modal-content .modal-body .menu a {
+    margin-bottom: 15px; }
+
   .footer .logo-container {
     display: flex; }
     .footer .logo-container a {
