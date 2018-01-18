@@ -1,0 +1,64 @@
+/*----------------------------------
+----------------Footer--------------
+------------------------------------*/
+  .footer-buttons {
+      margin: 10px -15px;
+      background: black;
+
+      .btn-link {
+          color: white;
+      }
+  }
+  .footer {
+      padding-bottom: 30px;
+
+      .logo-container {
+          a {
+             display: block;
+          }
+      }
+      .links-container {
+          width: 100%;
+          display: flex;
+          align-items: flex-start;
+
+          a {
+              width: 46%;
+              margin: 0 2%;
+              border-bottom: 1px solid lightgray;
+          }
+      }
+      .right-section {
+          .title {
+              border-bottom: 1px solid lightgray;
+              width: 100%;
+              text-align: left;
+              display: flex;
+              padding: 0 15px;
+              align-items: center;
+              justify-content: space-between;
+
+              a {
+                  padding-right: 0;
+                  font-size: 12px;
+              }
+          }
+          form {
+              padding: 15px;
+
+              .checkbox-inline {
+                  font-size: 12px;
+                  margin: 30px 0;
+                  width: 100%;
+
+                  input {
+                      margin-top: 2px;
+                  }
+              }
+          }
+      }
+      img {
+          max-width: 11vw;
+          margin-bottom: 15px;
+      }
+  }

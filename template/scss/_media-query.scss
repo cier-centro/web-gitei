@@ -1,0 +1,60 @@
+/*----------------------------------
+--------------Media Query-----------
+------------------------------------*/
+@media screen and (min-width: 992px) {
+  .modal-content {
+     .modal-body {
+        .menu a {
+           margin: 15px 10px;
+        }
+        .links-container {
+           display: flex;
+        }
+     }
+  }
+  .horizontal-item {
+      display: flex;
+      align-items: center;
+  }
+  .videos-section > div:last-child {
+      height: 31.5vw;
+      overflow: auto;
+  }
+  .footer {
+      .left-section {
+          display: flex;
+      }
+      .links-container {
+          a {
+              text-align: left;
+          }
+      }
+  }
+}
+@media screen and (max-width: 991px) {
+  .modal-content {
+     .modal-body {
+        .menu a {
+           margin-bottom: 15px;
+        }
+     }
+  }
+  .footer {
+      .logo-container {
+          display: flex;
+
+          a {
+             width: 50%;
+          }
+      }
+      img {
+          min-width: 150px;
+          margin: 0 auto 15px;
+      }
+      .right-section {
+          .title {
+              padding-top: 30px;
+          }
+      }
+  }
+}

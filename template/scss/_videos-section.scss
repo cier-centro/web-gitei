@@ -1,0 +1,28 @@
+/*----------------------------------
+------------Videos-Section----------
+------------------------------------*/
+.videos-section {
+    border: 1px solid #666;
+    margin: 15px 0;
+
+    h1 {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      a {
+          font-size: 12px;
+          color: white;
+      }
+    }
+    & > div {
+        padding: 30px;
+
+        &:last-child {
+            .embed-responsive-16by9 {
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
