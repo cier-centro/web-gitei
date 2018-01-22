@@ -2,6 +2,33 @@
 --------------Media Query-----------
 ------------------------------------*/
 @media screen and (min-width: 992px) {
+  .logo-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+  }
+  .home-header {
+    .gitei-logo {
+      position: absolute;
+      left: 10%;
+      top: 1vw;
+    }
+    .btn-menu {
+      position: absolute;
+      right: 10%;
+      top: 2.5vw;
+    }
+  }
+  .header-links {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 315px;
+  }
   .modal-content {
      .modal-body {
         .menu a {
@@ -32,6 +59,16 @@
   }
 }
 @media screen and (max-width: 991px) {
+  .home-header {
+    .gitei-logo {
+      margin: 2vh 0 2vh 10%;
+      float: left;
+    }
+    .btn-menu {
+      float: right;
+      margin: 3vh 10% 0;
+    }
+  }
   .modal-content {
      .modal-body {
         .menu a {

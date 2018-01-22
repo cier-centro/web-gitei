@@ -12,104 +12,66 @@
 </head>
 <body>
 <div class="home-header">
-  <div class="logo-container">
-      <img class="img-responsive gitei-logo">
-      <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-menu-hamburger"></span></button>
-  </div>
-  <div class="modal fade" id="myModal" role="dialog">
-    <div class="modal-dialog modal-lg">
+  <div class="flip-slider">
+    <img class="img-responsive gitei-logo">
+    <button type="button" class="btn btn-info btn-lg btn-menu" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-menu-hamburger"></span></button>
+    <div class="modal fade" id="myModal" role="dialog">
+      <div class="modal-dialog modal-lg">
 
-      <!-- Modal content-->
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">
-            <img class="img-responsive gitei-logo-dark">
-          </h4>
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">
+              <img class="img-responsive gitei-logo-dark">
+            </h4>
+          </div>
+          <div class="modal-body">
+            <div class="row menu">
+              <div class="col-xs-12 col-md-4">
+                <a href="#">Inicio</a>
+                <a href="#">Servicios</a>
+              </div>
+              <div class="col-xs-12 col-md-4">
+                <a href="#">Ideas en desarrollo</a>
+                <a href="#">Vinculación a proyectos</a>
+              </div>
+              <div class="col-xs-12 col-md-4">
+                <a href="#">Vinculación a proyectos</a>
+                <a href="#">Nuestros Proyectos</a>
+              </div>
+            </div>
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Buscar...">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="button">
+                  <span class="glyphicon glyphicon-search"></span>
+                </button>
+              </span>
+            </div>
+            <div class="links-container">
+              <a href="#" class="btn btn-link" role="button">Ingreso de clientes Gitei</a>
+              <div class="vertical-separator"></div>
+              <a href="#" class="btn btn-link" role="button">Nuestras Publicaciones</a>
+              <div class="vertical-separator"></div>
+              <a href="#" class="btn btn-link" role="button">Conózcanos</a>
+              <div class="vertical-separator"></div>
+              <a href="#" class="btn btn-link" role="button">Comunícate con nosotros</a>
+              <div class="vertical-separator"></div>
+              <a href="#" class="btn btn-link" role="button">Aulas presenciales</a>
+            </div>
+          </div>
         </div>
-        <div class="modal-body">
-          <div class="row menu">
-              <div class="col-xs-12 col-md-4">
-                  <a href="#">Inicio</a>
-                  <a href="#">Servicios</a>
-              </div>
-              <div class="col-xs-12 col-md-4">
-                  <a href="#">Ideas en desarrollo</a>
-                  <a href="#">Vinculación a proyectos</a>
-              </div>
-              <div class="col-xs-12 col-md-4">
-                  <a href="#">Vinculación a proyectos</a>
-                  <a href="#">Nuestros Proyectos</a>
-              </div>
-          </div>
-          <div class="input-group">
-            <input type="text" class="form-control" placeholder="Buscar...">
-            <span class="input-group-btn">
-              <button class="btn btn-default" type="button">
-                <span class="glyphicon glyphicon-search"></span>
-              </button>
-            </span>
-          </div>
-          <div class="links-container">
-            <a href="#" class="btn btn-link" role="button">Ingreso de clientes Gitei</a>
-            <div class="vertical-separator"></div>
-            <a href="#" class="btn btn-link" role="button">Nuestras Publicaciones</a>
-            <div class="vertical-separator"></div>
-            <a href="#" class="btn btn-link" role="button">Conózcanos</a>
-            <div class="vertical-separator"></div>
-            <a href="#" class="btn btn-link" role="button">Comunícate con nosotros</a>
-            <div class="vertical-separator"></div>
-            <a href="#" class="btn btn-link" role="button">Aulas presenciales</a>
-          </div>
-        </div>
+
       </div>
-
     </div>
-  </div>
-  <div class="cd-slider">
-    <ul>
-      <li>
-        <div class="image" style="background:yellow"></div>
-        <div class="content">
-          <h2>Noticia N°1</h2>
-          <a href="#">Ver Más</a>
-        </div>
-      </li>
-      <li>
-        <div class="image" style="background:blue"></div>
-        <div class="content">
-          <h2>Noticia N°2</h2>
-          <a href="#">Ver Más</a>
-        </div>
-      </li>
-      <li>
-        <div class="image" style="background:red"></div>
-        <div class="content">
-          <h2>Noticia N°3</h2>
-          <a href="#">Ver Más</a>
-        </div>
-      </li>
-      <li>
-        <div class="image" style="background:green"></div>
-        <div class="content">
-          <h2>Noticia N°4</h2>
-          <a href="#">Ver Más</a>
-        </div>
-      </li>
-      <li>
-        <div class="image" style="background:purple"></div>
-        <div class="content">
-          <h2>Noticia N°5</h2>
-          <a href="#">Ver Más</a>
-        </div>
-      </li>
-    </ul>
-  </div> <!--/.cd-slider-->
-  <div class="header-links">
-    <div class="links-container">
-      <a href="#" class="btn btn-link" role="button">Lo que más nos gusta</a>
-      <div class="vertical-separator"></div>
-      <a href="#" class="btn btn-link" role="button">Nos conocen por</a>
+    <iframe src="flip-slider/index.html"></iframe>
+    <div class="header-links">
+      <div class="links-container">
+        <a href="#" class="btn btn-link" role="button">Lo que más nos gusta</a>
+        <div class="vertical-separator"></div>
+        <a href="#" class="btn btn-link" role="button">Nos conocen por</a>
+      </div>
     </div>
   </div>
   <div class="social-bar">
