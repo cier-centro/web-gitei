@@ -2,13 +2,6 @@
 --------------Media Query-----------
 ------------------------------------*/
 @media screen and (min-width: 992px) {
-  .logo-container {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1;
-  }
   .home-header {
     .gitei-logo {
       position: absolute;
@@ -87,7 +80,7 @@
           }
       }
       img {
-          min-width: 150px;
+          min-width: 130px;
           margin: 0 auto 15px;
       }
       .right-section {

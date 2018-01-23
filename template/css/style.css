@@ -299,13 +299,6 @@ a {
 --------------Media Query-----------
 ------------------------------------*/
 @media screen and (min-width: 992px) {
-  .logo-container {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1; }
-
   .home-header .gitei-logo {
     position: absolute;
     left: 10%;
@@ -358,7 +351,7 @@ a {
     .footer .logo-container a {
       width: 50%; }
   .footer img {
-    min-width: 150px;
+    min-width: 130px;
     margin: 0 auto 15px; }
   .footer .right-section .title {
     padding-top: 30px; } }
