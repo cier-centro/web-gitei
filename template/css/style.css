@@ -12,7 +12,7 @@
   position: relative;
   width: 100%;
   overflow: hidden; }
-  .flip-slider iframe {
+  .flip-slider .slider {
     height: 41.5vw;
     width: 100%;
     margin-bottom: -8px; }
@@ -63,6 +63,13 @@ a {
 /*----------------------------------
 ----------------Header--------------
 ------------------------------------*/
+.home-header .slider.closed {
+  position: absolute;
+  opacity: 0;
+  bottom: -100%; }
+.home-header .slider.open {
+  transition: all 1s ease-out;
+  opacity: 1; }
 .home-header .gitei-logo, .home-header .gitei-logo-dark {
   max-width: 15vw;
   min-width: 180px; }
@@ -302,11 +309,13 @@ a {
   .home-header .gitei-logo {
     position: absolute;
     left: 10%;
-    top: 1vw; }
+    top: 1vw;
+    z-index: 1; }
   .home-header .btn-menu {
     position: absolute;
     right: 10%;
-    top: 2.5vw; }
+    top: 2.5vw;
+    z-index: 1; }
 
   .header-links {
     position: absolute;

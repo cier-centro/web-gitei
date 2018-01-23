@@ -65,12 +65,13 @@
 
       </div>
     </div>
-    <iframe src="flip-slider/index.html"></iframe>
+    <iframe src="flip-slider/index.html" class="slider open"></iframe>
+    <iframe src="mouse-orbit/index.html" class="slider closed"></iframe>
     <div class="header-links">
       <div class="links-container">
-        <a href="#" class="btn btn-link" role="button">Lo que más nos gusta</a>
+        <a href="#" class="btn btn-link" role="button" onclick="changeSlider(0)">Lo que más nos gusta</a>
         <div class="vertical-separator"></div>
-        <a href="#" class="btn btn-link" role="button">Nos conocen por</a>
+        <a href="#" class="btn btn-link" role="button" onclick="changeSlider(1)">Nos conocen por</a>
       </div>
     </div>
   </div>

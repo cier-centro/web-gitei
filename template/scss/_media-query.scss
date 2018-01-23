@@ -14,11 +14,13 @@
       position: absolute;
       left: 10%;
       top: 1vw;
+      z-index: 1;
     }
     .btn-menu {
       position: absolute;
       right: 10%;
       top: 2.5vw;
+      z-index: 1;
     }
   }
   .header-links {

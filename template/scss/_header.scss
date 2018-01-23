@@ -2,6 +2,18 @@
 ----------------Header--------------
 ------------------------------------*/
 .home-header {
+    .slider{
+
+        &.closed {
+            position: absolute;
+            opacity: 0;
+            bottom: -100%;
+        }
+        &.open {
+            transition: all 1s ease-out;
+            opacity: 1;
+        }
+    }
     .gitei-logo, .gitei-logo-dark {
         max-width: 15vw;
         min-width: 180px;
