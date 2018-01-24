@@ -12,7 +12,7 @@
   <div class="row footer">
       <div class="col-xs-12 col-md-8 left-section">
           <div class="logo-container">
-              <a href="#">
+              <a href="<?php echo get_home_url(); ?>">
                   <img class="img-responsive gitei-logo">
               </a>
               <a href="#">

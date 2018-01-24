@@ -176,6 +176,15 @@ a {
       list-style: none;
       position: relative; }
 
+.content-header .header-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1% 10%; }
+  .content-header .header-items .gitei-logo, .content-header .header-items .btn-menu {
+    position: static;
+    margin: 0; }
+
 /*----------------------------------
 --------------Home-Items------------
 ------------------------------------*/

@@ -11,22 +11,13 @@
   <link rel="stylesheet" href="<?php bloginfo('stylesheet_url')?>">
 </head>
 <body>
-<div class="home-header">
-  <div class="flip-slider">
+<div class="home-header content-header">
+  <div class="header-items">
     <a href="<?php echo get_home_url(); ?>">
         <img class="img-responsive gitei-logo">
     </a>
     <button type="button" class="btn btn-info btn-lg btn-menu" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-menu-hamburger"></span></button>
     <?php include (TEMPLATEPATH. '/modalmenu.php'); ?>
-    <iframe src="<?php bloginfo('template_url')?>/flip-slider/index.html" class="slider open"></iframe>
-    <iframe src="<?php bloginfo('template_url')?>/mouse-orbit/index.html" class="slider closed"></iframe>
-    <div class="header-links">
-      <div class="links-container">
-        <a href="#" class="btn btn-link" role="button" onclick="changeSlider(0)">Lo que más nos gusta</a>
-        <div class="vertical-separator"></div>
-        <a href="#" class="btn btn-link" role="button" onclick="changeSlider(1)">Nos conocen por</a>
-      </div>
-    </div>
   </div>
   <div class="social-bar">
     <a href="#" class="fa fa-facebook"></a>

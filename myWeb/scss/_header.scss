@@ -142,3 +142,16 @@
       }
    }
 }
+.content-header {
+    .header-items {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1% 10%;
+        
+        .gitei-logo, .btn-menu {
+            position: static;
+            margin: 0;
+        }
+    }
+}
