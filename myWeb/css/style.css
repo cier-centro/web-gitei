@@ -211,6 +211,15 @@ a {
       list-style: none;
       padding: 0; }
 
+.content-section .thumb {
+  height: 30vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center; }
+  .content-section .thumb img {
+    width: 100%;
+    height: auto; }
+
 /*----------------------------------
 -----------Education-Trends---------
 ------------------------------------*/

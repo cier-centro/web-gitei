@@ -7,7 +7,7 @@
           <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
             <div class="col-xs-12">
-                <div class="vertical-item">
+                <div class="vertical-item content-section">
                       <div class="thumb">
                             <?php if ( has_post_thumbnail() ) { the_post_thumbnail(); }?>
                       </div>
