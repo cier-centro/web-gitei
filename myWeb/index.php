@@ -4,7 +4,7 @@
   <div class="row">
     <div class="col-xs-12 col-md-8">
       <div class="row">
-          <?php query_posts("paged=$paged"); ?>
+          <?php query_posts("category_name=Cursos Virtuales"); ?>
           <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
             <div class="col-xs-12 col-md-6">

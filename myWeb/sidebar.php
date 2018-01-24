@@ -1,84 +1,30 @@
 <div class="col-xs-12 col-md-4">
   <div class="education-trends">
       <h1 class="title-section">Tendencias en educación</h1>
+
+      <?php
+       $index = 0;
+       $postslist = get_posts("category_name=Sidebar1");
+       foreach ($postslist as $post) : setup_postdata($post);
+       $subtitulo = get_post_meta($post->ID, 'subtitulo', true);
+       $index++;
+       ?>
+
       <div class="col-xs-12 trend-body">
-        <a href="#">
-            <span class="badge">1</span>
+        <a href="<?php the_permalink(); ?>">
+            <span class="badge"><?php echo($index); ?></span>
             <div>
               <label class="title">
-                Portal Colombiaaprende, Bogotá pares académicos
+                <?php the_title(); ?>
               </label>
               <label class="subtitle">
-                Percepciones del cine y tendencias
+                <?php echo($subtitulo); ?>
               </label>
             </div>
         </a>
       </div>
-      <div class="col-xs-12 trend-body">
-        <a href="#">
-            <span class="badge">2</span>
-            <div>
-              <label class="title">
-                Portal Colombiaaprende, Bogotá pares académicos
-              </label>
-              <label class="subtitle">
-                Percepciones del cine y tendencias
-              </label>
-            </div>
-        </a>
-      </div>
-      <div class="col-xs-12 trend-body">
-        <a href="#">
-            <span class="badge">3</span>
-            <div>
-              <label class="title">
-                Portal Colombiaaprende, Bogotá pares académicos
-              </label>
-              <label class="subtitle">
-                Percepciones del cine y tendencias
-              </label>
-            </div>
-        </a>
-      </div>
-      <div class="col-xs-12 trend-body">
-        <a href="#">
-            <span class="badge">4</span>
-            <div>
-              <label class="title">
-                Portal Colombiaaprende, Bogotá pares académicos
-              </label>
-              <label class="subtitle">
-                Percepciones del cine y tendencias
-              </label>
-            </div>
-        </a>
-      </div>
-      <div class="col-xs-12 trend-body">
-        <a href="#">
-            <span class="badge">5</span>
-            <div>
-              <label class="title">
-                Portal Colombiaaprende, Bogotá pares académicos
-              </label>
-              <label class="subtitle">
-                Percepciones del cine y tendencias
-              </label>
-            </div>
-        </a>
-      </div>
-      <div class="col-xs-12 trend-body">
-        <a href="#">
-            <span class="badge">6</span>
-            <div>
-              <label class="title">
-                Portal Colombiaaprende, Bogotá pares académicos
-              </label>
-              <label class="subtitle">
-                Percepciones del cine y tendencias
-              </label>
-            </div>
-        </a>
-      </div>
+
+      <?php endforeach; ?>
   </div>
 </div>
 </div>
