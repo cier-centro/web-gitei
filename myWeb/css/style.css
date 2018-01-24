@@ -1,0 +1,379 @@
+/*----------------------------------
+---------------Variables------------
+------------------------------------*/
+/**
+ * Mixins
+ * --------------------------------------------------
+ */
+/*----------------------------------
+----------------Slider--------------
+------------------------------------*/
+.flip-slider {
+  position: relative;
+  width: 100%;
+  overflow: hidden; }
+  .flip-slider .slider {
+    height: 41.5vw;
+    width: 100%;
+    margin-bottom: -8px; }
+
+/*----------------------------------
+----------------General--------------
+------------------------------------*/
+* {
+  box-sizing: border-box; }
+
+html {
+  font-size: calc(4px + 0.45vw); }
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #000; }
+
+a {
+  text-decoration: none;
+  color: #000; }
+
+*:focus {
+  outline: 0; }
+
+.modal-backdrop.in {
+  opacity: 0.9; }
+
+.gitei-logo {
+  content: url("../img/logo_GITEI.png"); }
+
+.gitei-logo-dark {
+  content: url("../img/logo_GITEI_dark.png"); }
+
+.unal-logo {
+  content: url("../img/logo_unal.png"); }
+
+.container {
+  width: 80%;
+  background: #eee; }
+
+.title-section {
+  background: #666;
+  font-size: 25px;
+  color: white;
+  padding: 10px;
+  margin: 0; }
+
+/*----------------------------------
+----------------Header--------------
+------------------------------------*/
+.home-header .slider.closed {
+  position: absolute;
+  opacity: 0;
+  bottom: -100%; }
+.home-header .slider.open {
+  transition: all 1s ease-out;
+  opacity: 1; }
+.home-header .gitei-logo, .home-header .gitei-logo-dark {
+  max-width: 15vw;
+  min-width: 180px; }
+.home-header .logo-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10%;
+  margin: 10px 0; }
+.home-header .header-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 0px; }
+  .home-header .header-links .links-container {
+    display: flex;
+    justify-content: center;
+    border-top: 2px solid gray; }
+  .home-header .header-links .vertical-separator {
+    border-left: 1px solid gray; }
+.home-header .social-bar {
+  text-align: center;
+  padding: 12px 0;
+  background: #666;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .home-header .social-bar .fa {
+    position: relative;
+    padding: 6px 0;
+    font-size: 20px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: #666;
+    height: 30px;
+    border-radius: 5px;
+    background: white;
+    margin: 0 10px;
+    overflow: hidden;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease; }
+    .home-header .social-bar .fa::before {
+      position: absolute;
+      z-index: 1;
+      left: 0;
+      right: 0;
+      margin-left: auto;
+      margin-right: auto; }
+    .home-header .social-bar .fa::after {
+      content: "";
+      position: absolute;
+      z-index: 0;
+      width: 100%;
+      height: 0;
+      top: 0;
+      left: 0;
+      -webkit-transition: all 0.3s ease;
+      -moz-transition: all 0.3s ease;
+      -ms-transition: all 0.3s ease;
+      -o-transition: all 0.3s ease;
+      transition: all 0.3s ease; }
+    .home-header .social-bar .fa:hover::after {
+      height: 100%; }
+    .home-header .social-bar .fa:hover {
+      color: white; }
+  .home-header .social-bar .fa-facebook::after {
+    background: #3B5998; }
+  .home-header .social-bar .fa-twitter::after {
+    background: #55ACEE; }
+  .home-header .social-bar .fa-linkedin::after {
+    background: #007bb5; }
+.home-header .modal-lg {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto; }
+.home-header .modal-content {
+  background-color: transparent;
+  border: none;
+  -webkit-box-shadow: none;
+  box-shadow: none; }
+  .home-header .modal-content .close {
+    color: white;
+    font-size: 40px;
+    opacity: 0.9; }
+  .home-header .modal-content .modal-body a, .home-header .modal-content .modal-body p {
+    color: white; }
+  .home-header .modal-content .modal-body #main-menu {
+    margin: 0 0 20px 0;
+    border-bottom: 1px solid white;
+    padding: 0 15px 15px; }
+    .home-header .modal-content .modal-body #main-menu li {
+      display: inline-flex; }
+  .home-header .modal-content .modal-body .links-container {
+    margin-top: 50px;
+    padding: 0; }
+    .home-header .modal-content .modal-body .links-container li {
+      padding: 6px 12px;
+      display: flex;
+      align-items: center;
+      list-style: none;
+      position: relative; }
+
+/*----------------------------------
+--------------Home-Items------------
+------------------------------------*/
+.horizontal-item, .vertical-item {
+  background: white;
+  margin: 15px 0; }
+  .horizontal-item .item-image, .vertical-item .item-image {
+    padding-bottom: 45%;
+    background: lightgray; }
+  .horizontal-item .item-text, .vertical-item .item-text {
+    padding: 20px; }
+    .horizontal-item .item-text label, .horizontal-item .item-text a, .vertical-item .item-text label, .vertical-item .item-text a {
+      display: block;
+      line-height: 100%;
+      margin-bottom: 5px;
+      font-weight: 700; }
+    .horizontal-item .item-text .title, .vertical-item .item-text .title {
+      font-size: 30px; }
+    .horizontal-item .item-text .subtitle, .vertical-item .item-text .subtitle {
+      font-size: 20px;
+      color: gray;
+      margin-bottom: 20px; }
+    .horizontal-item .item-text .group .post-categories, .vertical-item .item-text .group .post-categories {
+      list-style: none;
+      padding: 0; }
+
+/*----------------------------------
+-----------Education-Trends---------
+------------------------------------*/
+.education-trends {
+  margin-top: 15px; }
+  .education-trends h1 {
+    text-align: center; }
+  .education-trends .trend-body {
+    background: white; }
+    .education-trends .trend-body:not(:last-child) a {
+      border-bottom: 1px solid lightgray; }
+    .education-trends .trend-body a {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      padding: 10px 0; }
+      .education-trends .trend-body a:hover {
+        text-decoration: none; }
+      .education-trends .trend-body a label {
+        display: block;
+        line-height: 100%; }
+      .education-trends .trend-body a .badge {
+        min-height: 40px;
+        min-width: 40px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 19px;
+        margin-right: 15px;
+        border: 2px solid black; }
+      .education-trends .trend-body a .title {
+        font-size: 20px;
+        margin-bottom: 10px; }
+      .education-trends .trend-body a .subtitle {
+        font-size: 15px;
+        color: gray;
+        margin-bottom: 0; }
+
+/*----------------------------------
+------------Videos-Section----------
+------------------------------------*/
+.videos-section {
+  border: 1px solid #666;
+  margin: 15px 0; }
+  .videos-section h1 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+    .videos-section h1 a {
+      font-size: 12px;
+      color: white; }
+  .videos-section > div {
+    padding: 30px; }
+    .videos-section > div:last-child .embed-responsive-16by9 {
+      margin-bottom: 20px; }
+
+/*----------------------------------
+----------------Footer--------------
+------------------------------------*/
+.footer-buttons {
+  margin: 10px -15px;
+  background: black; }
+  .footer-buttons .btn-link {
+    color: white; }
+
+.footer {
+  padding-bottom: 30px; }
+  .footer .logo-container a {
+    display: block; }
+  .footer .links-container {
+    width: 100%;
+    display: flex;
+    align-items: flex-start; }
+    .footer .links-container a {
+      width: 46%;
+      margin: 0 2%;
+      border-bottom: 1px solid lightgray; }
+  .footer .right-section .title {
+    border-bottom: 1px solid lightgray;
+    width: 100%;
+    text-align: left;
+    display: flex;
+    padding: 0 15px;
+    align-items: center;
+    justify-content: space-between; }
+    .footer .right-section .title a {
+      padding-right: 0;
+      font-size: 12px; }
+  .footer .right-section form {
+    padding: 15px; }
+    .footer .right-section form .checkbox-inline {
+      font-size: 12px;
+      margin: 30px 0;
+      width: 100%; }
+      .footer .right-section form .checkbox-inline input {
+        margin-top: 2px; }
+  .footer img {
+    max-width: 11vw;
+    margin-bottom: 15px; }
+
+/*----------------------------------
+--------------Media Query-----------
+------------------------------------*/
+@media screen and (min-width: 992px) {
+  .home-header .gitei-logo {
+    position: absolute;
+    left: 10%;
+    top: 1vw;
+    z-index: 1; }
+  .home-header .btn-menu {
+    position: absolute;
+    right: 10%;
+    top: 2.5vw;
+    z-index: 1; }
+
+  .header-links {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 315px; }
+
+  .modal-content .modal-body #main-menu li {
+    width: 33%; }
+    .modal-content .modal-body #main-menu li a {
+      margin: 15px 10px 0; }
+  .modal-content .modal-body .links-container {
+    display: flex; }
+    .modal-content .modal-body .links-container li:not(:last-child):after {
+      content: "";
+      border-left: 1px solid white;
+      position: absolute;
+      top: 0;
+      height: 100%;
+      right: 0; }
+
+  .horizontal-item {
+    display: flex;
+    align-items: center; }
+
+  .videos-section > div:last-child {
+    height: 31.5vw;
+    overflow: auto; }
+
+  .footer .left-section {
+    display: flex; }
+  .footer .links-container a {
+    text-align: left; } }
+@media screen and (max-width: 991px) {
+  .home-header .gitei-logo {
+    margin: 2vh 0 2vh 10%;
+    float: left; }
+  .home-header .btn-menu {
+    float: right;
+    margin: 3vh 10% 0; }
+
+  .modal-content .modal-body #main-menu li {
+    width: 100%; }
+    .modal-content .modal-body #main-menu li:not(:last-child) a {
+      margin-bottom: 15px; }
+
+  .footer .logo-container {
+    display: flex; }
+    .footer .logo-container a {
+      width: 50%; }
+  .footer img {
+    min-width: 130px;
+    margin: 0 auto 15px; }
+  .footer .right-section .title {
+    padding-top: 30px; } }
+
+/*# sourceMappingURL=style.css.map */

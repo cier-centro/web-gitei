@@ -1,0 +1,43 @@
+/*----------------------------------
+----------------General--------------
+------------------------------------*/
+* {
+ box-sizing: border-box;
+}
+html {
+ font-size: calc(4px + 0.45vw);
+}
+body {
+ font-family: 'Montserrat', sans-serif;
+ color: #000;
+}
+a {
+ text-decoration: none;
+ color: #000;
+}
+*:focus {
+  outline: 0;
+}
+.modal-backdrop.in {
+    opacity: 0.9;
+}
+.gitei-logo {
+    content: url("../img/logo_GITEI.png");
+}
+.gitei-logo-dark {
+    content: url("../img/logo_GITEI_dark.png");
+}
+.unal-logo {
+    content: url("../img/logo_unal.png");
+}
+.container {
+    width: 80%;
+    background: $main-bg;
+}
+.title-section {
+    background: $section-title-bg;
+    font-size: 25px;
+    color: white;
+    padding: 10px;
+    margin: 0;
+}
