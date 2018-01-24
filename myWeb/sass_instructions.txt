@@ -1,4 +1,10 @@
-estando en -> cd C:\xampp\htdocs\pruebaWebGitei\wp-content\themes\myWeb
+estando en -> cd C:\xampp\htdocs\pruebaWebGitei\wp-content\themes\web-gitei\myWeb
 ejecutar -> sass --watch scss/style.scss:css/style.css
 
 desde casa -> cd /d D:\Documentos\developer\web-gitei\template
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ruta pull al servidor
+
+cd var/www/html/web-gitei/wp-content/themes/web-gitei
