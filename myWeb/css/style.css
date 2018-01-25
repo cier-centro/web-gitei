@@ -84,7 +84,7 @@ a {
   align-items: center;
   justify-content: center;
   padding: 5px 0px; }
-  .home-header .header-links .links-container {
+  .home-header .header-links .links-container .nav {
     display: flex;
     justify-content: center;
     border-top: 2px solid gray; }

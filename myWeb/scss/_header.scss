@@ -31,7 +31,7 @@
          justify-content: center;
          padding: 5px 0px;
 
-         .links-container {
+         .links-container .nav {
              display: flex;
              justify-content: center;
              border-top: 2px solid gray;
@@ -148,7 +148,7 @@
         align-items: center;
         justify-content: space-between;
         padding: 1% 10%;
-        
+
         .gitei-logo, .btn-menu {
             position: static;
             margin: 0;

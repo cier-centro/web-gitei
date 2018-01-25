@@ -22,9 +22,11 @@
     <iframe src="<?php bloginfo('template_url')?>/mouse-orbit/index.html" class="slider closed"></iframe>
     <div class="header-links">
       <div class="links-container">
-        <a href="#" class="btn btn-link" role="button" onclick="changeSlider(0)">Lo que más nos gusta</a>
-        <div class="vertical-separator"></div>
-        <a href="#" class="btn btn-link" role="button" onclick="changeSlider(1)">Nos conocen por</a>
+        <ul class="nav nav-tabs">
+          <li><a href="#" class="btn btn-link" role="button" onclick="changeSlider(0)">Lo que más nos gusta</a></li>
+          <div class="vertical-separator"></div>
+          <li><a href="#" class="btn btn-link" role="button" onclick="changeSlider(1)">Nos conocen por</a></li>
+        </ul>
       </div>
     </div>
   </div>
