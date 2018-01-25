@@ -34,7 +34,16 @@
          .links-container .nav {
              display: flex;
              justify-content: center;
-             border-top: 2px solid gray;
+
+             a {
+                background: #eee;
+             }
+
+             .selected {
+                background: #333;
+                color: #2793e6;
+                font-weight: 600;
+             }
          }
          .vertical-separator {
              border-left: 1px solid gray;
