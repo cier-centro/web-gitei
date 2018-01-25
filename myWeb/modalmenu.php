@@ -7,7 +7,7 @@
             <button type="button" class="close" data-dismiss="modal">&times;</button>
             <h4 class="modal-title">
               <a href="<?php echo get_home_url(); ?>">
-                  <img class="img-responsive gitei-logo-dark">
+                  <img class="img-responsive gitei-logo-dark" src="<?php bloginfo('template_url')?>/img/logo_GITEI_dark.png">
               </a>
             </h4>
           </div>

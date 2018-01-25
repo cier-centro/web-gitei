@@ -13,10 +13,10 @@
       <div class="col-xs-12 col-md-8 left-section">
           <div class="logo-container">
               <a href="<?php echo get_home_url(); ?>">
-                  <img class="img-responsive gitei-logo">
+                  <img class="img-responsive gitei-logo" src="<?php bloginfo('template_url')?>/img/logo_GITEI.png">
               </a>
               <a href="#">
-                  <img class="img-responsive unal-logo">
+                  <img class="img-responsive unal-logo" src="<?php bloginfo('template_url')?>/img/logo_UNAL.png">
               </a>
           </div>
           <div class="links-container">
