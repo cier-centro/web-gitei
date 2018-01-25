@@ -4,7 +4,7 @@
 
       <?php
        $index = 0;
-       $postslist = get_posts("category_name=Sidebar1");
+       $postslist = get_posts("category_name=Sidebar1&orderby=title&order=asc");
        foreach ($postslist as $post) : setup_postdata($post);
        $subtitulo = get_post_meta($post->ID, 'subtitulo', true);
        $index++;
