@@ -45,5 +45,6 @@
   </div>
 </div>
 <script src="<?php bloginfo('template_url')?>/js/index.js"></script>
+<?php wp_footer(); ?>
 </body>
 </html>
