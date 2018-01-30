@@ -55,7 +55,20 @@
   }
   .videos-section > div:last-child {
       height: 31.5vw;
-      overflow: auto;
+
+      .video-widget {
+          #video-gallery {
+              & > div:first-child {
+                width: 46vw;
+                height: 26.5vw;
+                float: left;
+              }
+              & > div:not(:first-child) {
+                width: 14vw;
+                height: 8.3vw;
+              }
+          }
+      }
   }
   .footer {
       .left-section {

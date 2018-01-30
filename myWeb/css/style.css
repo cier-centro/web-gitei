@@ -269,10 +269,16 @@ a {
     .videos-section h1 a {
       font-size: 12px;
       color: white; }
-  .videos-section > div {
-    padding: 30px; }
-    .videos-section > div:last-child .embed-responsive-16by9 {
-      margin-bottom: 20px; }
+  .videos-section .video-widget #video-gallery {
+    padding: 2% 4%; }
+    .videos-section .video-widget #video-gallery > div {
+      margin: 1% 1% 0; }
+    .videos-section .video-widget #video-gallery .zTitfHov2 {
+      background-color: rgba(0, 172, 185, 0.4) !important; }
+    .videos-section .video-widget #video-gallery .TotalsofthPIcon1 {
+      color: #00acb9 !important; }
+  .videos-section .video-widget .pagination {
+    display: none !important; }
 
 /*----------------------------------
 ----------------Footer--------------
@@ -360,8 +366,14 @@ a {
     align-items: center; }
 
   .videos-section > div:last-child {
-    height: 31.5vw;
-    overflow: auto; }
+    height: 31.5vw; }
+    .videos-section > div:last-child .video-widget #video-gallery > div:first-child {
+      width: 46vw;
+      height: 26.5vw;
+      float: left; }
+    .videos-section > div:last-child .video-widget #video-gallery > div:not(:first-child) {
+      width: 14vw;
+      height: 8.3vw; }
 
   .footer .left-section {
     display: flex; }

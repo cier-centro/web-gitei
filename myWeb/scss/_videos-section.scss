@@ -16,13 +16,22 @@
           color: white;
       }
     }
-    & > div {
-        padding: 30px;
+    .video-widget {
+        #video-gallery {
+            padding: 2% 4%;
 
-        &:last-child {
-            .embed-responsive-16by9 {
-                margin-bottom: 20px;
+            & > div {
+                margin: 1% 1% 0;
             }
+            .zTitfHov2 {
+                background-color: rgba(#00acb9, 0.4) !important;
+            }
+            .TotalsofthPIcon1 {
+                color: #00acb9 !important;
+            }
+        }
+        .pagination {
+            display: none !important;
         }
     }
 }
