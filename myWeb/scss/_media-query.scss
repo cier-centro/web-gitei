@@ -51,7 +51,7 @@
   }
   .horizontal-item {
       display: flex;
-      align-items: center;
+      align-items: stretch;
   }
   .videos-section > div:last-child {
       height: 31.5vw;

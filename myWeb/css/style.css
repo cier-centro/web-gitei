@@ -187,9 +187,6 @@ a {
 .horizontal-item, .vertical-item {
   background: white;
   margin: 15px 0; }
-  .horizontal-item .thumb img, .vertical-item .thumb img {
-    width: 100%;
-    height: 100%; }
   .horizontal-item .item-text, .vertical-item .item-text {
     padding: 20px; }
     .horizontal-item .item-text label, .horizontal-item .item-text a, .vertical-item .item-text label, .vertical-item .item-text a {
@@ -206,6 +203,22 @@ a {
     .horizontal-item .item-text .group .post-categories, .vertical-item .item-text .group .post-categories {
       list-style: none;
       padding: 0; }
+
+.vertical-item .thumb img {
+  width: 100%;
+  height: 100%; }
+
+.horizontal-item .thumb {
+  height: 100%;
+  margin: 0 -15px; }
+  .horizontal-item .thumb a {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    overflow: hidden; }
+  .horizontal-item .thumb img {
+    min-height: 100%;
+    width: auto; }
 
 .content-section .thumb {
   height: 30vh;
@@ -363,7 +376,7 @@ a {
 
   .horizontal-item {
     display: flex;
-    align-items: center; }
+    align-items: stretch; }
 
   .videos-section > div:last-child {
     height: 31.5vw; }
