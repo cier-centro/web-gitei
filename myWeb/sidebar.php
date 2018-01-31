@@ -1,6 +1,7 @@
 <div class="col-xs-12 col-md-4">
   <div class="education-trends">
-      <h1 class="title-section">Tendencias en educación</h1>
+      <h1 class="title-section"  data-animate-scroll='{"alpha": "0",
+                    "duration": "2"}'>Tendencias en educación</h1>
 
       <?php
        $index = 0;
@@ -10,7 +11,11 @@
        $index++;
        ?>
 
-      <div class="col-xs-12 trend-body">
+      <div class="col-xs-12 trend-body"  data-animate-scroll='{
+                    "alpha": "0",
+                    "duration": "2",
+                    "rotationY":"45",
+                    "z":"-30"}'>
         <a href="<?php the_permalink(); ?>">
             <span class="badge"><?php echo($index); ?></span>
             <div>

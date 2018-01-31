@@ -44,6 +44,10 @@
       </div>
   </div>
 </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.16.1/TweenMax.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.16.1/plugins/ScrollToPlugin.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.16.1/plugins/EaselPlugin.min.js"></script>
+<script src="<?php bloginfo('template_url')?>/js/animate-scroll.js"></script>
 <script src="<?php bloginfo('template_url')?>/js/index.js"></script>
 <?php wp_footer(); ?>
 </body>
