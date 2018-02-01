@@ -38,7 +38,11 @@
             <?php query_posts("category_name=Cursos Virtuales 2&orderby=title&order=asc"); ?>
             <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
-              <div class="row horizontal-item">
+              <div class="row horizontal-item" data-animate-scroll='{
+                    "alpha": "0",
+                    "duration": "2",
+                    "rotationX":"45",
+                    "z":"-30"}'>
                   <div class="col-xs-12 col-md-6 item-text">
                     <label class="group"><?php the_category(); ?></label>
                     <a class="title" href="<?php the_permalink(); ?>"><?php the_title(); ?></a>

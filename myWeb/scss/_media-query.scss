@@ -85,11 +85,12 @@
   .home-header {
     .gitei-logo {
       margin: 2vh 0 2vh 10%;
-      float: left;
+      display: inline-flex;
     }
     .btn-menu {
-      float: right;
-      margin: 3vh 10% 0;
+      position: absolute;
+      top: 3.5vh;
+      right: 10%;
     }
   }
   .modal-content {
