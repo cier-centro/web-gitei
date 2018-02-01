@@ -1,0 +1,30 @@
+/*----------------------------------
+----------------Header--------------
+------------------------------------*/
+
+.header {
+    background: $header-bg;
+
+    .cpe-logo {
+        max-width: 200px;
+    }
+    h1 {
+        color: $header-title;
+        font-size: 26px;
+
+        span {
+            font-size: 20px;
+            display: block;
+        }
+    }
+    .right-section {
+        background: url('../img/img_bgheader.png') no-repeat center / contain;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        img {
+            max-width: 170px;
+        }
+    }
+}

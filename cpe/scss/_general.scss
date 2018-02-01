@@ -1,0 +1,47 @@
+/*----------------------------------
+----------------General--------------
+------------------------------------*/
+
+.main-container {
+    padding: 50px;
+    
+    .square {
+        width: 100%;
+        padding: 1.5vw;
+
+        h2, p {
+            font-size: 12px;
+        }
+
+        h2 {
+            font-weight: 600;
+        }
+    }
+
+    .number-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        &.blue {
+            @include background-gradient-properties(#00a3b7, #0087c1);
+        }
+        &.red {
+            @include background-gradient-properties(#E84360, #B8477C);
+        }
+        &.yellow {
+            @include background-gradient-properties(#FAB751, #F9A638);
+        }
+        &.green {
+            @include background-gradient-properties(#79C45C, #5AB236);
+        }
+        .number {
+            color: white;
+            font-size: 120px;
+        }
+    }
+
+    .text-container {
+        background: $white-square-bg;
+    }
+}

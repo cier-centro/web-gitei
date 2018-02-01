@@ -1,0 +1,110 @@
+/*----------------------------------
+---------------Variables------------
+------------------------------------*/
+/**
+ * Mixins
+ * --------------------------------------------------
+ */
+/*----------------------------------
+----------------General--------------
+------------------------------------*/
+.main-container {
+  padding: 50px; }
+  .main-container .square {
+    width: 100%;
+    padding: 1.5vw; }
+    .main-container .square h2, .main-container .square p {
+      font-size: 12px; }
+    .main-container .square h2 {
+      font-weight: 600; }
+  .main-container .number-container {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .main-container .number-container.blue {
+      background: #00a3b7;
+      background: -moz-radial-gradient(center, ellipse cover, #00a3b7 0%, #0087c1 100%);
+      background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #00a3b7), color-stop(100%, #0087c1));
+      background: -webkit-radial-gradient(center, ellipse cover, #00a3b7 0%, #0087c1 100%);
+      background: -o-radial-gradient(center, ellipse cover, #00a3b7 0%, #0087c1 100%);
+      background: -ms-radial-gradient(center, ellipse cover, #00a3b7 0%, #0087c1 100%);
+      background: radial-gradient(ellipse at center, #00a3b7 0%, #0087c1 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00a3b7', endColorstr='#0087c1', GradientType=1 ); }
+    .main-container .number-container.red {
+      background: #e84360;
+      background: -moz-radial-gradient(center, ellipse cover, #e84360 0%, #b8477c 100%);
+      background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #e84360), color-stop(100%, #b8477c));
+      background: -webkit-radial-gradient(center, ellipse cover, #e84360 0%, #b8477c 100%);
+      background: -o-radial-gradient(center, ellipse cover, #e84360 0%, #b8477c 100%);
+      background: -ms-radial-gradient(center, ellipse cover, #e84360 0%, #b8477c 100%);
+      background: radial-gradient(ellipse at center, #e84360 0%, #b8477c 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#E84360', endColorstr='#B8477C', GradientType=1 ); }
+    .main-container .number-container.yellow {
+      background: #fab751;
+      background: -moz-radial-gradient(center, ellipse cover, #fab751 0%, #f9a638 100%);
+      background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #fab751), color-stop(100%, #f9a638));
+      background: -webkit-radial-gradient(center, ellipse cover, #fab751 0%, #f9a638 100%);
+      background: -o-radial-gradient(center, ellipse cover, #fab751 0%, #f9a638 100%);
+      background: -ms-radial-gradient(center, ellipse cover, #fab751 0%, #f9a638 100%);
+      background: radial-gradient(ellipse at center, #fab751 0%, #f9a638 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FAB751', endColorstr='#F9A638', GradientType=1 ); }
+    .main-container .number-container.green {
+      background: #79c45c;
+      background: -moz-radial-gradient(center, ellipse cover, #79c45c 0%, #5ab236 100%);
+      background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #79c45c), color-stop(100%, #5ab236));
+      background: -webkit-radial-gradient(center, ellipse cover, #79c45c 0%, #5ab236 100%);
+      background: -o-radial-gradient(center, ellipse cover, #79c45c 0%, #5ab236 100%);
+      background: -ms-radial-gradient(center, ellipse cover, #79c45c 0%, #5ab236 100%);
+      background: radial-gradient(ellipse at center, #79c45c 0%, #5ab236 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#79C45C', endColorstr='#5AB236', GradientType=1 ); }
+    .main-container .number-container .number {
+      color: white;
+      font-size: 120px; }
+  .main-container .text-container {
+    background: #F0F5F7; }
+
+/*----------------------------------
+----------------Header--------------
+------------------------------------*/
+.header {
+  background: #F4F6F7; }
+  .header .cpe-logo {
+    max-width: 200px; }
+  .header h1 {
+    color: #2B2D70;
+    font-size: 26px; }
+    .header h1 span {
+      font-size: 20px;
+      display: block; }
+  .header .right-section {
+    background: url("../img/img_bgheader.png") no-repeat center/contain;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .header .right-section img {
+      max-width: 170px; }
+
+/*----------------------------------
+----------------Footer--------------
+------------------------------------*/
+/*----------------------------------
+--------------Media Query-----------
+------------------------------------*/
+@media screen and (min-width: 992px) {
+  .header {
+    display: flex;
+    align-items: stretch;
+    padding: 40px 50px; }
+    .header .right-section {
+      height: 300px; } }
+@media screen and (min-width: 768px) {
+  .main-container .column {
+    padding: 0;
+    display: inline-flex; }
+  .main-container .squares-container {
+    width: 50%; } }
+@media screen and (max-width: 767px) {
+  .main-container .squares-container {
+    width: 100%; } }
+
+/*# sourceMappingURL=style.css.map */

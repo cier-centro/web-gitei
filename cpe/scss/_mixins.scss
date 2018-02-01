@@ -1,0 +1,29 @@
+/**
+ * Mixins
+ * --------------------------------------------------
+ */
+@mixin transition-properties($values) {
+    -webkit-transition: $values;
+    -moz-transition: $values;
+    -ms-transition: $values;
+    -o-transition: $values;
+    transition: $values;
+}
+
+@mixin border-radius-properties($value) {
+    -webkit-border-radius: $value;
+    -moz-border-radius: $value;
+    -ms-border-radius: $value;
+    border-radius: $value;
+}
+
+@mixin background-gradient-properties($color1, $color2) {
+    background: rgba($color1,1);
+    background: -moz-radial-gradient(center, ellipse cover, rgba($color1,1) 0%, rgba($color2,1) 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba($color1,1)), color-stop(100%, rgba($color2,1)));
+    background: -webkit-radial-gradient(center, ellipse cover, rgba($color1,1) 0%, rgba($color2,1) 100%);
+    background: -o-radial-gradient(center, ellipse cover, rgba($color1,1) 0%, rgba($color2,1) 100%);
+    background: -ms-radial-gradient(center, ellipse cover, rgba($color1,1) 0%, rgba($color2,1) 100%);
+    background: radial-gradient(ellipse at center, rgba($color1,1) 0%, rgba($color2,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#{$color1}', endColorstr='#{$color2}', GradientType=1 );
+}

@@ -1,0 +1,32 @@
+/*----------------------------------
+--------------Media Query-----------
+------------------------------------*/
+@media screen and (min-width: 992px) {
+    .header {
+        display: flex;
+        align-items: stretch;
+        padding: 40px 50px;
+
+        .right-section {
+            height: 300px;
+        }
+    }
+}
+@media screen and (min-width: 768px) {
+    .main-container {
+        .column {
+            padding: 0;
+            display: inline-flex;
+        }
+        .squares-container {
+            width: 50%;
+        }
+    }
+}
+@media screen and (max-width: 767px) {
+    .main-container {
+        .squares-container {
+            width: 100%;
+        }
+    }
+}
