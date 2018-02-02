@@ -6,11 +6,10 @@
         <img class="img-responsive gitei-logo" src="<?php bloginfo('template_url')?>/img/logo_GITEI.png">
     </a>
     <button type="button" class="btn btn-info btn-lg btn-menu" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-menu-hamburger"></span></button>
-    <div data-animate-scroll='{
-                    "alpha": "0"}'>
-    <iframe src="<?php bloginfo('template_url')?>/flip-slider/index.html" class="slider open"></iframe>
-    <iframe src="<?php bloginfo('template_url')?>/mouse-orbit/index.html" class="slider closed"></iframe>
-  </div>
+    <div>
+        <iframe src="<?php bloginfo('template_url')?>/flip-slider/index.html" class="slider open"></iframe>
+        <iframe src="<?php bloginfo('template_url')?>/mouse-orbit/index.html" class="slider closed"></iframe>
+    </div>
     <div class="header-links">
       <div class="links-container">
         <ul class="nav nav-tabs">

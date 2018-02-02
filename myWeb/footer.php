@@ -1,9 +1,4 @@
-<div class="row footer-buttons" data-animate-scroll='{
-    "x": "-500",
-    "y": "0",
-    "alpha": "0",
-    "duration": ".5"
-}'>
+<div class="row footer-buttons">
       <div class="col-xs-12 col-md-4">
           <button type="button" class="btn btn-link btn-block btn-lg">Comunícate con nosotros</button>
       </div>
@@ -14,12 +9,7 @@
           <button type="button" class="btn btn-link btn-block btn-lg">Vinculate a proyectos</button>
       </div>
   </div>
-  <div class="row footer" data-animate-scroll='{
-      "x": "500",
-      "y": "0",
-      "alpha": "0",
-      "duration": ".5"
-  }'>
+  <div class="row footer">
       <div class="col-xs-12 col-md-8 left-section">
           <div class="logo-container">
               <a href="<?php echo get_home_url(); ?>">
