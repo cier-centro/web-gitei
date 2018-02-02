@@ -19,7 +19,7 @@ p {
   max-width: 170px; }
 
 .header, .main-container, .suscribe-section, .footer {
-  padding: 6vw 5vw; }
+  padding: 2.5vw 5vw; }
 
 .main-container .square {
   width: 100%; }
@@ -112,7 +112,7 @@ p {
 .header {
   background: #F4F6F7; }
   .header .cpe-logo {
-    max-width: 200px; }
+    max-width: 250px; }
   .header h1 span {
     font-size: 20px;
     display: block; }
@@ -130,7 +130,7 @@ p {
   justify-content: center;
   align-items: center; }
   .footer .logo-container .logo {
-    max-width: 170px; }
+    max-width: 140px; }
   .footer .logo-container .vertical-separator {
     border-left: 1px solid gray;
     height: 90px;
