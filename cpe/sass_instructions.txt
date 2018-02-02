@@ -1,4 +1,4 @@
-estando en -> cd C:\Users\CEN_3F_CDO_PC04\Documents\cpe
+estando en -> cd C:\xampp\htdocs\pruebaWebGitei\wp-content\themes\web-gitei\cpe
 ejecutar -> sass --watch scss/style.scss:css/style.css
 
 desde casa -> cd C:\xampp\htdocs\web-gitei\wp-content\themes\web-gitei\cpe

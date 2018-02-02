@@ -11,8 +11,10 @@
             top: 0;
             background: none;
             color: white;
-            display: flex;
-            align-items: center;
+
+            .wrap {
+                padding: 0 5vw;
+            }
         }
         .number {
             display: none;
@@ -22,7 +24,7 @@
 @media screen and (min-width: 992px) {
     .header {
         display: flex;
-        align-items: stretch;        
+        align-items: stretch;
 
         .right-section {
             height: 300px;
@@ -43,11 +45,22 @@
             width: 50%;
         }
     }
+    .suscribe-section {
+        .form-group {
+          display: flex;
+        }
+    }
 }
 @media screen and (max-width: 767px) {
     .main-container {
         .squares-container {
             width: 100%;
+        }
+    }
+    .suscribe-section {
+        button {
+          margin-top: 20px;
+          float: right;
         }
     }
 }
