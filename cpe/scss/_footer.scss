@@ -1,4 +1,20 @@
 /*----------------------------------
 ----------------Footer--------------
 ------------------------------------*/
-  
+
+.footer {
+    .logo-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .logo {
+            max-width: 200px;
+        }
+        .vertical-separator {
+            border-left: 1px solid gray;
+            height: 90px;
+            margin: 0 20px;
+        }
+    }
+}

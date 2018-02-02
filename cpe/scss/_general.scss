@@ -2,18 +2,30 @@
 ----------------General--------------
 ------------------------------------*/
 
+h1 {
+    color: $header-title;
+    font-size: 26px;
+}
+
+p {
+    font-size: 13px;
+}
+
+.demo {
+    max-width: 170px;
+}
+
+.header, .main-container, .suscribe-section, .footer {
+    padding: 6vw 5vw;
+}
+
 .main-container {
-    padding: 50px;
-    
     .square {
         width: 100%;
         padding: 1.5vw;
 
-        h2, p {
-            font-size: 12px;
-        }
-
         h2 {
+            font-size: 13px;
             font-weight: 600;
         }
     }
@@ -43,5 +55,35 @@
 
     .text-container {
         background: $white-square-bg;
+    }
+}
+.suscribe-section {
+    background: $suscribe-section-bg;
+
+    .left-section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    p {
+        margin: 5vw 0;
+    }
+
+    .form-group {
+        display: flex;
+
+        input {
+            margin-right: 30px;
+            @include box-shadow-properties(0px 0px 30px 0px rgba(0,0,0,0.35));
+        }
+
+        button {
+            color: white;
+            font-weight: 600;
+            padding: 6px 30px;
+            border-radius: 20px;
+            @include background-gradient-horizontal-properties(#ee7d67, #d45183);
+        }
     }
 }

@@ -1,15 +1,36 @@
 /*----------------------------------
 --------------Media Query-----------
 ------------------------------------*/
+@media screen and (max-width: 1199px) {
+    .main-container {
+        .squares-container {
+            position: relative;
+        }
+        .text-container {
+            position: absolute;
+            top: 0;
+            background: none;
+            color: white;
+            display: flex;
+            align-items: center;
+        }
+        .number {
+            display: none;
+        }
+    }
+}
 @media screen and (min-width: 992px) {
     .header {
         display: flex;
-        align-items: stretch;
-        padding: 40px 50px;
+        align-items: stretch;        
 
         .right-section {
             height: 300px;
         }
+    }
+    .suscribe-section {
+        display: flex;
+        align-items: stretch;
     }
 }
 @media screen and (min-width: 768px) {
