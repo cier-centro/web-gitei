@@ -184,41 +184,32 @@ a {
 /*----------------------------------
 --------------Home-Items------------
 ------------------------------------*/
-.horizontal-item, .vertical-item {
+.vertical-item {
   background: white;
   margin: 15px 0; }
-  .horizontal-item .item-text, .vertical-item .item-text {
+  .vertical-item .thumb img {
+    width: 100%;
+    height: 100%; }
+  .vertical-item .item-text {
     padding: 20px; }
-    .horizontal-item .item-text label, .horizontal-item .item-text a, .vertical-item .item-text label, .vertical-item .item-text a {
+    .vertical-item .item-text label, .vertical-item .item-text a {
       display: block;
       line-height: 100%;
       margin-bottom: 5px;
       font-weight: 700; }
-    .horizontal-item .item-text .title, .vertical-item .item-text .title {
+    .vertical-item .item-text .title {
       font-size: 30px; }
-    .horizontal-item .item-text .subtitle, .vertical-item .item-text .subtitle {
+    .vertical-item .item-text .subtitle {
       font-size: 20px;
       color: gray;
       margin-bottom: 20px; }
-    .horizontal-item .item-text .group .post-categories, .vertical-item .item-text .group .post-categories {
+    .vertical-item .item-text .group .post-categories {
       list-style: none;
-      padding: 0; }
-
-.vertical-item .thumb img {
-  width: 100%;
-  height: 100%; }
-
-.horizontal-item .thumb {
-  height: 100%;
-  margin: 0 -15px; }
-  .horizontal-item .thumb a {
-    display: flex;
-    justify-content: center;
-    height: 100%;
-    overflow: hidden; }
-  .horizontal-item .thumb img {
-    min-height: 100%;
-    width: auto; }
+      padding: 0;
+      margin: 0; }
+      .vertical-item .item-text .group .post-categories li {
+        padding: 0;
+        margin: 0; }
 
 .content-section .thumb {
   height: 30vh;
@@ -377,6 +368,26 @@ a {
   .horizontal-item {
     display: flex;
     align-items: stretch; }
+
+  .home-articles .home-article:nth-child(3n) {
+    width: 100%; }
+    .home-articles .home-article:nth-child(3n) .vertical-item {
+      display: flex;
+      align-items: stretch;
+      direction: rtl; }
+    .home-articles .home-article:nth-child(3n) .thumb {
+      width: 50%; }
+      .home-articles .home-article:nth-child(3n) .thumb a {
+        display: flex;
+        justify-content: center;
+        height: 100%;
+        overflow: hidden; }
+      .home-articles .home-article:nth-child(3n) .thumb img {
+        min-height: 100%;
+        width: auto; }
+    .home-articles .home-article:nth-child(3n) .item-text {
+      width: 50%;
+      direction: ltr; }
 
   .videos-section > div:last-child {
     height: 31.5vw; }

@@ -53,6 +53,37 @@
       display: flex;
       align-items: stretch;
   }
+  .home-articles {
+      .home-article {
+          &:nth-child(3n) {
+              width: 100%;
+
+              .vertical-item {
+                  display: flex;
+                  align-items: stretch;
+                  direction: rtl;
+              }
+              .thumb {
+                  width: 50%;
+
+                  a {
+                    display: flex;
+                    justify-content: center;
+                    height: 100%;
+                    overflow: hidden;
+                  }
+                  img {
+                    min-height: 100%;
+                    width: auto;
+                  }
+              }
+              .item-text {
+                  width: 50%;
+                  direction: ltr;
+              }
+          }
+      }
+  }
   .videos-section > div:last-child {
       height: 31.5vw;
 

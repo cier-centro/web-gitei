@@ -1,9 +1,16 @@
 /*----------------------------------
 --------------Home-Items------------
 ------------------------------------*/
-.horizontal-item, .vertical-item {
+.vertical-item {
     background: white;
     margin: 15px 0;
+
+    .thumb {
+       img {
+         width: 100%;
+         height: 100%;
+       }
+    }
     .item-text {
        padding: 20px;
 
@@ -25,33 +32,14 @@
           .post-categories {
               list-style: none;
               padding: 0;
+              margin: 0;
+
+              li {
+                padding: 0;
+                margin: 0;
+              }
           }
        }
-    }
-}
-.vertical-item {
-    .thumb {
-       img {
-         width: 100%;
-         height: 100%;
-       }
-    }
-}
-.horizontal-item {
-    .thumb {
-        height: 100%;
-        margin: 0 -15px;
-
-        a {
-          display: flex;
-          justify-content: center;
-          height: 100%;
-          overflow: hidden;
-        }
-        img {
-          min-height: 100%;
-          width: auto;
-        }
     }
 }
 .content-section {
