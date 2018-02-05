@@ -1,7 +1,13 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <title>GITEI</title>
+  <title><?php
+      $currentURL = (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+      $homeURL = get_home_url()."/";
+      $currentCategory = single_cat_title( $prefix = 'Categoría: ', $display = true);
+      $pageTitle = ($currentURL == $homeURL) ? 'Página Principal' : ( (strpos($currentURL, 'category') !== false) ? $currentCategory : the_title() );
+      echo $pageTitle;
+  ?> | GITEI</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
