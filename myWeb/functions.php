@@ -12,4 +12,23 @@ register_sidebar(array(
   'before_widget' => '<section class="video-widget">',
   'after_widget' => '</section>',
 ));
+
+function the_breadcrumb() {
+   if (!is_home()) {
+       echo '<span class="removed_link" title="';
+       echo get_option('home');
+               echo '">';
+       bloginfo('name');
+       echo "</span> » ";
+       if (is_category() || is_single()) {
+           the_category('title_li=');
+           if (is_single()) {
+               echo " » ";
+               the_title();
+           }
+       } elseif (is_page()) {
+          echo the_title();
+       }
+   }
+}
 ?>

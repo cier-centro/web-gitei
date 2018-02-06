@@ -51,6 +51,42 @@ a {
   padding: 10px;
   margin: 0; }
 
+.breadcrumb {
+  margin: 10px;
+  display: block; }
+
+.article-content .banner {
+  height: 30vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  position: relative; }
+  .article-content .banner img {
+    width: 100%;
+    height: auto; }
+  .article-content .banner label {
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 15px;
+    font-size: 20px; }
+.article-content .gallery-images {
+  padding: 15px 0; }
+  .article-content .gallery-images .btn {
+    margin-bottom: 15px; }
+  .article-content .gallery-images .thumbnail {
+    margin: 0; }
+  .article-content .gallery-images .title {
+    margin-bottom: 15px;
+    display: block;
+    text-align: center;
+    white-space: normal; }
+  .article-content .gallery-images .modal .image-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; }
+
 /*----------------------------------
 ----------------Header--------------
 ------------------------------------*/
@@ -210,15 +246,6 @@ a {
       .vertical-item .item-text .group .post-categories li {
         padding: 0;
         margin: 0; }
-
-.content-section .thumb {
-  height: 30vh;
-  overflow: hidden;
-  display: flex;
-  align-items: center; }
-  .content-section .thumb img {
-    width: 100%;
-    height: auto; }
 
 /*----------------------------------
 -----------Education-Trends---------

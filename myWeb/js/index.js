@@ -6,8 +6,10 @@ jQuery.noConflict();
 jQuery(document).animateScroll();
 
 $( document ).ready(function() {
-		var newURLMainVideo = mainVideo.attr('src').replace("mqdefault", "hqdefault");
-		mainVideo.attr("src", newURLMainVideo);		
+		if (mainVideo.length > 0) {
+				var newURLMainVideo = mainVideo.attr('src').replace("mqdefault", "hqdefault");
+				mainVideo.attr("src", newURLMainVideo);
+		}
 });
 
 function changeSlider(link, selectedElement) {

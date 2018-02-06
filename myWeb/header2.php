@@ -14,3 +14,4 @@
     <a href="#" class="fa fa-twitter"></a>
   </div>
 </div>
+<label class="breadcrumb"><?php the_breadcrumb(); ?></label>
