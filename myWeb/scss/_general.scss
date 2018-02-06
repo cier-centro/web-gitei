@@ -60,6 +60,7 @@ a {
 
     .gallery-images {
         padding: 15px 0;
+        text-align: center;
 
         .btn {
             margin-bottom: 15px;
@@ -76,10 +77,83 @@ a {
         }
         .modal {
             .image-container {
-                display: flex;
-                justify-content: center;
                 margin-bottom: 20px;
+
+                img {
+                    margin: auto;
+                }
             }
+        }
+    }
+}
+.category-menu {
+    .menu-title {
+        font-size: 20px;
+        padding: 15px;
+        display: block;
+        margin: 0;
+    }
+    .menu-items {
+        padding: 0;
+        list-style: none;
+
+        & > li {
+            & > a {
+              display: block;
+              padding: 10px 20px 10px 45px;
+              font-weight: 600;
+              border-top: 1px solid gray;
+              border-bottom: 1px solid gray;
+              margin-top: -1px;
+              position: relative;
+            }
+        }
+    }
+    .closed, .open {
+        &:before {
+          position: absolute;
+          background: gray;
+          color: white;
+          width: 20px;
+          height: 20px;
+          border-radius: 5px;
+          display: flex;
+          font-weight: 600;
+          justify-content: center;
+          align-items: center;
+          top: 10px;
+          left: 18px;
+        }
+    }
+    .closed {
+        &:before {
+            content: "+";
+        }
+        & + .sub-menu {
+            max-height: 0;
+            transition: max-height 0.5s ease-out;
+            overflow: hidden;
+        }
+    }
+    .open {
+        &:before {
+            content: "-";
+        }
+        & + .sub-menu {
+            max-height: 400px;
+            transition: max-height 0.7s ease-out;
+        }
+    }
+    .sub-menu {
+        padding: 0;
+        margin: 0 30px;
+        list-style: none;
+
+        a {
+            display: block;
+            padding: 10px 20px 10px 45px;
+            border-bottom: 1px solid white;
+            position: relative;
         }
     }
 }

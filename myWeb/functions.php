@@ -2,6 +2,7 @@
 register_nav_menus( array(
   'menu' => 'Menu principal',
   'menu2' => 'Menu complementario',
+  'menuCat1' => 'Menu Categoría 1',
 ));
 
 add_theme_support('post-thumbnails');
