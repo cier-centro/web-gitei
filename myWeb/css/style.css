@@ -79,7 +79,7 @@ a {
   .article-content .gallery-images .thumbnail {
     margin: 0; }
   .article-content .gallery-images .title {
-    margin-bottom: 15px;
+    margin: 5px 0 0;
     display: block;
     text-align: center;
     white-space: normal; }

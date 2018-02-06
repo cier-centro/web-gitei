@@ -16,12 +16,7 @@ $( document ).ready(function() {
 				$( categoryMenuParents ).attr("href", "javascript:void(0)");
 				$( categoryMenuParents ).attr("class", "closed");
 				$( categoryMenuParents ).click(function() {
-					if (this.classList.contains("open")) {
-					  	this.className = "closed";
-					}
-					else {
-							this.className = "open";
-					}
+						this.className = (this.classList.contains("open"))? "closed" : "open";
 				});
 		}
 });
