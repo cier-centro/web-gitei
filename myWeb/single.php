@@ -16,6 +16,7 @@
       <?php } ?>
 
       <?php endforeach; endif; ?>
+  <label class="breadcrumb"><?php the_breadcrumb(); ?></label>
   <div class="row">
     <div class="col-xs-12 col-md-3">
         <div class="row category-menu">
@@ -26,7 +27,13 @@
             array(
               'container' => false,
               'items_wrap' => '<ul class="menu-items">%3$s</ul>',
-              'theme_location' => 'menuCat1'
+              'theme_location' => 'menuCont'
+            )); ?>
+          <?php wp_nav_menu(
+            array(
+              'container' => false,
+              'items_wrap' => '<ul class="menu-items">%3$s</ul>',
+              'theme_location' => 'menuContOp'
             )); ?>
         </div>
     </div>
