@@ -88,6 +88,11 @@ a {
     .article-content .gallery-images .modal .image-container img {
       margin: auto; }
 
+.nf-form-cont .nf-form-title {
+  display: none; }
+.nf-form-cont .nf-form-layout .nf-before-form-content {
+  margin-bottom: 35px; }
+
 /*----------------------------------
 ----------------Content Menu--------------
 ------------------------------------*/
