@@ -9,9 +9,12 @@ $images-path:                      "../img/";
 
  // Colors
  // -------------------------------
-$main-bg:                               #eee !default;
-$social-bar-bg:                         #666 !default;
+$main-bg:                               #f7f7f7 !default;
+$heading-color:                         #322e6d !default;
+$social-bar-bg:                         #00c0c9 !default;
+$header-link-selected:                  #ff8361 !default;
 $section-title-bg:                      $social-bar-bg !default;
+$footer-bg:                             #322e6d !default;
 //Measures
 // -------------------------------
 $main-header-height:              132px;

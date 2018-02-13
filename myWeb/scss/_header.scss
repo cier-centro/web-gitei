@@ -1,7 +1,24 @@
 /*----------------------------------
 ----------------Header--------------
 ------------------------------------*/
+%header-button {
+    background-color: transparent !important;
+    background-image: url('#{$images-path}img_spritesheet.png');
+    color: transparent !important;
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    font-size: 25px;
+    font-weight: 600;
+}
 .home-header {
+    background: rgba(black, 0.65);
+    
     .slider{
 
         &.closed {
@@ -18,7 +35,18 @@
         max-width: 15vw;
         min-width: 180px;
     }
-   .logo-container {
+    .btn-menu {
+        @extend %header-button;
+        background-position: 0 0;
+
+        &:hover {
+            background-position: -69px 0;
+        }
+        &:active {
+            background-position: -138px 0;
+        }
+    }
+    .logo-container {
        	display: flex;
        	justify-content: space-between;
         align-items: center;
@@ -30,18 +58,41 @@
          align-items: center;
          justify-content: center;
          padding: 5px 0px;
+         background: rgba(black, 0.65);
 
          .links-container .nav {
              display: flex;
              justify-content: center;
+             border: none;
+             padding: 5px 0;
 
-             a {
-                background: #eee;
+             li {
+                position: relative;
+
+                &:not(:last-child) {
+                    &:before {
+                        content: "";
+                        position: absolute;
+                        border-left: 1px solid white;
+                        height: 100%;
+                        right: 0;
+                    }
+                }
              }
+             a {
+                color: white;
+                background: transparent;
+                font-size: 15px;
+                padding: 5px 15px;
+                text-align: center;
 
+                &:hover {
+                    background: rgba(white, 0.05);
+                    border: none !important;
+                }
+             }
              .selected {
-                background: #333;
-                color: #2793e6;
+                color: $header-link-selected;
                 font-weight: 600;
              }
          }
@@ -112,20 +163,36 @@
         margin-left: auto;
         margin-right: auto;
     }
-   .modal-content {
+    .modal-content {
       background-color: transparent;
       border: none;
       -webkit-box-shadow: none;
       box-shadow: none;
 
       .close {
-         color: white;
+         @extend %header-button;
          font-size: 40px;
          opacity: 0.9;
+         text-shadow: none;
+         background-position: 0 -64px;
+
+         &:hover {
+             background-position: -69px -64px;
+         }
+         &:active {
+             background-position: -138px -64px;
+         }
       }
       .modal-body {
          a, p {
             color: white;
+            font-size: 15px;
+         }
+         a {
+            &:hover {
+                color: $social-bar-bg;
+                font-weight: 700;
+            }
          }
          #main-menu {
             margin: 0 0 20px 0;
@@ -148,6 +215,13 @@
                 position: relative;
             }
          }
+      }
+      .form-control {
+          height: 43px;
+      }
+      .glyphicon {
+          font-size: 25px;
+          color: $heading-color;
       }
    }
 }

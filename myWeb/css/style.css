@@ -28,7 +28,8 @@ html {
 
 body {
   font-family: 'Montserrat', sans-serif;
-  color: #000; }
+  color: #000;
+  background: #f7f7f7 url("../img/img_main_bg.png"); }
 
 a {
   text-decoration: none;
@@ -41,11 +42,13 @@ a {
   opacity: 0.9; }
 
 .container {
-  width: 80%;
-  background: #eee; }
+  width: 80%; }
+
+.home-header + .container {
+  background: white; }
 
 .title-section {
-  background: #666;
+  background: #00c0c9;
   font-size: 25px;
   color: white;
   padding: 10px;
@@ -88,7 +91,7 @@ a {
     .article-content .gallery-images .modal .image-container img {
       margin: auto; }
 
-.nf-form-cont .nf-form-title, .nf-form-cont .nf-form-fields-required {
+.nf-form-cont .nf-form-title {
   display: none; }
 .nf-form-cont .nf-form-layout .nf-before-form-content {
   margin-bottom: 35px; }
@@ -151,123 +154,177 @@ a {
 /*----------------------------------
 ----------------Header--------------
 ------------------------------------*/
-.home-header .slider.closed {
-  position: absolute;
-  opacity: 0;
-  bottom: -100%; }
-.home-header .slider.open {
-  transition: all 1s ease-out;
-  opacity: 1; }
-.home-header .gitei-logo, .home-header .gitei-logo-dark {
-  max-width: 15vw;
-  min-width: 180px; }
-.home-header .logo-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 10%;
-  margin: 10px 0; }
-.home-header .header-links {
+.home-header .btn-menu, .home-header .modal-content .close {
+  background-color: transparent !important;
+  background-image: url("../img/img_spritesheet.png");
+  color: transparent !important;
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 5px 0px; }
-  .home-header .header-links .links-container .nav {
+  padding: 24px;
+  font-size: 25px;
+  font-weight: 600; }
+
+.home-header {
+  background: rgba(0, 0, 0, 0.65); }
+  .home-header .slider.closed {
+    position: absolute;
+    opacity: 0;
+    bottom: -100%; }
+  .home-header .slider.open {
+    transition: all 1s ease-out;
+    opacity: 1; }
+  .home-header .gitei-logo, .home-header .gitei-logo-dark {
+    max-width: 15vw;
+    min-width: 180px; }
+  .home-header .btn-menu {
+    background-position: 0 0; }
+    .home-header .btn-menu:hover {
+      background-position: -69px 0; }
+    .home-header .btn-menu:active {
+      background-position: -138px 0; }
+  .home-header .logo-container {
     display: flex;
-    justify-content: center; }
-    .home-header .header-links .links-container .nav a {
-      background: #eee; }
-    .home-header .header-links .links-container .nav .selected {
-      background: #333;
-      color: #2793e6;
-      font-weight: 600; }
-  .home-header .header-links .vertical-separator {
-    border-left: 1px solid gray; }
-.home-header .social-bar {
-  text-align: center;
-  padding: 12px 0;
-  background: #666;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-  .home-header .social-bar .fa {
-    position: relative;
-    padding: 6px 0;
-    font-size: 20px;
-    width: 30px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+    margin: 10px 0; }
+  .home-header .header-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 0px;
+    background: rgba(0, 0, 0, 0.65); }
+    .home-header .header-links .links-container .nav {
+      display: flex;
+      justify-content: center;
+      border: none;
+      padding: 5px 0; }
+      .home-header .header-links .links-container .nav li {
+        position: relative; }
+        .home-header .header-links .links-container .nav li:not(:last-child):before {
+          content: "";
+          position: absolute;
+          border-left: 1px solid white;
+          height: 100%;
+          right: 0; }
+      .home-header .header-links .links-container .nav a {
+        color: white;
+        background: transparent;
+        font-size: 15px;
+        padding: 5px 15px;
+        text-align: center; }
+        .home-header .header-links .links-container .nav a:hover {
+          background: rgba(255, 255, 255, 0.05);
+          border: none !important; }
+      .home-header .header-links .links-container .nav .selected {
+        color: #ff8361;
+        font-weight: 600; }
+    .home-header .header-links .vertical-separator {
+      border-left: 1px solid gray; }
+  .home-header .social-bar {
     text-align: center;
-    text-decoration: none;
-    color: #666;
-    height: 30px;
-    border-radius: 5px;
-    background: white;
-    margin: 0 10px;
-    overflow: hidden;
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease; }
-    .home-header .social-bar .fa::before {
-      position: absolute;
-      z-index: 1;
-      left: 0;
-      right: 0;
-      margin-left: auto;
-      margin-right: auto; }
-    .home-header .social-bar .fa::after {
-      content: "";
-      position: absolute;
-      z-index: 0;
-      width: 100%;
-      height: 0;
-      top: 0;
-      left: 0;
+    padding: 12px 0;
+    background: #00c0c9;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .home-header .social-bar .fa {
+      position: relative;
+      padding: 6px 0;
+      font-size: 20px;
+      width: 30px;
+      text-align: center;
+      text-decoration: none;
+      color: #00c0c9;
+      height: 30px;
+      border-radius: 5px;
+      background: white;
+      margin: 0 10px;
+      overflow: hidden;
       -webkit-transition: all 0.3s ease;
       -moz-transition: all 0.3s ease;
       -ms-transition: all 0.3s ease;
       -o-transition: all 0.3s ease;
       transition: all 0.3s ease; }
-    .home-header .social-bar .fa:hover::after {
-      height: 100%; }
-    .home-header .social-bar .fa:hover {
-      color: white; }
-  .home-header .social-bar .fa-facebook::after {
-    background: #3B5998; }
-  .home-header .social-bar .fa-twitter::after {
-    background: #55ACEE; }
-  .home-header .social-bar .fa-linkedin::after {
-    background: #007bb5; }
-.home-header .modal-lg {
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto; }
-.home-header .modal-content {
-  background-color: transparent;
-  border: none;
-  -webkit-box-shadow: none;
-  box-shadow: none; }
-  .home-header .modal-content .close {
-    color: white;
-    font-size: 40px;
-    opacity: 0.9; }
-  .home-header .modal-content .modal-body a, .home-header .modal-content .modal-body p {
-    color: white; }
-  .home-header .modal-content .modal-body #main-menu {
-    margin: 0 0 20px 0;
-    border-bottom: 1px solid white;
-    padding: 0 15px 15px; }
-    .home-header .modal-content .modal-body #main-menu li {
-      display: inline-flex; }
-  .home-header .modal-content .modal-body .links-container {
-    margin-top: 50px;
-    padding: 0; }
-    .home-header .modal-content .modal-body .links-container li {
-      padding: 6px 12px;
-      display: flex;
-      align-items: center;
-      list-style: none;
-      position: relative; }
+      .home-header .social-bar .fa::before {
+        position: absolute;
+        z-index: 1;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto; }
+      .home-header .social-bar .fa::after {
+        content: "";
+        position: absolute;
+        z-index: 0;
+        width: 100%;
+        height: 0;
+        top: 0;
+        left: 0;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease; }
+      .home-header .social-bar .fa:hover::after {
+        height: 100%; }
+      .home-header .social-bar .fa:hover {
+        color: white; }
+    .home-header .social-bar .fa-facebook::after {
+      background: #3B5998; }
+    .home-header .social-bar .fa-twitter::after {
+      background: #55ACEE; }
+    .home-header .social-bar .fa-linkedin::after {
+      background: #007bb5; }
+  .home-header .modal-lg {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto; }
+  .home-header .modal-content {
+    background-color: transparent;
+    border: none;
+    -webkit-box-shadow: none;
+    box-shadow: none; }
+    .home-header .modal-content .close {
+      font-size: 40px;
+      opacity: 0.9;
+      text-shadow: none;
+      background-position: 0 -64px; }
+      .home-header .modal-content .close:hover {
+        background-position: -69px -64px; }
+      .home-header .modal-content .close:active {
+        background-position: -138px -64px; }
+    .home-header .modal-content .modal-body a, .home-header .modal-content .modal-body p {
+      color: white;
+      font-size: 15px; }
+    .home-header .modal-content .modal-body a:hover {
+      color: #00c0c9;
+      font-weight: 700; }
+    .home-header .modal-content .modal-body #main-menu {
+      margin: 0 0 20px 0;
+      border-bottom: 1px solid white;
+      padding: 0 15px 15px; }
+      .home-header .modal-content .modal-body #main-menu li {
+        display: inline-flex; }
+    .home-header .modal-content .modal-body .links-container {
+      margin-top: 50px;
+      padding: 0; }
+      .home-header .modal-content .modal-body .links-container li {
+        padding: 6px 12px;
+        display: flex;
+        align-items: center;
+        list-style: none;
+        position: relative; }
+    .home-header .modal-content .form-control {
+      height: 43px; }
+    .home-header .modal-content .glyphicon {
+      font-size: 25px;
+      color: #322e6d; }
 
 .content-header .header-items {
   display: flex;
@@ -376,13 +433,14 @@ a {
 ----------------Footer--------------
 ------------------------------------*/
 .footer-buttons {
-  margin: 10px -15px;
-  background: black; }
+  margin: 0;
+  background: #00c0c9; }
   .footer-buttons .btn-link {
     color: white; }
 
 .footer {
-  padding-bottom: 30px; }
+  padding-bottom: 30px;
+  background: #322e6d; }
   .footer .logo-container a {
     display: block; }
   .footer .links-container {
@@ -436,8 +494,7 @@ a {
     left: 0;
     right: 0;
     bottom: 0;
-    margin: auto;
-    width: 350px; }
+    margin: auto; }
 
   .modal-content .modal-body #main-menu li {
     width: 33%; }

@@ -10,6 +10,7 @@ html {
 body {
  font-family: 'Montserrat', sans-serif;
  color: #000;
+ background: $main-bg url('#{$images-path}img_main_bg.png');
 }
 a {
  text-decoration: none;
@@ -23,7 +24,9 @@ a {
 }
 .container {
     width: 80%;
-    background: $main-bg;
+}
+.home-header + .container {
+    background: white;
 }
 .title-section {
     background: $section-title-bg;
@@ -87,7 +90,7 @@ a {
     }
 }
 .nf-form-cont {
-    .nf-form-title, .nf-form-fields-required {
+    .nf-form-title {
         display: none;
     }
     .nf-form-layout {

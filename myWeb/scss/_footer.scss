@@ -2,8 +2,8 @@
 ----------------Footer--------------
 ------------------------------------*/
   .footer-buttons {
-      margin: 10px -15px;
-      background: black;
+      margin: 0;
+      background: $social-bar-bg;
 
       .btn-link {
           color: white;
@@ -11,6 +11,7 @@
   }
   .footer {
       padding-bottom: 30px;
+      background: $footer-bg;
 
       .logo-container {
           a {
