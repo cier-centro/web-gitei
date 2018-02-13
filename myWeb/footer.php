@@ -32,9 +32,8 @@
                   </div>
               </div>
               <div class="col-xs-12 col-md-4 right-section">
-            <span class="title">Suscríbete <a href="#" class="btn btn-link" role="button">ir al inicio >></a></span>
             <form>
-              <p>Suscríbete gratis y recibe más información de Gitei en tu correo</p>
+              <p>Suscríbete gratis y recibe más información de GITEI en tu correo</p>
               <div class="input-group">
                 <input type="text" class="form-control" placeholder="Ingresa tu correo...">
                 <span class="input-group-btn">
@@ -44,10 +43,11 @@
                 </span>
               </div>
               <label class="checkbox-inline">
-                <input type="checkbox" value="">Acepto que Gitei me mande infomación al correo
+                <input type="checkbox" value="">Acepto que GITEI me mande infomación al correo
               </label>
               <button type="submit" class="btn btn-primary pull-right">Aceptar y Suscribir</button>
             </form>
+            <span class="title"><a href="#" class="btn btn-block btn-link" role="button">ir al inicio >></a></span>
         </div>
           </div>
       </div>
