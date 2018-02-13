@@ -2,14 +2,14 @@
 <div class="row footer-buttons">
       <div class="container">
           <div class="row">
-              <div class="col-xs-12 col-md-4">
-                  <button type="button" class="btn btn-link btn-block btn-lg">Comunícate con nosotros</button>
+              <div class="col-xs-12 col-md-4 button-container">
+                  <button type="button" class="btn btn-link btn-lg first-button">Comunícate con nosotros</button>
               </div>
-              <div class="col-xs-12 col-md-4">
-                  <button type="button" class="btn btn-link btn-block btn-lg">Solicita asesoría</button>
+              <div class="col-xs-12 col-md-4 button-container">
+                  <button type="button" class="btn btn-link btn-lg second-button">Solicita asesoría</button>
               </div>
-              <div class="col-xs-12 col-md-4">
-                  <button type="button" class="btn btn-link btn-block btn-lg">Vinculate a proyectos</button>
+              <div class="col-xs-12 col-md-4 button-container">
+                  <button type="button" class="btn btn-link btn-lg third-button">Vinculate a proyectos</button>
               </div>
           </div>
       </div>

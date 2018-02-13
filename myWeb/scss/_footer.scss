@@ -7,6 +7,57 @@
 
       .btn-link {
           color: white;
+          position: relative;
+          padding-left: 45px;
+
+          &:hover {
+              color: $heading-color;
+          }
+          &:before {
+              content: "";
+              position: absolute;
+              background-image: url('#{$images-path}img_spritesheet.png');
+              top: 0;
+              left: 0;
+              width: 42px;
+              height: 42px;
+          }
+          &.first-button {
+              &:before {
+                  background-position: -121px -353px;
+                  @include transition-properties(all 0.3s ease);
+              }
+              &:hover {
+                  &:before {
+                    background-position: -121px -303px;
+                  }
+              }
+          }
+          &.second-button {
+            &:before {
+                background-position: -163px -353px;
+                @include transition-properties(all 0.3s ease);
+            }
+            &:hover {
+                &:before {
+                  background-position: -163px -303px;
+                }
+            }
+          }
+          &.third-button {
+              &:before {
+                  background-position: -204px -353px;
+                  @include transition-properties(all 0.3s ease);
+              }
+              &:hover {
+                  &:before {
+                    background-position: -204px -303px;
+                  }
+              }
+          }
+      }
+      .button-container {
+          text-align: center;
       }
   }
   .footer {

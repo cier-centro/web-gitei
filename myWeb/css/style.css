@@ -461,7 +461,48 @@ a {
   margin: 0;
   background: #00c0c9; }
   .footer-buttons .btn-link {
-    color: white; }
+    color: white;
+    position: relative;
+    padding-left: 45px; }
+    .footer-buttons .btn-link:hover {
+      color: #322e6d; }
+    .footer-buttons .btn-link:before {
+      content: "";
+      position: absolute;
+      background-image: url("../img/img_spritesheet.png");
+      top: 0;
+      left: 0;
+      width: 42px;
+      height: 42px; }
+    .footer-buttons .btn-link.first-button:before {
+      background-position: -121px -353px;
+      -webkit-transition: all 0.3s ease;
+      -moz-transition: all 0.3s ease;
+      -ms-transition: all 0.3s ease;
+      -o-transition: all 0.3s ease;
+      transition: all 0.3s ease; }
+    .footer-buttons .btn-link.first-button:hover:before {
+      background-position: -121px -303px; }
+    .footer-buttons .btn-link.second-button:before {
+      background-position: -163px -353px;
+      -webkit-transition: all 0.3s ease;
+      -moz-transition: all 0.3s ease;
+      -ms-transition: all 0.3s ease;
+      -o-transition: all 0.3s ease;
+      transition: all 0.3s ease; }
+    .footer-buttons .btn-link.second-button:hover:before {
+      background-position: -163px -303px; }
+    .footer-buttons .btn-link.third-button:before {
+      background-position: -204px -353px;
+      -webkit-transition: all 0.3s ease;
+      -moz-transition: all 0.3s ease;
+      -ms-transition: all 0.3s ease;
+      -o-transition: all 0.3s ease;
+      transition: all 0.3s ease; }
+    .footer-buttons .btn-link.third-button:hover:before {
+      background-position: -204px -303px; }
+  .footer-buttons .button-container {
+    text-align: center; }
 
 .footer {
   padding-bottom: 30px;
