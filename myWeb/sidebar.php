@@ -19,7 +19,7 @@
                             "rotationY":"45",
                             "z":"-30"}'>
                 <a href="<?php echo($urlPost); ?>" target="_blank">
-                    <?php if ( has_post_thumbnail() ) { the_post_thumbnail(); }?>
+                    <?php if ( has_post_thumbnail() ) { the_post_thumbnail('large', array( 'alt' => get_the_title(), 'title' => get_the_title() )); }?>
                 </a>
             </div>
 
