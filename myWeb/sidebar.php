@@ -6,9 +6,10 @@
 
               <?php
                $index = 0;
-               $postslist = get_posts("category_name=Sidebar1&orderby=title&order=asc");
+               $postslist = get_posts("category_name=Tendencias Educacion&orderby=title&order=asc");
                foreach ($postslist as $post) : setup_postdata($post);
                $subtitulo = get_post_meta($post->ID, 'subtitulo', true);
+               $urlPost = get_post_meta($post->ID, 'url', true);
                $index++;
                ?>
 
@@ -17,16 +18,8 @@
                             "duration": "2",
                             "rotationY":"45",
                             "z":"-30"}'>
-                <a href="<?php the_permalink(); ?>">
-                    <span class="badge"><?php echo($index); ?></span>
-                    <div>
-                      <label class="title">
-                        <?php the_title(); ?>
-                      </label>
-                      <label class="subtitle">
-                        <?php echo($subtitulo); ?>
-                      </label>
-                    </div>
+                <a href="<?php echo($urlPost); ?>" target="_blank">
+                    <?php if ( has_post_thumbnail() ) { the_post_thumbnail(); }?>
                 </a>
             </div>
 

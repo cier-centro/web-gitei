@@ -14,20 +14,21 @@
     .trend-body {
         background: white;
 
-        &:not(:last-child) a {
-            border-bottom: 1px solid lightgray;
-        }
-
         a {
             display: flex;
             align-items: center;
             justify-content: flex-start;
-            padding: 10px 0;
+            margin: 15px 0;
+            border-radius: 10px;
+            overflow: hidden;
 
             &:hover {
                 text-decoration: none;
             }
-
+            img {
+                width: 100%;
+                height: auto;
+            }
             label {
                 display: block;
                 line-height: 100%;

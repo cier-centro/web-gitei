@@ -391,15 +391,18 @@ a {
     background-position: -6px -300px; }
   .education-trends .trend-body {
     background: white; }
-    .education-trends .trend-body:not(:last-child) a {
-      border-bottom: 1px solid lightgray; }
     .education-trends .trend-body a {
       display: flex;
       align-items: center;
       justify-content: flex-start;
-      padding: 10px 0; }
+      margin: 15px 0;
+      border-radius: 10px;
+      overflow: hidden; }
       .education-trends .trend-body a:hover {
         text-decoration: none; }
+      .education-trends .trend-body a img {
+        width: 100%;
+        height: auto; }
       .education-trends .trend-body a label {
         display: block;
         line-height: 100%; }
