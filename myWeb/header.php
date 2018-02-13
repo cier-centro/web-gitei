@@ -20,9 +20,5 @@
     </div>
   </div>
   <?php include (TEMPLATEPATH. '/modalmenu.php'); ?>
-  <div class="social-bar">
-    <a href="#" class="fa fa-facebook"></a>
-    <a href="#" class="fa fa-linkedin"></a>
-    <a href="#" class="fa fa-twitter"></a>
-  </div>
+  <?php include (TEMPLATEPATH. '/socialbar.php'); ?>
 </div>

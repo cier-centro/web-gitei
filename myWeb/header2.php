@@ -8,9 +8,5 @@
     <button type="button" class="btn btn-info btn-lg btn-menu" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-menu-hamburger"></span></button>
     <?php include (TEMPLATEPATH. '/modalmenu.php'); ?>
   </div>
-  <div class="social-bar">
-    <a href="#" class="fa fa-facebook"></a>
-    <a href="#" class="fa fa-linkedin"></a>
-    <a href="#" class="fa fa-twitter"></a>
-  </div>
+  <?php include (TEMPLATEPATH. '/socialbar.php'); ?>
 </div>

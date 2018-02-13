@@ -228,22 +228,17 @@ a {
       border-left: 1px solid gray; }
   .home-header .social-bar {
     text-align: center;
-    padding: 12px 0;
+    padding: 7px 0;
     background: #00c0c9;
     display: flex;
     justify-content: center;
     align-items: center; }
-    .home-header .social-bar .fa {
+    .home-header .social-bar .social-item {
+      background-image: url("../img/img_spritesheet.png");
       position: relative;
-      padding: 6px 0;
-      font-size: 20px;
-      width: 30px;
-      text-align: center;
+      width: 37px;
       text-decoration: none;
-      color: #00c0c9;
-      height: 30px;
-      border-radius: 5px;
-      background: white;
+      height: 37px;
       margin: 0 10px;
       overflow: hidden;
       -webkit-transition: all 0.3s ease;
@@ -251,36 +246,18 @@ a {
       -ms-transition: all 0.3s ease;
       -o-transition: all 0.3s ease;
       transition: all 0.3s ease; }
-      .home-header .social-bar .fa::before {
-        position: absolute;
-        z-index: 1;
-        left: 0;
-        right: 0;
-        margin-left: auto;
-        margin-right: auto; }
-      .home-header .social-bar .fa::after {
-        content: "";
-        position: absolute;
-        z-index: 0;
-        width: 100%;
-        height: 0;
-        top: 0;
-        left: 0;
-        -webkit-transition: all 0.3s ease;
-        -moz-transition: all 0.3s ease;
-        -ms-transition: all 0.3s ease;
-        -o-transition: all 0.3s ease;
-        transition: all 0.3s ease; }
-      .home-header .social-bar .fa:hover::after {
-        height: 100%; }
-      .home-header .social-bar .fa:hover {
-        color: white; }
-    .home-header .social-bar .fa-facebook::after {
-      background: #3B5998; }
-    .home-header .social-bar .fa-twitter::after {
-      background: #55ACEE; }
-    .home-header .social-bar .fa-linkedin::after {
-      background: #007bb5; }
+    .home-header .social-bar .youtube {
+      background-position: -103px -151px; }
+      .home-header .social-bar .youtube:hover {
+        background-position: -103px -200px; }
+    .home-header .social-bar .mail {
+      background-position: -246px -151px; }
+      .home-header .social-bar .mail:hover {
+        background-position: -246px -200px; }
+    .home-header .social-bar .whatsapp {
+      background-position: -346px -151px; }
+      .home-header .social-bar .whatsapp:hover {
+        background-position: -346px -200px; }
   .home-header .modal-lg {
     width: 80%;
     margin-left: auto;
@@ -571,5 +548,8 @@ a {
     margin: 0 auto 15px; }
   .footer .right-section .title {
     padding-top: 30px; } }
+@media screen and (min-width: 768px) {
+  .social-bar .whatsapp {
+    display: none; } }
 
 /*# sourceMappingURL=style.css.map */
