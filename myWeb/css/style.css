@@ -48,11 +48,20 @@ a {
   background: white; }
 
 .title-section {
-  background: #00c0c9;
-  font-size: 25px;
-  color: white;
-  padding: 10px;
-  margin: 0; }
+  font-size: 29px;
+  color: #322e6d;
+  padding: 20px 15px 20px 70px;
+  margin: 0;
+  font-weight: 700;
+  position: relative; }
+  .title-section:before {
+    content: "";
+    position: absolute;
+    top: 12px;
+    left: 8px;
+    width: 50px;
+    height: 50px;
+    background-image: url("../img/img_spritesheet.png"); }
 
 .breadcrumb {
   margin: 10px;
@@ -336,7 +345,7 @@ a {
       margin-bottom: 5px;
       font-weight: 700; }
     .vertical-item .item-text .title {
-      font-size: 30px;
+      font-size: 28px;
       color: #322e6d;
       padding: 15px 0;
       border-bottom: 1px solid lightgray; }
@@ -375,9 +384,11 @@ a {
 -----------Education-Trends---------
 ------------------------------------*/
 .education-trends {
-  margin-top: 15px; }
-  .education-trends h1 {
-    text-align: center; }
+  margin-top: 15px;
+  border-radius: 15px;
+  border: 1px solid lightgray; }
+  .education-trends .title-section:before {
+    background-position: -6px -300px; }
   .education-trends .trend-body {
     background: white; }
     .education-trends .trend-body:not(:last-child) a {
@@ -414,8 +425,10 @@ a {
 ------------Videos-Section----------
 ------------------------------------*/
 .videos-section {
-  border: 1px solid #666;
+  border-top: 1px solid lightgray;
   margin: 15px 0; }
+  .videos-section .title-section:before {
+    background-position: -65px -300px; }
   .videos-section h1 {
     position: relative;
     display: flex;
@@ -423,7 +436,10 @@ a {
     justify-content: space-between; }
     .videos-section h1 a {
       font-size: 12px;
-      color: white; }
+      border: 1px solid lightgray;
+      padding: 10px;
+      border-radius: 5px;
+      color: gray; }
   .videos-section .video-widget #video-gallery {
     padding: 2% 4%; }
     .videos-section .video-widget #video-gallery > div {

@@ -3,9 +3,13 @@
 ------------------------------------*/
 .education-trends {
     margin-top: 15px;
+    border-radius: 15px;
+    border: 1px solid lightgray;
 
-    h1 {
-        text-align: center;
+    .title-section {
+        &:before {
+            background-position: -6px -300px;
+        }
     }
     .trend-body {
         background: white;
