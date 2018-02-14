@@ -434,7 +434,6 @@ a {
     background-position: -65px -300px; }
   .videos-section h1 {
     position: relative;
-    display: flex;
     align-items: center;
     justify-content: space-between; }
     .videos-section h1 a {
@@ -506,19 +505,26 @@ a {
 
 .footer {
   padding-bottom: 30px;
-  background: #322e6d; }
-  .footer .logo-container a {
-    display: block; }
-  .footer .links-container {
-    width: 100%;
+  background: #322e6d;
+  margin: 0; }
+  .footer .logo-container {
     display: flex;
-    align-items: flex-start; }
-    .footer .links-container a {
-      width: 46%;
-      margin: 0 2%;
-      border-bottom: 1px solid lightgray; }
+    align-items: center;
+    padding: 15px; }
+    .footer .logo-container .vertical-separator {
+      margin: 0 20px;
+      border-left: 1px solid lightgray;
+      padding: 25px 0;
+      color: transparent; }
+  .footer .info-container {
+    color: white;
+    padding: 15px; }
+    .footer .info-container .glyphicon {
+      margin-right: 10px; }
   .footer .right-section .btn.pull-right {
     background-color: #00c0c9; }
+    .footer .right-section .btn.pull-right:hover {
+      background-color: #3284BC; }
   .footer .right-section .title {
     width: 100%;
     text-align: left;
@@ -545,8 +551,7 @@ a {
       color: #322e6d;
       font-size: 16px; }
   .footer img {
-    max-width: 11vw;
-    margin-bottom: 15px; }
+    max-width: 11vw; }
 
 /*----------------------------------
 --------------Media Query-----------
@@ -617,12 +622,7 @@ a {
       float: left; }
     .videos-section > div:last-child .video-widget #video-gallery > div:not(:first-child) {
       width: 14vw;
-      height: 8.3vw; }
-
-  .footer .left-section {
-    display: flex; }
-  .footer .links-container a {
-    text-align: left; } }
+      height: 8.3vw; } }
 @media screen and (max-width: 991px) {
   .home-header .gitei-logo {
     margin: 2vh 0 2vh 10%;
@@ -637,17 +637,22 @@ a {
     .modal-content .modal-body #main-menu li:not(:last-child) a {
       margin-bottom: 15px; }
 
-  .footer .logo-container {
-    display: flex; }
-    .footer .logo-container a {
-      width: 50%; }
+  .footer .logo-container a {
+    width: 50%; }
   .footer img {
-    min-width: 130px;
+    min-width: 110px;
     margin: 0 auto 15px; }
   .footer .right-section .title {
     padding-top: 30px; } }
 @media screen and (min-width: 768px) {
   .social-bar .whatsapp {
-    display: none; } }
+    display: none; }
+
+  .videos-section h1 {
+    display: flex; }
+  .videos-section .title {
+    display: block;
+    float: left;
+    margin-top: 15px; } }
 
 /*# sourceMappingURL=style.css.map */

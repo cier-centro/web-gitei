@@ -63,26 +63,35 @@
   .footer {
       padding-bottom: 30px;
       background: $footer-bg;
+      margin: 0;
 
       .logo-container {
-          a {
-             display: block;
+          display: flex;
+          align-items: center;
+          padding: 15px;
+
+          .vertical-separator {
+              margin: 0 20px;
+              border-left: 1px solid lightgray;
+              padding: 25px 0;
+              color: transparent;
           }
       }
-      .links-container {
-          width: 100%;
-          display: flex;
-          align-items: flex-start;
+      .info-container {
+          color: white;
+          padding: 15px;
 
-          a {
-              width: 46%;
-              margin: 0 2%;
-              border-bottom: 1px solid lightgray;
+          .glyphicon {
+              margin-right: 10px;
           }
       }
       .right-section {
           .btn.pull-right {
               background-color: $social-bar-bg;
+
+              &:hover {
+                  background-color: $see-more-hover;
+              }
           }
           .title {
               width: 100%;
@@ -121,6 +130,5 @@
       }
       img {
           max-width: 11vw;
-          margin-bottom: 15px;
       }
   }

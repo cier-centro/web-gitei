@@ -18,17 +18,24 @@
     <div class="container">
           <div class="row">
               <div class="col-xs-12 col-md-8 left-section">
+                  <div class="info-container">
+                      <p><b>GITEI</b><br>
+                        Grupo de Investigación Tecnología para la Educación y la Innovación<br><br>
+                      </p>
+                      <p><span class="glyphicon glyphicon-map-marker"></span>Universidad Nacional de Colombia<br>
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sede Bogotá<br>
+                         <span class="glyphicon glyphicon-earphone"></span>(+57-1) 3165000 ext.11156<br>
+                         <span class="glyphicon glyphicon-envelope"></span>infogitei@gitei.edu.co
+                      </p>
+                  </div>
                   <div class="logo-container">
                       <a href="<?php echo get_home_url(); ?>">
                           <img class="img-responsive gitei-logo" src="<?php bloginfo('template_url')?>/img/logo_GITEI_dark.png">
                       </a>
+                      <div class="vertical-separator">.</div>
                       <a href="#">
                           <img class="img-responsive unal-logo" src="<?php bloginfo('template_url')?>/img/logo_UNAL_dark.png">
                       </a>
-                  </div>
-                  <div class="links-container">
-                      <a href="#" class="btn btn-link" role="button">Servicios</a>
-                      <a href="#" class="btn btn-link" role="button">Acerca de nosotros</a>
                   </div>
               </div>
               <div class="col-xs-12 col-md-4 right-section">

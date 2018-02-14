@@ -101,16 +101,6 @@
           }
       }
   }
-  .footer {
-      .left-section {
-          display: flex;
-      }
-      .links-container {
-          a {
-              text-align: left;
-          }
-      }
-  }
 }
 @media screen and (max-width: 991px) {
   .home-header {
@@ -139,14 +129,12 @@
   }
   .footer {
       .logo-container {
-          display: flex;
-
           a {
              width: 50%;
           }
       }
       img {
-          min-width: 130px;
+          min-width: 110px;
           margin: 0 auto 15px;
       }
       .right-section {
@@ -160,6 +148,16 @@
   .social-bar {
       .whatsapp {
           display: none;
+      }
+  }
+  .videos-section {
+      h1 {
+          display: flex;
+      }
+      .title {
+          display: block;
+          float: left;
+          margin-top: 15px;
       }
   }
 }
