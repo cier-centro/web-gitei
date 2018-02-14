@@ -123,6 +123,10 @@ h2 {
 }
 .alm-load-more-btn, .btn-site {
     background-color: $social-bar-bg;
+    display: inline-block !important;
+    color: white;
+    line-height: 1.42857143 !important;
+    font-weight: 400 !important;
 
     &:hover {
         background-color: $see-more-hover;

@@ -115,7 +115,11 @@ h2 {
   margin-bottom: 35px; }
 
 .alm-load-more-btn, .btn-site {
-  background-color: #00c0c9; }
+  background-color: #00c0c9;
+  display: inline-block !important;
+  color: white;
+  line-height: 1.42857143 !important;
+  font-weight: 400 !important; }
   .alm-load-more-btn:hover, .btn-site:hover {
     background-color: #3284BC; }
 
