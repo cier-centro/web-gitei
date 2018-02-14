@@ -7,10 +7,14 @@
         padding: 15px;
         display: block;
         margin: 0;
+        color: $heading-color;
     }
     .menu-items {
         padding: 0;
         list-style: none;
+        margin: 0 10px;
+        border-radius: 15px;
+        overflow: hidden;
 
         & + .menu-items {
               margin-top: -11px;
@@ -19,28 +23,30 @@
             & > a {
               display: block;
               padding: 10px 20px 10px 45px;
-              font-weight: 600;
               border-top: 1px solid gray;
               border-bottom: 1px solid gray;
               margin-top: -1px;
               position: relative;
+              color: white;
+              background: $main-menu-items;
             }
         }
     }
     .closed, .open {
         &:before {
           position: absolute;
-          background: gray;
+          background: transparent;
           color: white;
           width: 20px;
           height: 20px;
-          border-radius: 5px;
+          border-radius: 50%;
           display: flex;
           font-weight: 600;
           justify-content: center;
           align-items: center;
           top: 10px;
           left: 18px;
+          border: 1px solid white;
         }
     }
     .closed {
@@ -63,15 +69,17 @@
         }
     }
     .sub-menu {
-        padding: 0;
-        margin: 0 30px;
+        margin: 0;
+        padding: 0 30px;
         list-style: none;
+        background: #B392C6;
 
         a {
             display: block;
             padding: 10px 20px 10px 45px;
             border-bottom: 1px solid white;
             position: relative;
+            color: $heading-color;
         }
     }
 }
