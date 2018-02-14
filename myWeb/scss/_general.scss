@@ -121,3 +121,10 @@ h2 {
         }
     }
 }
+.alm-load-more-btn, .btn-site {
+    background-color: $social-bar-bg;
+
+    &:hover {
+        background-color: $see-more-hover;
+    }
+}

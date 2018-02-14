@@ -114,6 +114,11 @@ h2 {
 .nf-form-cont .nf-form-layout .nf-before-form-content {
   margin-bottom: 35px; }
 
+.alm-load-more-btn, .btn-site {
+  background-color: #00c0c9; }
+  .alm-load-more-btn:hover, .btn-site:hover {
+    background-color: #3284BC; }
+
 /*----------------------------------
 ----------------Content Menu--------------
 ------------------------------------*/
@@ -395,11 +400,6 @@ h2 {
         color: #00c0c9;
         font-size: 15px; }
 
-.alm-load-more-btn {
-  background-color: #00c0c9 !important; }
-  .alm-load-more-btn:hover {
-    background-color: #3284BC !important; }
-
 /*----------------------------------
 -----------Education-Trends---------
 ------------------------------------*/
@@ -541,10 +541,6 @@ h2 {
     padding: 15px; }
     .footer .info-container .glyphicon {
       margin-right: 10px; }
-  .footer .right-section .btn.pull-right {
-    background-color: #00c0c9; }
-    .footer .right-section .btn.pull-right:hover {
-      background-color: #3284BC; }
   .footer .right-section .title {
     width: 100%;
     text-align: left;

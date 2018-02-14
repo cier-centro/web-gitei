@@ -1,0 +1,85 @@
+.texture01{
+	background: url(../images/congruent_pentagon.png) repeat;
+}
+.texture02{
+	background: url(../images/giftly.png) repeat;
+}
+.texture03{
+	background: url(../images/photography.png) repeat;
+}
+.texture04{
+	background: url(../images/restaurant_icons.png) repeat;
+}
+.texture05{
+	background: url(../images/sativa.png) repeat;
+}
+.texture06{
+	background: url(../images/skulls.png) repeat;
+}
+.texture07{
+	background: url(../images/wood_pattern.png) repeat;
+}
+.texture08{
+	background: url(../images/purty_wood.png) repeat;
+}
+.texture09{
+	background: url(../images/retina_wood.png) repeat;
+}
+.texture10{
+	background: url(../images/arches.png) repeat;
+}
+.texture11{
+	background: url(../images/bo_play_pattern.png) repeat;
+}
+.texture12{
+	background: url(../images/congruent_outline.png) repeat;
+}
+.texture13{
+	background: url(../images/diamond_upholstery.png) repeat;
+}
+.texture14{
+	background: url(../images/grey.png) repeat;
+}
+.texture15{
+	background: url(../images/gridme.png) repeat;
+}
+.texture16{
+	background: url(../images/halftone.png) repeat;
+}
+.texture17{
+	background: url(../images/hexellence.png) repeat;
+}
+.texture18{
+	background: url(../images/old_map.png) repeat;
+}
+.texture19{
+	background: url(../images/perforated_white_leather.png) repeat;
+}
+.texture20{
+	background: url(../images/ricepaper_v3.png) repeat;
+}
+/*.texture21{
+	background: url(../images/old_map.png) repeat;
+}
+.texture22{
+	background: url(../images/old_map.png) repeat;
+}
+.texture23{
+	background: url(../images/old_map.png) repeat;
+}
+.texture24{
+	background: url(../images/old_map.png) repeat;
+}
+.texture25{
+	background: url(../images/old_map.png) repeat;
+}*/
+.color-blue{
+	color:rgba(5,164,227,1.00);
+}
+
+.check-on{
+	background: url(../images/check-on.png) no-repeat;
+}
+.check-off{
+	background: url(../images/check-off.png) no-repeat;
+}

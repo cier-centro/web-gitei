@@ -52,7 +52,7 @@
               <label class="checkbox-inline">
                 <input type="checkbox" value="">Acepto que GITEI me mande infomación al correo
               </label>
-              <button type="submit" class="btn btn-primary pull-right">Aceptar y Suscribir</button>
+              <button type="submit" class="btn btn-primary btn-site pull-right">Aceptar y Suscribir</button>
             </form>
             <span class="title"><a href="#" class="btn btn-block btn-link" role="button">ir al inicio >></a></span>
         </div>
