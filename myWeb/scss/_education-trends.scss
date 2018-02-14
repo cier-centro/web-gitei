@@ -2,9 +2,10 @@
 -----------Education-Trends---------
 ------------------------------------*/
 .education-trends {
-    margin-top: 15px;
+    margin: 15px 0;
     border-radius: 15px;
     border: 1px solid lightgray;
+    overflow: hidden;
 
     .title-section {
         &:before {
