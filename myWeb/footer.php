@@ -3,13 +3,13 @@
       <div class="container">
           <div class="row">
               <div class="col-xs-12 col-md-4 button-container">
-                  <button type="button" class="btn btn-link btn-lg first-button">Comunícate con nosotros</button>
+                  <a href="<?php echo get_home_url(); ?>/comunicate-con-nosotros"class="btn btn-link btn-lg first-button">Comunícate con nosotros</a>
               </div>
               <div class="col-xs-12 col-md-4 button-container">
-                  <button type="button" class="btn btn-link btn-lg second-button">Solicita asesoría</button>
+                  <a href="<?php echo get_home_url(); ?>/comunicate-con-nosotros"class="btn btn-link btn-lg second-button">Solicita asesoría</a>
               </div>
               <div class="col-xs-12 col-md-4 button-container">
-                  <button type="button" class="btn btn-link btn-lg third-button">Vinculate a proyectos</button>
+                  <a href="<?php echo get_home_url(); ?>/comunicate-con-nosotros"class="btn btn-link btn-lg third-button">Vinculate a proyectos</a>
               </div>
           </div>
       </div>
