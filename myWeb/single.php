@@ -23,18 +23,20 @@
           <label class="menu-title">
               Contenido
           </label>
-          <?php wp_nav_menu(
-            array(
-              'container' => false,
-              'items_wrap' => '<ul class="menu-items">%3$s</ul>',
-              'theme_location' => 'menuCont'
-            )); ?>
-          <?php wp_nav_menu(
-            array(
-              'container' => false,
-              'items_wrap' => '<ul class="menu-items">%3$s</ul>',
-              'theme_location' => 'menuContOp'
-            )); ?>
+          <div class="menus-container">
+              <?php wp_nav_menu(
+                array(
+                  'container' => false,
+                  'items_wrap' => '<ul class="menu-items">%3$s</ul>',
+                  'theme_location' => 'menuCont'
+                )); ?>
+              <?php wp_nav_menu(
+                array(
+                  'container' => false,
+                  'items_wrap' => '<ul class="menu-items">%3$s</ul>',
+                  'theme_location' => 'menuContOp'
+                )); ?>
+          </div>
         </div>
     </div>
     <div class="col-xs-12 col-md-7">

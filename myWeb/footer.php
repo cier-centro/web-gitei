@@ -33,7 +33,7 @@
                           <img class="img-responsive gitei-logo" src="<?php bloginfo('template_url')?>/img/logo_GITEI_dark.png">
                       </a>
                       <div class="vertical-separator">.</div>
-                      <a href="#">
+                      <a href="http://unal.edu.co/">
                           <img class="img-responsive unal-logo" src="<?php bloginfo('template_url')?>/img/logo_UNAL_dark.png">
                       </a>
                   </div>
