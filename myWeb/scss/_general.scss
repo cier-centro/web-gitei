@@ -27,6 +27,7 @@ a {
 }
 .home-header + .container {
     background: white;
+    @include box-shadow-properties(0px 0px 28px 10px rgba(0,0,0,0.2));
 }
 .title-section {
     font-size: 29px;

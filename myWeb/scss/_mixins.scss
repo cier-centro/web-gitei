@@ -17,6 +17,12 @@
     border-radius: $value;
 }
 
+@mixin box-shadow-properties($value) {
+    -webkit-box-shadow: 0px 0px 28px 10px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 0px 28px 10px rgba(0,0,0,0.3);
+    box-shadow: 0px 0px 28px 10px rgba(0,0,0,0.3);
+}
+
 @mixin background-button-properties($color) {
     background: rgba($color,1);
     background: -moz-linear-gradient(left, rgba($color,1) 20px, rgba($color,0) 20px);

@@ -88,7 +88,6 @@
                           <img src="<?php echo $full_image_url_thumbnail; ?>" alt="<?php echo $title; ?>" title="<?php echo $title; ?>">
                       <?php if( !empty($url) ){ ?></a><?php } ?>
                   </div>
-                  <label class="title"><?php echo $title; ?></label>
               </button>
               <div class="modal fade" id="image<?php echo $index; ?>" role="dialog">
                 <div class="modal-dialog modal-lg">
