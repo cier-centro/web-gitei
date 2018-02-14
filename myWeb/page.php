@@ -8,9 +8,6 @@
 
             <div class="col-xs-12">
                 <div class="vertical-item content-section">
-                      <div class="thumb">
-                            <?php if ( has_post_thumbnail() ) { the_post_thumbnail(); }?>
-                      </div>
                     <div class="item-text">
                       <h1 class="title"><?php the_title(); ?></h1>
                       <br>
