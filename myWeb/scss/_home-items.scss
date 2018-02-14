@@ -32,6 +32,11 @@
           color: $heading-color;
           padding: 15px 0;
           border-bottom: 1px solid lightgray;
+          font-weight: 700;
+       }
+       h1.title {
+          padding-top: 0;
+          margin-top: 0;
        }
        .group {
           width: 50%;

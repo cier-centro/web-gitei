@@ -8,7 +8,9 @@
     <button type="button" class="btn btn-info btn-lg btn-menu" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-menu-hamburger"></span></button>
     <div>
         <iframe src="<?php bloginfo('template_url')?>/flip-slider/index.html" class="slider open"></iframe>
-        <iframe src="<?php bloginfo('template_url')?>/mouse-orbit/index.html" class="slider closed"></iframe>
+        <div class="slider closed">
+            <?php echo do_shortcode('[supsystic-gallery id=1]') ?>
+        </div>
     </div>
     <div class="header-links">
       <div class="links-container">

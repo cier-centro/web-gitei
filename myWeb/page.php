@@ -12,7 +12,6 @@
                             <?php if ( has_post_thumbnail() ) { the_post_thumbnail(); }?>
                       </div>
                     <div class="item-text">
-                      <label class="group"><?php the_category(); ?></label>
                       <h1 class="title"><?php the_title(); ?></h1>
                       <br>
                       <p><?php the_content(); ?>

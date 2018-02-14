@@ -46,9 +46,7 @@
             <div class="col-xs-12">
                 <div class="vertical-item content-section">
                     <div class="item-text">
-                      <label class="group"><?php the_category(); ?></label>
-                      <label class="title"><?php the_title(); ?></label>
-                      <label class="subtitle"><?php the_date(); ?> </label>
+                      <h1 class="title"><?php the_title(); ?></h1>
                       <p><?php the_content(); ?>
                       </p>
                     </div>
