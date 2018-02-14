@@ -661,7 +661,8 @@ a {
     display: none; }
 
   .videos-section h1 {
-    display: flex; }
+    display: flex; } }
+@media screen and (max-width: 767px) {
   .videos-section .title {
     display: block;
     float: left;

@@ -154,10 +154,14 @@
       h1 {
           display: flex;
       }
-      .title {
-          display: block;
-          float: left;
-          margin-top: 15px;
-      }
   }
+}
+@media screen and (max-width: 767px) {
+    .videos-section {
+        .title {
+            display: block;
+            float: left;
+            margin-top: 15px;
+        }
+    }
 }
