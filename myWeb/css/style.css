@@ -427,6 +427,8 @@ h2 {
       overflow: hidden; }
       .education-trends .trend-body a:hover {
         text-decoration: none; }
+        .education-trends .trend-body a:hover img {
+          opacity: 0.7; }
       .education-trends .trend-body a img {
         width: 100%;
         height: auto; }

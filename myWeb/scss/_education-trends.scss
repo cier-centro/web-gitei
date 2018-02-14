@@ -25,6 +25,10 @@
 
             &:hover {
                 text-decoration: none;
+
+                img {
+                    opacity: 0.7;
+                }
             }
             img {
                 width: 100%;
