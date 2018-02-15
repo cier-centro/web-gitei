@@ -753,8 +753,8 @@ h2 {
 
   .flip-slider div.slider .master-slider-parent .ms-slide-info {
     bottom: 25%;
-    width: 80%;
-    left: 10%; } }
+    width: 35%;
+    left: 32.5%; } }
 @media screen and (max-width: 767px) {
   .videos-section .title {
     display: block;
