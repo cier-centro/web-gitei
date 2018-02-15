@@ -24,14 +24,19 @@
               .ms-slide-info {
                   position: absolute !important;
                   border-radius: 15px;
-                  bottom: 30%;
+                  bottom: 25%;
                   width: 80%;
                   left: 10%;
                   background-color: rgba(0,0,0,0.65);
                   padding: 15px;
+                  min-height: 40px !important;
+                  display: flex;
+                  align-items: center;
 
                   .ms-info {
-                      color: white;
+                    width: 100%;
+                    text-align: center;
+                    color: white;
                   }
               }
           }
