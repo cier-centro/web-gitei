@@ -7,7 +7,9 @@
     </a>
     <button type="button" class="btn btn-info btn-lg btn-menu" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-menu-hamburger"></span></button>
     <div>
-        <iframe src="<?php bloginfo('template_url')?>/flip-slider/index.html" class="slider open"></iframe>
+        <div class="slider open">
+            <?php echo do_shortcode('[masterslider id="1"]') ?>
+        </div>
         <div class="slider closed">
             <?php echo do_shortcode('[supsystic-gallery id=1]') ?>
         </div>
