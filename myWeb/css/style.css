@@ -20,6 +20,18 @@
     padding: 0 15px; }
     .flip-slider div.slider .master-slider-parent .master-slider {
       position: relative; }
+      .flip-slider div.slider .master-slider-parent .master-slider .ms-nav-next, .flip-slider div.slider .master-slider-parent .master-slider .ms-nav-prev {
+        background: url("../img/img_spritesheet.png");
+        width: 42px;
+        height: 42px; }
+      .flip-slider div.slider .master-slider-parent .master-slider .ms-nav-prev {
+        background-position: -218px -13px; }
+        .flip-slider div.slider .master-slider-parent .master-slider .ms-nav-prev:hover {
+          background-position: -218px -69px; }
+      .flip-slider div.slider .master-slider-parent .master-slider .ms-nav-next {
+        background-position: -273px -13px; }
+        .flip-slider div.slider .master-slider-parent .master-slider .ms-nav-next:hover {
+          background-position: -273px -69px; }
       .flip-slider div.slider .master-slider-parent .master-slider .ms-view, .flip-slider div.slider .master-slider-parent .master-slider .ms-slide {
         height: 31vw !important; }
       .flip-slider div.slider .master-slider-parent .master-slider .ms-slide-info {

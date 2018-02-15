@@ -18,6 +18,25 @@
           .master-slider {
               position: relative;
 
+              .ms-nav-next, .ms-nav-prev {
+                  background: url('#{$images-path}img_spritesheet.png');
+                  width: 42px;
+                  height: 42px;
+              }
+              .ms-nav-prev {
+                  background-position: -218px -13px;
+
+                  &:hover {
+                      background-position: -218px -69px;
+                  }
+              }
+              .ms-nav-next {
+                  background-position: -273px -13px;
+
+                  &:hover {
+                      background-position: -273px -69px;
+                  }
+              }
               .ms-view, .ms-slide{
                   height: 31vw !important;
               }
