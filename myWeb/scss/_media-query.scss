@@ -183,6 +183,16 @@
           display: flex;
       }
   }
+  .flip-slider {
+      div.slider {
+        .master-slider-parent {
+            .ms-slide-info {
+                bottom: 25%;
+                width: 80%;
+                left: 10%;
+            }
+      }
+   }
 }
 @media screen and (max-width: 767px) {
     .videos-section {
@@ -192,4 +202,14 @@
             margin-top: 15px;
         }
     }
+    .flip-slider {
+        div.slider {
+          .master-slider-parent {
+              .ms-slide-info {
+                  top: 0;
+                  width: 64%;
+                  left: 15%;
+              }
+        }
+     }
 }
