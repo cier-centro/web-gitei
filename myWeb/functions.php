@@ -17,15 +17,15 @@ register_sidebar(array(
 
 function the_breadcrumb() {
    if (!is_home()) {
-       echo '<span class="removed_link" title="';
+       echo '<a class="home-link" href="';
        echo get_option('home');
                echo '">';
        bloginfo('name');
-       echo "</span> » ";
+       echo "</a>&nbsp&nbsp&nbsp|&nbsp&nbsp&nbsp";
        if (is_category() || is_single()) {
            the_category('title_li=');
            if (is_single()) {
-               echo " » ";
+               echo "&nbsp&nbsp&nbsp|&nbsp&nbsp&nbsp";
                the_title();
            }
        } elseif (is_page()) {

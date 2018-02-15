@@ -44,7 +44,7 @@ a {
   opacity: 0.9; }
 
 .container {
-  width: 80%; }
+  width: 75%; }
 
 .home-header + .container {
   background: white;
@@ -69,8 +69,17 @@ a {
     background-image: url("../img/img_spritesheet.png"); }
 
 .breadcrumb {
-  margin: 10px;
-  display: block; }
+  margin: 10px 0;
+  padding: 8px 0 20px;
+  display: block;
+  background-color: transparent;
+  font-size: 15px;
+  border-bottom: 1px solid lightgray;
+  border-radius: 0; }
+  .breadcrumb, .breadcrumb a {
+    color: #322e6d; }
+  .breadcrumb .home-link {
+    color: #00c0c9; }
 
 h2 {
   font-size: 26px;
@@ -86,10 +95,10 @@ h2 {
     background: url("../img/img_banner_bg.png") no-repeat center/cover;
     content: "";
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%; }
+    top: -1%;
+    left: -1%;
+    width: 102%;
+    height: 102%; }
   .article-content .banner img {
     width: 100%;
     height: auto; }
@@ -148,7 +157,7 @@ h2 {
   margin: 0; }
   .category-menu .menu-title {
     font-size: 20px;
-    padding: 15px;
+    padding: 15px 0;
     display: block;
     margin: 0;
     color: #322e6d; }
@@ -492,16 +501,22 @@ h2 {
       padding: 10px;
       border-radius: 5px;
       color: gray; }
-  .videos-section .video-widget #video-gallery {
-    padding: 2% 4%; }
-    .videos-section .video-widget #video-gallery > div {
-      margin: 1% 1% 0; }
-    .videos-section .video-widget #video-gallery .zTitfHov2 {
-      background-color: rgba(0, 172, 185, 0.4) !important; }
-    .videos-section .video-widget #video-gallery .TotalsofthPIcon1 {
-      color: #00acb9 !important; }
   .videos-section .video-widget .pagination {
     display: none !important; }
+
+#video-gallery {
+  padding: 2% 4%; }
+  #video-gallery > div {
+    margin: 1% 1% 0; }
+  #video-gallery .zTitfHov2 {
+    background-color: rgba(0, 192, 201, 0.4) !important; }
+    #video-gallery .zTitfHov2 span {
+      font-family: 'Montserrat', sans-serif !important; }
+  #video-gallery .TotalsofthPIcon1 {
+    color: #00c0c9 !important; }
+
+.lg-outer .lg-inner {
+  background: rgba(0, 0, 0, 0.7); }
 
 /*----------------------------------
 ----------------Footer--------------
