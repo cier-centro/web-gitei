@@ -14,6 +14,8 @@
   overflow: hidden; }
   .flip-slider .slider-container {
     overflow: hidden; }
+    .flip-slider .slider-container .slider:nth-child(2) {
+      overflow-y: auto; }
   .flip-slider .slider {
     width: 100%;
     margin-bottom: -8px; }
@@ -63,6 +65,17 @@
       left: -1%;
       width: 102%;
       height: 102%; }
+
+.pp_pic_holder #pp_full_res {
+  text-align: center; }
+.pp_pic_holder #fullResImage {
+  max-width: 90%;
+  height: auto !important; }
+.pp_pic_holder .pp_description {
+  white-space: normal; }
+.pp_pic_holder #sggPrettyPhototooltip {
+  z-index: 10000 !important;
+  display: block !important; }
 
 /*----------------------------------
 ----------------General--------------

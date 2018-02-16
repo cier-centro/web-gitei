@@ -8,8 +8,11 @@
 
   .slider-container {
       overflow: hidden;
-  }
 
+      .slider:nth-child(2) {
+          overflow-y: auto;
+      }
+  }
   .slider {
       width: 100%;
       margin-bottom: -8px;
@@ -57,7 +60,7 @@
               .ms-view, .ms-slide{
                   height: 42vw !important;
               }
-              .ms-slide-info {                  
+              .ms-slide-info {
                   background-color: rgba(0,0,0,0.65);
                   padding: 15px;
                   min-height: 40px !important;
@@ -83,4 +86,20 @@
           height: 102%;
       }
   }
+}
+.pp_pic_holder {
+    #pp_full_res {
+        text-align: center;
+    }
+    #fullResImage {
+        max-width: 90%;
+        height: auto !important;
+    }
+    .pp_description {
+        white-space: normal;
+    }
+    #sggPrettyPhototooltip {
+        z-index: 10000 !important;
+        display: block !important;
+    }
 }
