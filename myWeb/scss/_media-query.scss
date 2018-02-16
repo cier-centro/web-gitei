@@ -236,4 +236,15 @@
     .vertical-container {
         padding: 0 !important;
     }
+    .alm-load-more-btn, .btn-site {
+        display: block !important;
+        float: none !important;
+    }
+    .btn-site {
+        width: 100% !important;
+    }
+    .alm-load-more-btn {
+        width: 80% !important;
+        margin-left: 10%;
+    }
 }

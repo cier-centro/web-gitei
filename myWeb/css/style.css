@@ -182,9 +182,10 @@ h2 {
 .alm-load-more-btn, .btn-site {
   background-color: #00c0c9;
   display: inline-block !important;
-  color: white;
+  color: white !important;
   line-height: 1.42857143 !important;
-  font-weight: 400 !important; }
+  font-weight: 400 !important;
+  border: none; }
   .alm-load-more-btn:hover, .btn-site:hover {
     background-color: #3284BC; }
 
@@ -789,6 +790,17 @@ h2 {
     width: 80%; }
 
   .vertical-container {
-    padding: 0 !important; } }
+    padding: 0 !important; }
+
+  .alm-load-more-btn, .btn-site {
+    display: block !important;
+    float: none !important; }
+
+  .btn-site {
+    width: 100% !important; }
+
+  .alm-load-more-btn {
+    width: 80% !important;
+    margin-left: 10%; } }
 
 /*# sourceMappingURL=style.css.map */
