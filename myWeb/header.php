@@ -6,7 +6,7 @@
         <img class="img-responsive gitei-logo" src="<?php bloginfo('template_url')?>/img/logo_GITEI_dark.png">
     </a>
     <button type="button" class="btn btn-info btn-lg btn-menu" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-menu-hamburger"></span></button>
-    <div>
+    <div class="slider-container">
         <div class="slider open">
             <?php echo do_shortcode('[masterslider id="1"]') ?>
         </div>

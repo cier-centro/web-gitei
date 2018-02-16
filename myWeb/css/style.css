@@ -12,6 +12,8 @@
   position: relative;
   width: 100%;
   overflow: hidden; }
+  .flip-slider .slider-container {
+    overflow: hidden; }
   .flip-slider .slider {
     height: 41.5vw;
     width: 100%;
@@ -21,7 +23,8 @@
     .flip-slider div.slider .master-slider-parent .master-slider {
       position: relative; }
       .flip-slider div.slider .master-slider-parent .master-slider .ms-bullets {
-        opacity: 1 !important; }
+        opacity: 1 !important;
+        bottom: 6vw !important; }
       .flip-slider div.slider .master-slider-parent .master-slider .ms-bullet {
         background-image: url("../img/img_spritesheet.png") !important;
         width: 16px;
@@ -87,9 +90,6 @@ a {
 
 .modal-backdrop.in {
   opacity: 0.9; }
-
-.container {
-  width: 75%; }
 
 .home-header + .container {
   background: white;
@@ -615,7 +615,6 @@ h2 {
     align-items: center;
     padding: 15px; }
     .footer .logo-container .vertical-separator {
-      margin: 0 20px;
       border-left: 1px solid lightgray;
       padding: 25px 0;
       color: transparent; }
@@ -731,7 +730,10 @@ h2 {
       float: left; }
     .videos-section > div:last-child .video-widget #video-gallery > div:not(:first-child) {
       width: 14vw;
-      height: 8.3vw; } }
+      height: 8.3vw; }
+
+  .footer .logo-container .vertical-separator {
+    margin: 0 20px; } }
 @media screen and (max-width: 991px) {
   .home-header .gitei-logo {
     margin: 2vh 0 2vh 10%;
@@ -748,9 +750,10 @@ h2 {
 
   .footer .logo-container a {
     width: 50%; }
+  .footer .logo-container .vertical-separator {
+    margin: 0 2vw; }
   .footer img {
-    min-width: 110px;
-    margin: 0 auto 15px; }
+    min-width: 100%; }
   .footer .right-section .title {
     padding-top: 30px; } }
 @media screen and (min-width: 768px) {
@@ -763,16 +766,29 @@ h2 {
   .flip-slider div.slider .master-slider-parent .ms-slide-info {
     bottom: 25%;
     width: 35%;
-    left: 32.5%; } }
+    left: 32.5%; }
+
+  .container {
+    width: 75%; } }
 @media screen and (max-width: 767px) {
   .videos-section .title {
     display: block;
-    float: left;
-    margin-top: 15px; }
+    text-align: center;
+    margin-top: 25px;
+    margin-left: -55px; }
 
   .flip-slider div.slider .master-slider-parent .ms-slide-info {
     top: 0;
     width: 64%;
-    left: 15%; } }
+    left: 15%; }
+
+  .title-section, .vertical-item .item-text .title {
+    font-size: 20px !important; }
+
+  .container {
+    width: 80%; }
+
+  .vertical-container {
+    padding: 0 !important; } }
 
 /*# sourceMappingURL=style.css.map */

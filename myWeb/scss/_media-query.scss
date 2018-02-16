@@ -129,6 +129,13 @@
           }
       }
   }
+  .footer {
+      .logo-container {
+          .vertical-separator {
+              margin: 0 20px;
+          }
+      }
+   }
 }
 @media screen and (max-width: 991px) {
   .home-header {
@@ -160,10 +167,12 @@
           a {
              width: 50%;
           }
+          .vertical-separator {
+              margin: 0 2vw;
+          }
       }
       img {
-          min-width: 110px;
-          margin: 0 auto 15px;
+          min-width: 100%;
       }
       .right-section {
           .title {
@@ -173,34 +182,38 @@
   }
 }
 @media screen and (min-width: 768px) {
-  .social-bar {
-      .whatsapp {
-          display: none;
-      }
-  }
-  .videos-section {
-      h1 {
-          display: flex;
-      }
-  }
-  .flip-slider {
-      div.slider {
-        .master-slider-parent {
-            .ms-slide-info {
-                bottom: 25%;
-                width: 35%;
-                left: 32.5%;
-            }
+    .social-bar {
+        .whatsapp {
+            display: none;
         }
-      }
-   }
+    }
+    .videos-section {
+        h1 {
+            display: flex;
+        }
+    }
+    .flip-slider {
+        div.slider {
+          .master-slider-parent {
+              .ms-slide-info {
+                  bottom: 25%;
+                  width: 35%;
+                  left: 32.5%;
+              }
+          }
+        }
+     }
+    .container {
+       width: 75%;
+    }
 }
 @media screen and (max-width: 767px) {
     .videos-section {
         .title {
             display: block;
-            float: left;
-            margin-top: 15px;
+            text-align: center;
+            margin-top: 25px;
+            margin-left: -55px;
         }
     }
     .flip-slider {
@@ -214,4 +227,13 @@
           }
         }
      }
+    .title-section, .vertical-item .item-text .title {
+        font-size: 20px !important;
+    }
+    .container {
+        width: 80%;
+    }
+    .vertical-container {
+        padding: 0 !important;
+    }
 }

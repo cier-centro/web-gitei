@@ -6,12 +6,12 @@
     <div class="col-xs-12 col-md-9">
       <div class="row">
         <div class="col-xs-12">
-          <div class="vertical-item">
+          <div class="vertical-item ">
               <div class="item-text">
                   <h1 class="title"><?php single_cat_title( $prefix = '', $display = true) ?></h1>
                   <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
-                    <div class="col-xs-12 col-md-6">
+                    <div class="col-xs-12 col-md-6 vertical-container">
                         <div class="vertical-item">
                               <div class="thumb">
                                 <a href="<?php the_permalink(); ?>">

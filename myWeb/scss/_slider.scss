@@ -6,6 +6,10 @@
  	width: 100%;
  	overflow: hidden;
 
+  .slider-container {
+      overflow: hidden;
+  }
+
   .slider {
       height: 41.5vw;
       width: 100%;
@@ -20,6 +24,7 @@
 
               .ms-bullets {
                   opacity: 1 !important;
+                  bottom: 6vw !important;
               }
               .ms-bullet {
                   background-image: url('#{$images-path}img_spritesheet.png') !important;
