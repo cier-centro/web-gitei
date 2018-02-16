@@ -18,6 +18,19 @@
           .master-slider {
               position: relative;
 
+              .ms-bullets {
+                  opacity: 1 !important;
+              }
+              .ms-bullet {
+                  background-image: url('#{$images-path}img_spritesheet.png') !important;
+                  width: 16px;
+                  height: 16px;
+                  background-position: -357px -26px;
+
+                  &.ms-bullet-selected {
+                      background-position: -332px -26px !important;
+                  }
+              }
               .ms-nav-next, .ms-nav-prev {
                   background: url('#{$images-path}img_spritesheet.png');
                   width: 42px;
@@ -38,7 +51,7 @@
                   }
               }
               .ms-view, .ms-slide{
-                  height: 31vw !important;
+                  height: 42vw !important;
               }
               .ms-slide-info {
                   position: absolute !important;
