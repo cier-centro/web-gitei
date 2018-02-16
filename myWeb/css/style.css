@@ -15,7 +15,6 @@
   .flip-slider .slider-container {
     overflow: hidden; }
   .flip-slider .slider {
-    height: 41.5vw;
     width: 100%;
     margin-bottom: -8px; }
   .flip-slider div.slider {
@@ -47,8 +46,6 @@
       .flip-slider div.slider .master-slider-parent .master-slider .ms-view, .flip-slider div.slider .master-slider-parent .master-slider .ms-slide {
         height: 42vw !important; }
       .flip-slider div.slider .master-slider-parent .master-slider .ms-slide-info {
-        position: absolute !important;
-        border-radius: 15px;
         background-color: rgba(0, 0, 0, 0.65);
         padding: 15px;
         min-height: 40px !important;
@@ -123,6 +120,8 @@ a {
   border-radius: 0; }
   .breadcrumb, .breadcrumb a {
     color: #322e6d; }
+  .breadcrumb a {
+    display: inline-block; }
   .breadcrumb .home-link {
     color: #00c0c9; }
 
@@ -767,7 +766,11 @@ h2 {
   .flip-slider div.slider .master-slider-parent .ms-slide-info {
     bottom: 25%;
     width: 35%;
-    left: 32.5%; }
+    left: 32.5%;
+    position: absolute !important;
+    border-radius: 15px; }
+  .flip-slider .slider {
+    height: 41.5vw; }
 
   .container {
     width: 75%; } }
@@ -780,8 +783,16 @@ h2 {
 
   .flip-slider div.slider .master-slider-parent .ms-slide-info {
     top: 0;
-    width: 64%;
-    left: 15%; }
+    margin-top: 0px !important;
+    position: relative !important;
+    width: 100% !important;
+    left: 0 !important;
+    box-sizing: border-box !important;
+    height: 32vw !important;
+    border-radius: 0 !important;
+    font-size: 12px; }
+  .flip-slider .slider {
+    height: 76vw; }
 
   .title-section, .vertical-item .item-text .title {
     font-size: 20px !important; }
@@ -801,6 +812,6 @@ h2 {
 
   .alm-load-more-btn {
     width: 80% !important;
-    margin-left: 10%; } }
+    margin-left: 10% !important; } }
 
 /*# sourceMappingURL=style.css.map */

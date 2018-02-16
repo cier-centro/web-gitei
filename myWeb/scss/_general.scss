@@ -57,6 +57,10 @@ a {
         color: $heading-color;
     }
 
+    a {
+        display: inline-block;
+    }
+
     .home-link {
         color: $social-bar-bg;
     }

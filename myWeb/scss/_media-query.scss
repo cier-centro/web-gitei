@@ -199,8 +199,13 @@
                   bottom: 25%;
                   width: 35%;
                   left: 32.5%;
+                  position: absolute !important;
+                  border-radius: 15px;
               }
           }
+        }
+        .slider {
+            height: 41.5vw;
         }
      }
     .container {
@@ -221,10 +226,19 @@
           .master-slider-parent {
               .ms-slide-info {
                   top: 0;
-                  width: 64%;
-                  left: 15%;
+                  margin-top: 0px !important;
+                  position: relative !important;
+                  width: 100% !important;
+                  left: 0 !important;
+                  box-sizing: border-box !important;
+                  height: 32vw !important;
+                  border-radius: 0 !important;
+                  font-size: 12px;
               }
           }
+        }
+        .slider {
+            height: 76vw;
         }
      }
     .title-section, .vertical-item .item-text .title {
@@ -245,6 +259,6 @@
     }
     .alm-load-more-btn {
         width: 80% !important;
-        margin-left: 10%;
+        margin-left: 10% !important;
     }
 }
