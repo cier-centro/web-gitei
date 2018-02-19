@@ -821,8 +821,9 @@ h2 {
     width: 75%; }
 
   .pp_pic_holder #sggPrettyPhototooltip {
-    margin: 6% 10% !important;
-    font-size: 18px; } }
+    margin: 35px 10% !important;
+    font-size: 18px;
+    padding: 10px !important; } }
 @media screen and (max-width: 767px) {
   .videos-section .title {
     display: block;
@@ -866,8 +867,10 @@ h2 {
   .pp_pic_holder .pp_description {
     max-height: 48vw; }
   .pp_pic_holder #sggPrettyPhototooltip {
-    padding: 1% !important;
-    margin: 10% 15% !important;
-    font-size: 15px; } }
+    padding: 7px !important;
+    margin: 4px 15% !important;
+    font-size: 15px; }
+  .pp_pic_holder #pp_full_res {
+    margin-top: 18px; } }
 
 /*# sourceMappingURL=style.css.map */
