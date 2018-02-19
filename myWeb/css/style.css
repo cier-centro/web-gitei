@@ -76,6 +76,8 @@
 .pp_pic_holder #sggPrettyPhototooltip {
   z-index: 10000 !important;
   display: block !important; }
+.pp_pic_holder .pp_nav, .pp_pic_holder .pp_hoverContainer, .pp_pic_holder .pp_gallery {
+  display: none !important; }
 
 /*----------------------------------
 ----------------General--------------

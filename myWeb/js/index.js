@@ -3,6 +3,7 @@ var currentLink = $( ".home-header .header-links .nav .selected" ).get(currentEl
 var mainVideo = $( ".videos-section #video-gallery > div:first-child img" );
 var categoryMenuClass = ".category-menu .menu-items";
 var knownLinks = ".grid-gallery-photos > a";
+var selectedLinkTitle = "";
 
 jQuery.noConflict();
 jQuery(document).animateScroll();
@@ -41,12 +42,11 @@ function changeSlider(link, selectedElement) {
 		}
 }
 function setTitle(link) {
-		var selectedLinkTitle = $(link).attr("title");
-		console.log($("#sggPrettyPhototooltip").length);
-		setTimeout(function()
-	  {
-			console.log($("#sggPrettyPhototooltip").length);
-			$("#sggPrettyPhototooltip").text(selectedLinkTitle);
-	  }, 1000);
-		console.log(selectedLinkTitle);
+		selectedLinkTitle = $(link).attr("title");
 }
+$( document ).bind('DOMSubtreeModified',function() {
+		if ( ( $("#sggPrettyPhototooltip").length > 0 ) && ( $( "#sggPrettyPhototooltip" ).text() != selectedLinkTitle ) && ( selectedLinkTitle != "") && ( $( "#sggPrettyPhototooltip" ).text() != "") ) {
+			$( "#sggPrettyPhototooltip" ).text(selectedLinkTitle);
+			console.log("este es el texto -> " + $( "#sggPrettyPhototooltip" ).text());
+		}
+});
