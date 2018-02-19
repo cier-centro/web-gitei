@@ -71,12 +71,45 @@
 .pp_pic_holder #fullResImage {
   max-width: 90%;
   height: auto !important; }
+.pp_pic_holder .pp_content {
+  height: auto !important;
+  padding: 20px 0; }
 .pp_pic_holder .pp_description {
-  white-space: normal !important; }
+  white-space: normal !important;
+  margin: 0 2vw !important;
+  border: 1px solid lightgray;
+  max-height: 6vw;
+  min-height: 90px;
+  padding: 15px !important;
+  overflow-y: auto !important;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px; }
+.pp_pic_holder .pp_details {
+  float: none !important;
+  padding-top: 35px; }
 .pp_pic_holder #sggPrettyPhototooltip {
   z-index: 10000 !important;
-  display: block !important; }
-.pp_pic_holder .pp_nav, .pp_pic_holder .pp_hoverContainer, .pp_pic_holder .pp_gallery {
+  display: block !important;
+  font-weight: 700;
+  font-size: 18px;
+  margin: 6% 10% !important;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  border-radius: 3px;
+  background: #804AA0 !important;
+  background: -moz-linear-gradient(top, #804AA0 0%, #322e6d 100%) !important;
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, #804AA0), color-stop(100%, #322e6d)) !important;
+  background: -webkit-linear-gradient(top, #804AA0 0%, #322e6d 100%) !important;
+  background: -o-linear-gradient(top, #804AA0 0%, #322e6d 100%) !important;
+  background: -ms-linear-gradient(top, #804AA0 0%, #322e6d 100%) !important;
+  background: linear-gradient(to bottom, #804AA0 0%, #322e6d 100%) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#804AA0', endColorstr='#322e6d', GradientType=0 ) !important; }
+.pp_pic_holder .pp_close {
+  padding-right: 9%; }
+.pp_pic_holder .pp_nav, .pp_pic_holder .pp_hoverContainer, .pp_pic_holder .pp_gallery, .pp_pic_holder .pp_expand, .pp_pic_holder .pp_top, .pp_pic_holder .pp_bottom {
   display: none !important; }
 
 /*----------------------------------

@@ -95,14 +95,37 @@
         max-width: 90%;
         height: auto !important;
     }
+    .pp_content {
+        height: auto !important;
+        padding: 20px 0;
+    }
     .pp_description {
         white-space: normal !important;
+        margin: 0 2vw !important;
+        border: 1px solid lightgray;
+        max-height: 6vw;
+        min-height: 90px;
+        padding: 15px !important;
+        overflow-y: auto !important;
+        @include border-radius-properties(5px);
+    }
+    .pp_details {
+        float: none !important;
+        padding-top: 35px;
     }
     #sggPrettyPhototooltip {
         z-index: 10000 !important;
         display: block !important;
+        font-weight: 700;
+        font-size: 18px;
+        margin: 6% 10% !important;
+        @include border-radius-properties(3px);
+        @include background-button-properties($main-menu-items, $heading-color);
     }
-    .pp_nav, .pp_hoverContainer, .pp_gallery {
+    .pp_close {
+        padding-right: 9%;
+    }
+    .pp_nav, .pp_hoverContainer, .pp_gallery, .pp_expand, .pp_top, .pp_bottom {
         display: none !important;
     }
 }

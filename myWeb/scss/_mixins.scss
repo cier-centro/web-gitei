@@ -23,13 +23,13 @@
     box-shadow: $value;
 }
 
-@mixin background-button-properties($color) {
-    background: rgba($color,1);
-    background: -moz-linear-gradient(left, rgba($color,1) 20px, rgba($color,0) 20px);
-    background: -webkit-gradient(left top, right top, color-stop(20%, rgba($color,1)), color-stop(20%, rgba($color,0)));
-    background: -webkit-linear-gradient(left, rgba($color,1) 20px, rgba($color,0) 20px);
-    background: -o-linear-gradient(left, rgba($color,1) 20px, rgba($color,0) 20px);
-    background: -ms-linear-gradient(left, rgba($color,1) 20px, rgba($color,0) 20px);
-    background: linear-gradient(to right, rgba($color,1) 20px, rgba($color,0) 20px);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#{$color}', endColorstr='#{$color}', GradientType=1 );
+@mixin background-button-properties($color1, $color2) {
+    background: $color1 !important;
+    background: -moz-linear-gradient(top, $color1 0%, $color2 100%) !important;
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, $color1), color-stop(100%, $color2)) !important;
+    background: -webkit-linear-gradient(top, $color1 0%, $color2 100%) !important;
+    background: -o-linear-gradient(top, $color1 0%, $color2 100%) !important;
+    background: -ms-linear-gradient(top, $color1 0%, $color2 100%) !important;
+    background: linear-gradient(to bottom, $color1 0%, $color2 100%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#{$color1}', endColorstr='#{$color2}', GradientType=0 ) !important;
 }
