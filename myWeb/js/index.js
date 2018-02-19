@@ -2,6 +2,7 @@ var currentElement = 0;
 var currentLink = $( ".home-header .header-links .nav .selected" ).get(currentElement);
 var mainVideo = $( ".videos-section #video-gallery > div:first-child img" );
 var categoryMenuClass = ".category-menu .menu-items";
+var knownLinks = ".grid-gallery-photos > a";
 
 jQuery.noConflict();
 jQuery(document).animateScroll();
@@ -19,6 +20,9 @@ $( document ).ready(function() {
 						this.className = (this.classList.contains("open"))? "closed" : "open";
 				});
 		}
+		if ( $( knownLinks ).length > 0) {
+				$( knownLinks ).attr("onclick", "setTitle(this)");
+		}
 });
 
 function changeSlider(link, selectedElement) {
@@ -35,4 +39,14 @@ function changeSlider(link, selectedElement) {
 				currentElement = selectedElement;
 				console.log(currentElement);
 		}
+}
+function setTitle(link) {
+		var selectedLinkTitle = $(link).attr("title");
+		console.log($("#sggPrettyPhototooltip").length);
+		setTimeout(function()
+	  {
+			console.log($("#sggPrettyPhototooltip").length);
+			$("#sggPrettyPhototooltip").text(selectedLinkTitle);
+	  }, 1000);
+		console.log(selectedLinkTitle);
 }
