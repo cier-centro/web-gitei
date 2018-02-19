@@ -101,10 +101,8 @@
     }
     .pp_description {
         white-space: normal !important;
-        margin: 0 2vw !important;
+        margin: 0 4vw !important;
         border: 1px solid lightgray;
-        max-height: 6vw;
-        min-height: 90px;
         padding: 15px !important;
         overflow-y: auto !important;
         @include border-radius-properties(5px);
@@ -116,9 +114,8 @@
     #sggPrettyPhototooltip {
         z-index: 10000 !important;
         display: block !important;
+        line-height: 100%;
         font-weight: 700;
-        font-size: 18px;
-        margin: 6% 10% !important;
         @include border-radius-properties(3px);
         @include background-button-properties($main-menu-items, $heading-color);
     }

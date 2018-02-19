@@ -211,6 +211,12 @@
     .container {
        width: 75%;
     }
+    .pp_pic_holder {
+        #sggPrettyPhototooltip {
+            margin: 6% 10% !important;
+            font-size: 18px;
+        }
+    }
 }
 @media screen and (max-width: 767px) {
     .videos-section {
@@ -260,5 +266,15 @@
     .alm-load-more-btn {
         width: 80% !important;
         margin-left: 10% !important;
+    }
+    .pp_pic_holder {
+        .pp_description {
+            max-height: 48vw;
+        }
+        #sggPrettyPhototooltip {
+            padding: 1% !important;
+            margin: 10% 15% !important;
+            font-size: 15px;
+        }
     }
 }

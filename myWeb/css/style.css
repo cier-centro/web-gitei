@@ -76,10 +76,8 @@
   padding: 20px 0; }
 .pp_pic_holder .pp_description {
   white-space: normal !important;
-  margin: 0 2vw !important;
+  margin: 0 4vw !important;
   border: 1px solid lightgray;
-  max-height: 6vw;
-  min-height: 90px;
   padding: 15px !important;
   overflow-y: auto !important;
   -webkit-border-radius: 5px;
@@ -92,9 +90,8 @@
 .pp_pic_holder #sggPrettyPhototooltip {
   z-index: 10000 !important;
   display: block !important;
+  line-height: 100%;
   font-weight: 700;
-  font-size: 18px;
-  margin: 6% 10% !important;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   -ms-border-radius: 3px;
@@ -821,7 +818,11 @@ h2 {
     height: 41.5vw; }
 
   .container {
-    width: 75%; } }
+    width: 75%; }
+
+  .pp_pic_holder #sggPrettyPhototooltip {
+    margin: 6% 10% !important;
+    font-size: 18px; } }
 @media screen and (max-width: 767px) {
   .videos-section .title {
     display: block;
@@ -860,6 +861,13 @@ h2 {
 
   .alm-load-more-btn {
     width: 80% !important;
-    margin-left: 10% !important; } }
+    margin-left: 10% !important; }
+
+  .pp_pic_holder .pp_description {
+    max-height: 48vw; }
+  .pp_pic_holder #sggPrettyPhototooltip {
+    padding: 1% !important;
+    margin: 10% 15% !important;
+    font-size: 15px; } }
 
 /*# sourceMappingURL=style.css.map */
