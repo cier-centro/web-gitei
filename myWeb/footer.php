@@ -25,7 +25,7 @@
                       <p><span class="glyphicon glyphicon-map-marker"></span>Universidad Nacional de Colombia<br>
                           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sede Bogotá<br>
                          <span class="glyphicon glyphicon-earphone"></span>(+57-1) 3165000 ext.11156<br>
-                         <span class="glyphicon glyphicon-envelope"></span>infogitei@gitei.edu.co
+                         <span class="glyphicon glyphicon-envelope"></span>info@gitei.edu.co
                       </p>
                   </div>
                   <div class="logo-container">
