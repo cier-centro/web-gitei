@@ -15,6 +15,16 @@
         }
     }
 }
+@media screen and (min-width: 992px) and (max-width: 1499px) {
+    .education-trends .title-section {
+        padding-left: 15px !important;
+        font-size: 22px;
+
+        &:before {
+            display: none;
+        }
+    }
+}
 @media screen and (min-width: 992px) and (max-width: 1199px) {
     div.slider {
         .master-slider-parent {
@@ -27,6 +37,9 @@
                 }
             }
         }
+    }
+    .footer-buttons .btn-link {
+        font-size: 15px;
     }
 }
 @media screen and (min-width: 992px) {
@@ -114,6 +127,7 @@
   }
   .videos-section > div:last-child {
       height: 31.5vw;
+      padding: 0 1%;
 
       .video-widget {
           #video-gallery {

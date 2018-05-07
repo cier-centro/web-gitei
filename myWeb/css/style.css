@@ -396,17 +396,17 @@ h2 {
       -o-transition: all 0.3s ease;
       transition: all 0.3s ease; }
     .home-header .social-bar .youtube {
-      background-position: -103px -151px; }
+      background-position: -103px -200px; }
       .home-header .social-bar .youtube:hover {
-        background-position: -103px -200px; }
+        background-position: -103px -151px; }
     .home-header .social-bar .mail {
-      background-position: -246px -151px; }
+      background-position: -246px -200px; }
       .home-header .social-bar .mail:hover {
-        background-position: -246px -200px; }
+        background-position: -246px -151px; }
     .home-header .social-bar .whatsapp {
-      background-position: -346px -151px; }
+      background-position: -346px -200px; }
       .home-header .social-bar .whatsapp:hover {
-        background-position: -346px -200px; }
+        background-position: -346px -151px; }
   .home-header .modal-lg {
     width: 80%;
     margin-left: auto;
@@ -704,11 +704,20 @@ h2 {
     right: -15vw !important; }
   div.slider .master-slider-parent .master-slider .ms-nav-prev {
     left: -15vw !important; } }
+@media screen and (min-width: 992px) and (max-width: 1499px) {
+  .education-trends .title-section {
+    padding-left: 15px !important;
+    font-size: 22px; }
+    .education-trends .title-section:before {
+      display: none; } }
 @media screen and (min-width: 992px) and (max-width: 1199px) {
   div.slider .master-slider-parent .master-slider .ms-nav-next {
     right: -7vw !important; }
   div.slider .master-slider-parent .master-slider .ms-nav-prev {
-    left: -7vw !important; } }
+    left: -7vw !important; }
+
+  .footer-buttons .btn-link {
+    font-size: 15px; } }
 @media screen and (min-width: 992px) {
   .home-header .gitei-logo {
     position: absolute;
@@ -768,7 +777,8 @@ h2 {
       direction: ltr; }
 
   .videos-section > div:last-child {
-    height: 31.5vw; }
+    height: 31.5vw;
+    padding: 0 1%; }
     .videos-section > div:last-child .video-widget #video-gallery > div:first-child {
       width: 46vw;
       height: 26.5vw;
