@@ -74,7 +74,7 @@
                     $title = $image['title']; //The title
                     $caption= $image['caption']; //The caption
                     $full_image_url= $image['full_image_url']; //Full size image url
-                    $full_image_url_thumbnail = acf_photo_gallery_resize_image($full_image_url, 300, 300); //Resized size to 262px width by 160px height image url
+                    $full_image_url_thumbnail = $full_image_url; //acf_photo_gallery_resize_image($full_image_url, 300, 300); //Resized size to 262px width by 160px height image url
                     $thumbnail_image_url= $image['thumbnail_image_url']; //Get the thumbnail size image url 150px by 150px
                     $url= $image['url']; //Goto any link when clicked
                     $target= $image['target']; //Open normal or new tab

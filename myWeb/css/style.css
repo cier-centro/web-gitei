@@ -768,9 +768,12 @@ h2 {
         display: flex;
         justify-content: center;
         height: 100%;
-        overflow: hidden; }
+        overflow: hidden;
+        position: relative;
+        align-items: center; }
       .home-articles .home-article:nth-child(3n) .thumb img {
-        min-height: 100%;
+        position: absolute;
+        min-height: 200%;
         width: auto; }
     .home-articles .home-article:nth-child(3n) .item-text {
       width: 50%;

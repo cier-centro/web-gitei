@@ -112,9 +112,12 @@
                     justify-content: center;
                     height: 100%;
                     overflow: hidden;
+                    position: relative;
+                    align-items: center;
                   }
                   img {
-                    min-height: 100%;
+                    position: absolute;
+                    min-height: 200%;
                     width: auto;
                   }
               }
