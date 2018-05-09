@@ -105,15 +105,17 @@
                   }
                   img {
                       position: absolute;
-                      min-height: 200%;
-                      width: auto;
                   }
-              }              
+              }
           }
           &:nth-child(3n+1), &:nth-child(3n+2) {
               .thumb {
                   a {
                       height: 10vw;
+                  }
+                  img {
+                      height: auto;
+                      width: 105%;
                   }
               }
           }
@@ -130,8 +132,12 @@
                   margin: 20px;
 
                   a {
-                    height: 100%;
-                    overflow: hidden;
+                      height: 100%;
+                      overflow: hidden;
+                  }
+                  img {
+                      min-height: 200%;
+                      width: auto;
                   }
               }
               .item-text {
