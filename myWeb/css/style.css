@@ -285,8 +285,8 @@ h2 {
   .category-menu .open:before {
     content: "-"; }
   .category-menu .open + .sub-menu {
-    max-height: 400px;
-    transition: max-height 0.7s ease-out; }
+    max-height: 3000px;
+    transition: max-height 3.5s ease-out; }
   .category-menu .sub-menu {
     margin: 0;
     padding: 0;
