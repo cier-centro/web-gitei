@@ -248,7 +248,8 @@ h2 {
     color: #322e6d; }
   .category-menu .menus-container {
     border-radius: 15px;
-    overflow: hidden; }
+    overflow: hidden;
+    margin-bottom: 15px; }
   .category-menu .menu-items {
     padding: 0;
     list-style: none;
@@ -291,7 +292,7 @@ h2 {
     margin: 0;
     padding: 0;
     list-style: none;
-    background: #B392C6; }
+    background: rgba(128, 74, 160, 0.2); }
     .category-menu .sub-menu .sub-menu li {
       padding: 0 0 0 30px; }
     .category-menu .sub-menu a {

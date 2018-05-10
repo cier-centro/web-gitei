@@ -14,6 +14,7 @@
     .menus-container {
         border-radius: 15px;
         overflow: hidden;
+        margin-bottom: 15px;
     }
     .menu-items {
         padding: 0;
@@ -73,7 +74,7 @@
         margin: 0;
         padding: 0;
         list-style: none;
-        background: #B392C6;
+        background: rgba($main-menu-items, 0.2);
 
         .sub-menu {
             li {
