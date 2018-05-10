@@ -9,9 +9,6 @@
 
 <?php get_sidebar(); ?>
 
-<?php previous_posts_link('<< Anterior')?>
-<?php next_posts_link('Siguiente >>')?>
-
 <?php include (TEMPLATEPATH. '/videosection.php'); ?>
 
 <?php get_footer(); ?>

@@ -230,6 +230,8 @@ h2 {
   line-height: 1.42857143 !important;
   font-weight: 400 !important;
   border: none; }
+  .alm-load-more-btn.done, .btn-site.done {
+    display: none !important; }
   .alm-load-more-btn:hover, .btn-site:hover {
     background-color: #3284BC; }
 
@@ -797,8 +799,8 @@ h2 {
         height: 100%;
         overflow: hidden; }
       .home-articles .home-article:nth-child(3n+0) .thumb img {
-        min-height: 200%;
-        width: auto; }
+        height: auto;
+        width: 105%; }
     .home-articles .home-article:nth-child(3n+0) .item-text {
       width: 50%;
       direction: ltr; }
