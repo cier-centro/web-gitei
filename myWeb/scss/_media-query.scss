@@ -207,9 +207,6 @@
               margin: 0 2vw;
           }
       }
-      img {
-          min-width: 100%;
-      }
       .right-section {
           .title {
               padding-top: 30px;
@@ -236,6 +233,13 @@
           }
       }
   }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .footer {
+        img {
+            min-width: 75%;
+        }
+    }
 }
 @media screen and (min-width: 768px) {
     .social-bar {
@@ -335,6 +339,11 @@
         }
         #pp_full_res {
             margin-top: 18px;
+        }
+    }
+    .footer {
+        img {
+            min-width: 100%;
         }
     }
 }

@@ -676,6 +676,10 @@ h2 {
       border-left: 1px solid lightgray;
       padding: 25px 0;
       color: transparent; }
+    .footer .logo-container a {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
   .footer .info-container {
     color: white;
     padding: 15px; }
@@ -830,8 +834,6 @@ h2 {
     width: 50%; }
   .footer .logo-container .vertical-separator {
     margin: 0 2vw; }
-  .footer img {
-    min-width: 100%; }
   .footer .right-section .title {
     padding-top: 30px; }
 
@@ -845,6 +847,9 @@ h2 {
     position: absolute;
     width: 100%;
     height: auto; } }
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .footer img {
+    min-width: 75%; } }
 @media screen and (min-width: 768px) {
   .social-bar .whatsapp {
     display: none; }
@@ -915,6 +920,9 @@ h2 {
     margin: 4px 15% !important;
     font-size: 15px; }
   .pp_pic_holder #pp_full_res {
-    margin-top: 18px; } }
+    margin-top: 18px; }
+
+  .footer img {
+    min-width: 100%; } }
 
 /*# sourceMappingURL=style.css.map */
