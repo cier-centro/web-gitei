@@ -11,7 +11,7 @@
             <?php echo do_shortcode('[masterslider id="1"]') ?>
         </div>
         <div class="slider closed">
-            <?php echo do_shortcode('[supsystic-gallery id=1]') ?>
+            <iframe src="http://52.41.185.188/GiteiIsland/" style="height:100%; width:100%;"></iframe>            
         </div>
     </div>
     <div class="header-links">
