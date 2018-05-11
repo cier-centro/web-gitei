@@ -40,19 +40,7 @@
               </div>
               <div class="col-xs-12 col-md-4 right-section">
             <form>
-              <p>Suscríbete gratis y recibe más información de GITEI en tu correo</p>
-              <div class="input-group">
-                <input type="text" class="form-control" placeholder="Ingresa tu correo...">
-                <span class="input-group-btn">
-                  <button class="btn btn-default" type="button">
-                    <span class="glyphicon glyphicon-envelope"></span>
-                  </button>
-                </span>
-              </div>
-              <label class="checkbox-inline">
-                <input type="checkbox" value="">Acepto que GITEI me mande infomación al correo
-              </label>
-              <button type="submit" class="btn btn-primary btn-site pull-right">Aceptar y Suscribir</button>
+              <?php echo do_shortcode('[ninja_form id=5]') ?>
             </form>
             <span class="title"><a href="#" class="btn btn-block btn-link" role="button">ir al inicio >></a></span>
         </div>

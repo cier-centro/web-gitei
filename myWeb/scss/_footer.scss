@@ -124,6 +124,56 @@
                   color: $heading-color;
                   font-size: 16px;
               }
+
+              .footer-form {
+                  .nf-before-form-content {
+                      margin: 0 !important;
+                  }
+                  .nf-error-msg, .ninja-forms-req-symbol {
+                      color: $social-bar-bg !important;
+                  }
+                  .nf-error .ninja-forms-field {
+                      border: 1px solid $social-bar-bg;
+                  }
+                  .checkbox-inline {
+                      margin: 0 !important;
+                      padding: 0;
+                  }
+                  .nf-form-cont .nf-form-layout .nf-before-form-content {
+                      margin-bottom: 0 !important;
+                  }
+                  .email-container {
+                      width: 100%;
+
+                      .email-wrap {
+                          flex-wrap: nowrap !important;
+                          border-radius: 4px;
+                          overflow: hidden;
+                      }
+                      .nf-field-label {
+                          display:none;
+                      }
+                      .nf-field-description {
+                          width: auto;
+                      }
+                  }
+                  .checkbox-container {
+                      .checkbox-wrap {
+                          flex-wrap: nowrap !important;
+                      }
+                      .nf-field-label {
+                          width: 100%;
+                          
+                          label {
+                              font-weight: 400;
+                          }
+                      }
+                      .nf-field-element {
+                          width: auto;
+                          margin: 3px 5px 0 0;
+                      }
+                  }
+              }
           }
       }
       img {

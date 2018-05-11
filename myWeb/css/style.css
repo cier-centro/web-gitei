@@ -713,6 +713,36 @@ h2 {
     .footer .right-section form .glyphicon {
       color: #322e6d;
       font-size: 16px; }
+    .footer .right-section form .footer-form .nf-before-form-content {
+      margin: 0 !important; }
+    .footer .right-section form .footer-form .nf-error-msg, .footer .right-section form .footer-form .ninja-forms-req-symbol {
+      color: #00c0c9 !important; }
+    .footer .right-section form .footer-form .nf-error .ninja-forms-field {
+      border: 1px solid #00c0c9; }
+    .footer .right-section form .footer-form .checkbox-inline {
+      margin: 0 !important;
+      padding: 0; }
+    .footer .right-section form .footer-form .nf-form-cont .nf-form-layout .nf-before-form-content {
+      margin-bottom: 0 !important; }
+    .footer .right-section form .footer-form .email-container {
+      width: 100%; }
+      .footer .right-section form .footer-form .email-container .email-wrap {
+        flex-wrap: nowrap !important;
+        border-radius: 4px;
+        overflow: hidden; }
+      .footer .right-section form .footer-form .email-container .nf-field-label {
+        display: none; }
+      .footer .right-section form .footer-form .email-container .nf-field-description {
+        width: auto; }
+    .footer .right-section form .footer-form .checkbox-container .checkbox-wrap {
+      flex-wrap: nowrap !important; }
+    .footer .right-section form .footer-form .checkbox-container .nf-field-label {
+      width: 100%; }
+      .footer .right-section form .footer-form .checkbox-container .nf-field-label label {
+        font-weight: 400; }
+    .footer .right-section form .footer-form .checkbox-container .nf-field-element {
+      width: auto;
+      margin: 3px 5px 0 0; }
   .footer img {
     max-width: 11vw; }
 
