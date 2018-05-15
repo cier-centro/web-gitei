@@ -18,14 +18,7 @@
                   'items_wrap' => '<ul id="main-menu" class="row">%3$s</ul>',
                   'theme_location' => 'menu'
                 )); ?>
-            <div class="input-group">
-              <input type="text" class="form-control" placeholder="Buscar...">
-              <span class="input-group-btn">
-                <button class="btn btn-default" type="button">
-                  <span class="glyphicon glyphicon-search"></span>
-                </button>
-              </span>
-            </div>
+              <?php get_search_form(); ?>
             <?php wp_nav_menu(
               array(
                 'container' => false,
