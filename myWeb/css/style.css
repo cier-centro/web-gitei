@@ -15,7 +15,8 @@
   .flip-slider .slider-container {
     overflow: hidden; }
     .flip-slider .slider-container .slider:nth-child(2) {
-      overflow-y: auto; }
+      overflow-y: auto;
+      background: black; }
   .flip-slider .slider {
     width: 100%;
     margin-bottom: -8px; }
@@ -321,7 +322,7 @@ h2 {
   font-weight: 600; }
 
 .home-header {
-  background: rgba(0, 0, 0, 0.65);
+  background: rgba(50, 132, 188, 0.8);
   position: relative; }
   .home-header .slider.closed {
     position: absolute;
@@ -772,12 +773,12 @@ h2 {
   .home-header .gitei-logo {
     position: absolute;
     left: 10%;
-    top: 1vw;
+    top: 2.5vw;
     z-index: 1; }
   .home-header .btn-menu {
     position: absolute;
     right: 10%;
-    top: 2.5vw;
+    top: 4vw;
     z-index: 1; }
 
   .header-links {

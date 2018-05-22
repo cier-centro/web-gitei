@@ -4,6 +4,7 @@ var mainVideo = $( ".videos-section #video-gallery > div:first-child img" );
 var categoryMenuClass = ".category-menu .menu-items";
 var knownLinks = ".grid-gallery-photos > a";
 var selectedLinkTitle = "";
+var knownSectionUrl = "http://52.41.185.188/GiteiIsland/";
 
 jQuery.noConflict();
 jQuery(document).animateScroll();
@@ -38,6 +39,11 @@ function changeSlider(link, selectedElement) {
 				link.className = "selected";
 				currentLink = link;
 				currentElement = selectedElement;
+				if (selectedElement == 1) {
+						var iframeSlider = $( ".home-header .slider .slider-iframe" );
+						if (iframeSlider.attr('src') != knownSectionUrl)
+								iframeSlider.attr("src", knownSectionUrl);
+				}
 				console.log(currentElement);
 		}
 }
