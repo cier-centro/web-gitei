@@ -322,7 +322,7 @@ h2 {
   font-weight: 600; }
 
 .home-header {
-  background: rgba(50, 132, 188, 0.8);
+  background: rgba(0, 0, 0, 0.8);
   position: relative; }
   .home-header .slider.closed {
     position: absolute;
