@@ -21,12 +21,17 @@ $( document ).ready(function() {
 				$( categoryMenuParents ).click(function() {
 						this.className = (this.classList.contains("open"))? "closed" : "open";
 				});
+				var currentAncestors = categoryMenuClass + " .current-menu-ancestor > a";
+				currentAncestorsArray = $ (currentAncestors);
+				for (var i = 0; i < currentAncestorsArray.length; i++) {
+						currentAncestor = currentAncestorsArray[i];
+						currentAncestor.className = (currentAncestor.classList.contains("closed"))? "open" : "closed";
+				}
 		}
 		if ( $( knownLinks ).length > 0) {
 				$( knownLinks ).attr("onclick", "setTitle(this)");
 		}
 });
-
 function changeSlider(link, selectedElement) {
 		if (currentElement != selectedElement) {
 				selectedSlider = $( ".home-header .slider" ).get(selectedElement);
