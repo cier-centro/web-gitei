@@ -255,6 +255,8 @@ h2 {
     padding: 0;
     list-style: none;
     margin: 0; }
+    .category-menu .menu-items .current-menu-item a {
+      font-weight: 600; }
     .category-menu .menu-items > li > a {
       display: block;
       padding: 10px 20px 10px 45px;
