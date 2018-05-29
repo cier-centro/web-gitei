@@ -10,7 +10,7 @@ html {
 body {
  font-family: 'Montserrat', sans-serif;
  color: #000;
- background: $main-bg url('#{$images-path}img_main_bg.png');
+ background: $main-bg url('#{$images-path}img_main_bg.png') 0 50%;
 }
 a {
  text-decoration: none;
