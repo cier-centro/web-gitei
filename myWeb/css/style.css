@@ -728,15 +728,15 @@ h2 {
       padding: 0; }
     .footer .right-section form .footer-form .nf-form-cont .nf-form-layout .nf-before-form-content {
       margin-bottom: 0 !important; }
-    .footer .right-section form .footer-form .email-container {
+    .footer .right-section form .footer-form .firstname-container, .footer .right-section form .footer-form .email-container {
       width: 100%; }
-      .footer .right-section form .footer-form .email-container .email-wrap {
+      .footer .right-section form .footer-form .firstname-container .firstname-wrap, .footer .right-section form .footer-form .firstname-container .email-wrap, .footer .right-section form .footer-form .email-container .firstname-wrap, .footer .right-section form .footer-form .email-container .email-wrap {
         flex-wrap: nowrap !important;
         border-radius: 4px;
         overflow: hidden; }
-      .footer .right-section form .footer-form .email-container .nf-field-label {
+      .footer .right-section form .footer-form .firstname-container .nf-field-label, .footer .right-section form .footer-form .email-container .nf-field-label {
         display: none; }
-      .footer .right-section form .footer-form .email-container .nf-field-description {
+      .footer .right-section form .footer-form .firstname-container .nf-field-description, .footer .right-section form .footer-form .email-container .nf-field-description {
         width: auto; }
     .footer .right-section form .footer-form .checkbox-container .checkbox-wrap {
       flex-wrap: nowrap !important; }

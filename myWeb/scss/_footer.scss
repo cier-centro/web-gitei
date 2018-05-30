@@ -142,10 +142,10 @@
                   .nf-form-cont .nf-form-layout .nf-before-form-content {
                       margin-bottom: 0 !important;
                   }
-                  .email-container {
+                  .firstname-container, .email-container {
                       width: 100%;
 
-                      .email-wrap {
+                      .firstname-wrap, .email-wrap {
                           flex-wrap: nowrap !important;
                           border-radius: 4px;
                           overflow: hidden;
@@ -163,7 +163,7 @@
                       }
                       .nf-field-label {
                           width: 100%;
-                          
+
                           label {
                               font-weight: 400;
                           }
