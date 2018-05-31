@@ -9,6 +9,7 @@
           color: white;
           position: relative;
           padding-left: 45px;
+          font-family: 'Comfortaa-Regular';
 
           &:hover {
               color: $heading-color;
@@ -85,9 +86,17 @@
       .info-container {
           color: white;
           padding: 15px;
+          font-family: 'Nunito-Light';
+          font-size: 16px;
 
           .glyphicon {
               margin-right: 10px;
+          }
+          .headquarter {
+            font-family: 'Nunito-ExtraLight';
+            font-size: 14px;
+            margin: -5px 0 15px;
+            display: block;
           }
       }
       .right-section {
@@ -105,6 +114,7 @@
                   color: white;
                   text-align: right;
                   margin-top: 15px;
+                  font-family: 'Comfortaa-Regular';
               }
           }
           form {
@@ -126,6 +136,14 @@
               }
 
               .footer-form {
+                  p, label {
+                      font-family: 'Nunito-ExtraLight';
+                      font-size: 16px;
+                      line-height: 115%;
+                  }
+                  p b {
+                      font-family: 'Comfortaa-Bold';
+                  }
                   .nf-before-form-content {
                       margin: 0 !important;
                   }
@@ -166,6 +184,7 @@
 
                           label {
                               font-weight: 400;
+                              font-size: 14px;
                           }
                       }
                       .nf-field-element {

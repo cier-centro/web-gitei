@@ -141,6 +141,32 @@
             background-position: -346px -151px;
           }
       }
+      .subscribe-container {
+          display: flex;
+          position: relative;
+          justify-content: center;
+      }
+      .subscribe-form {
+          position: absolute;
+          background: lightgrey;
+          top: 100%;
+          margin-top: 15px;
+          z-index: 1;
+          width: 350px;
+          display: flex;
+          justify-content: center;
+
+          &:before {
+              content: "";
+              width: 0px;
+              height: 0px;
+              border-left: 15px solid transparent;
+              border-right: 15px solid transparent;
+              border-bottom: 15px solid #2f2f2f;
+              position: absolute;
+              top: -15px;
+          }
+      }
     }
     .modal-lg {
         width: 80%;

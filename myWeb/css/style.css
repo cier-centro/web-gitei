@@ -5,6 +5,27 @@
  * Mixins
  * --------------------------------------------------
  */
+/* vietnamese */
+@font-face {
+  font-family: 'Nunito-ExtraLight';
+  font-style: normal;
+  font-weight: 200;
+  src: url(../fonts/Nunito/Nunito-ExtraLight.ttf); }
+@font-face {
+  font-family: 'Nunito-Light';
+  font-style: normal;
+  font-weight: 300;
+  src: url(../fonts/Nunito/Nunito-Light.ttf); }
+@font-face {
+  font-family: 'Comfortaa-Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/Comfortaa/Comfortaa-Regular.ttf); }
+@font-face {
+  font-family: 'Comfortaa-Bold';
+  font-style: normal;
+  font-weight: 700;
+  src: url(../fonts/Comfortaa/Comfortaa-Bold.ttf); }
 /*----------------------------------
 ----------------Slider--------------
 ------------------------------------*/
@@ -229,7 +250,7 @@ h2 {
   display: inline-block !important;
   color: white !important;
   line-height: 1.42857143 !important;
-  font-weight: 400 !important;
+  font-family: 'Comfortaa-Regular';
   border: none; }
   .alm-load-more-btn.done, .btn-site.done {
     display: none !important; }
@@ -413,6 +434,28 @@ h2 {
       background-position: -346px -200px; }
       .home-header .social-bar .whatsapp:hover {
         background-position: -346px -151px; }
+    .home-header .social-bar .subscribe-container {
+      display: flex;
+      position: relative;
+      justify-content: center; }
+    .home-header .social-bar .subscribe-form {
+      position: absolute;
+      background: lightgrey;
+      top: 100%;
+      margin-top: 15px;
+      z-index: 1;
+      width: 350px;
+      display: flex;
+      justify-content: center; }
+      .home-header .social-bar .subscribe-form:before {
+        content: "";
+        width: 0px;
+        height: 0px;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-bottom: 15px solid #2f2f2f;
+        position: absolute;
+        top: -15px; }
   .home-header .modal-lg {
     width: 80%;
     margin-left: auto;
@@ -630,7 +673,8 @@ h2 {
   .footer-buttons .btn-link {
     color: white;
     position: relative;
-    padding-left: 45px; }
+    padding-left: 45px;
+    font-family: 'Comfortaa-Regular'; }
     .footer-buttons .btn-link:hover {
       color: #322e6d; }
     .footer-buttons .btn-link:before {
@@ -689,9 +733,16 @@ h2 {
       align-items: center; }
   .footer .info-container {
     color: white;
-    padding: 15px; }
+    padding: 15px;
+    font-family: 'Nunito-Light';
+    font-size: 16px; }
     .footer .info-container .glyphicon {
       margin-right: 10px; }
+    .footer .info-container .headquarter {
+      font-family: 'Nunito-ExtraLight';
+      font-size: 14px;
+      margin: -5px 0 15px;
+      display: block; }
   .footer .right-section .title {
     width: 100%;
     text-align: left;
@@ -704,7 +755,8 @@ h2 {
       font-size: 12px;
       color: white;
       text-align: right;
-      margin-top: 15px; }
+      margin-top: 15px;
+      font-family: 'Comfortaa-Regular'; }
   .footer .right-section form {
     padding: 15px;
     color: white; }
@@ -717,6 +769,12 @@ h2 {
     .footer .right-section form .glyphicon {
       color: #322e6d;
       font-size: 16px; }
+    .footer .right-section form .footer-form p, .footer .right-section form .footer-form label {
+      font-family: 'Nunito-ExtraLight';
+      font-size: 16px;
+      line-height: 115%; }
+    .footer .right-section form .footer-form p b {
+      font-family: 'Comfortaa-Bold'; }
     .footer .right-section form .footer-form .nf-before-form-content {
       margin: 0 !important; }
     .footer .right-section form .footer-form .nf-error-msg, .footer .right-section form .footer-form .ninja-forms-req-symbol {
@@ -743,7 +801,8 @@ h2 {
     .footer .right-section form .footer-form .checkbox-container .nf-field-label {
       width: 100%; }
       .footer .right-section form .footer-form .checkbox-container .nf-field-label label {
-        font-weight: 400; }
+        font-weight: 400;
+        font-size: 14px; }
     .footer .right-section form .footer-form .checkbox-container .nf-field-element {
       width: auto;
       margin: 3px 5px 0 0; }

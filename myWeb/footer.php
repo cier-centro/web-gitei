@@ -23,8 +23,8 @@
                         Grupo de Investigación Tecnología para la Educación y la Innovación<br><br>
                       </p>
                       <p><span class="glyphicon glyphicon-map-marker"></span>Universidad Nacional de Colombia<br>
-                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sede Bogotá<br>
-                         <span class="glyphicon glyphicon-earphone"></span>(+57-1) 3165000 ext.11156<br>
+                         <span class="headquarter">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sede Bogotá</span>
+                         <span class="glyphicon glyphicon-earphone"></span>(+57-1) 3165000 ext.11156<br><br>
                          <span class="glyphicon glyphicon-envelope"></span>info@gitei.edu.co
                       </p>
                   </div>
