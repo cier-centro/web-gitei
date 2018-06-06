@@ -86,7 +86,8 @@
       top: -1%;
       left: -1%;
       width: 102%;
-      height: 102%; }
+      height: 102%;
+      z-index: 1; }
 
 .pp_pic_holder #pp_full_res {
   text-align: center; }
