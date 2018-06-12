@@ -99,12 +99,17 @@
               .thumb {
                   a {
                     display: flex;
-                    justify-content: center;
-                    align-items: center;
                     position: relative;
                   }
                   img {
                       position: absolute;
+                      height: auto;
+                      width: 105%;
+                      top: 0;
+                      left: -3%;
+                      bottom: 0;
+                      right: -3%;
+                      margin: auto;
                   }
               }
           }
@@ -112,10 +117,6 @@
               .thumb {
                   a {
                       height: 10vw;
-                  }
-                  img {
-                      height: auto;
-                      width: 105%;
                   }
               }
           }
@@ -134,10 +135,6 @@
                   a {
                       height: 100%;
                       overflow: hidden;
-                  }
-                  img {
-                      height: auto;
-                      width: 105%;
                   }
               }
               .item-text {
@@ -219,8 +216,6 @@
               .thumb {
                   a {
                     display: flex;
-                    justify-content: center;
-                    align-items: center;
                     position: relative;
                     height: 25vw;
                   }
@@ -228,6 +223,11 @@
                       position: absolute;
                       width: 100%;
                       height: auto;
+                      top: 0;
+                      left: 0;
+                      bottom: 0;
+                      right: 0;
+                      margin: auto;
                   }
               }
           }
