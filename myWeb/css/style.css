@@ -528,7 +528,9 @@ h2 {
     .vertical-item .thumb img {
       height: 100%; }
     .vertical-item .thumb a {
-      background: lightgray; }
+      background: lightgray;
+      position: relative;
+      display: block; }
       .vertical-item .thumb a:before {
         content: "";
         position: absolute;
@@ -870,9 +872,6 @@ h2 {
     display: flex;
     align-items: stretch; }
 
-  .home-articles .home-article .vertical-item .thumb a {
-    display: flex;
-    position: relative; }
   .home-articles .home-article .vertical-item .thumb img {
     position: absolute;
     height: auto;
@@ -935,8 +934,6 @@ h2 {
     padding-top: 30px; }
 
   .home-articles .home-article .vertical-item .thumb a {
-    display: flex;
-    position: relative;
     height: 25vw; }
   .home-articles .home-article .vertical-item .thumb img {
     position: absolute;

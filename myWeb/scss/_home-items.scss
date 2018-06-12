@@ -19,6 +19,8 @@
        }
        a {
           background: lightgray;
+          position: relative;
+          display: block;
 
           &:before {
               content: "";

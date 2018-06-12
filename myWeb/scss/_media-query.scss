@@ -97,10 +97,6 @@
       .home-article {
           .vertical-item {
               .thumb {
-                  a {
-                    display: flex;
-                    position: relative;
-                  }
                   img {
                       position: absolute;
                       height: auto;
@@ -215,9 +211,7 @@
           .vertical-item {
               .thumb {
                   a {
-                    display: flex;
-                    position: relative;
-                    height: 25vw;
+                      height: 25vw;
                   }
                   img {
                       position: absolute;
