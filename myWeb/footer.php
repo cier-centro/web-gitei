@@ -9,7 +9,7 @@
                   <a href="<?php echo get_home_url(); ?>/solicita-asesoria"class="btn btn-link btn-lg second-button">Solicita asesoría</a>
               </div>
               <div class="col-xs-12 col-md-4 button-container">
-                  <a href="<?php echo get_home_url(); ?>/vinculate-a-proyectos"class="btn btn-link btn-lg third-button">Vinculate a proyectos</a>
+                  <a href="<?php echo get_home_url(); ?>/vinculate-a-proyectos"class="btn btn-link btn-lg third-button">Vincúlate a nuestros proyectos</a>
               </div>
           </div>
       </div>
@@ -42,7 +42,7 @@
             <form>
               <?php echo do_shortcode('[ninja_form id=5]') ?>
             </form>
-            <span class="title"><a href="#" class="btn btn-block btn-link" role="button">ir al inicio >></a></span>
+            <span class="title"><a href="#" class="btn btn-block btn-link" role="button">Ir al inicio >></a></span>
         </div>
           </div>
       </div>
