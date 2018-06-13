@@ -2,13 +2,13 @@
 <div class="container">
     <div class="row">
       <div class="col-xs-12 col-md-9">
-        <div class="row home-articles">
+        <div class="row home-articles event-articles">
             <?php
                  $index = 0;
                  $postslist = get_posts("category_name=Eventos&orderby=title&order=asc");
                  foreach ($postslist as $post) : setup_postdata($post);
              ?>
-             <div class="col-xs-12 col-md-6 home-article vertical-container">
+             <div class="col-xs-12 col-md-6 home-article event-article">
                  <div class="vertical-item">
                      <div class="thumb">
                          <a href="<?php the_permalink(); ?>">

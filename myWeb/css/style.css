@@ -898,6 +898,32 @@ h2 {
     .home-articles .home-article:nth-child(3n+0) .item-text {
       width: 50%;
       direction: ltr; }
+  .home-articles.event-articles .home-article .thumb a {
+    height: 100%; }
+  .home-articles .event-article {
+    width: 100%; }
+    .home-articles .event-article .vertical-item {
+      display: flex;
+      align-items: stretch;
+      direction: rtl; }
+    .home-articles .event-article .thumb {
+      width: 50%;
+      margin: 20px; }
+      .home-articles .event-article .thumb a {
+        height: 100%;
+        overflow: hidden; }
+      .home-articles .event-article .thumb img {
+        position: absolute;
+        height: auto;
+        width: 105%;
+        top: 0;
+        left: -3%;
+        bottom: 0;
+        right: -3%;
+        margin: auto; }
+    .home-articles .event-article .item-text {
+      width: 50%;
+      direction: ltr; }
 
   .videos-section > div:last-child {
     height: 31.5vw;

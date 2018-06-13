@@ -139,6 +139,45 @@
               }
           }
       }
+      &.event-articles .home-article {
+          .thumb {
+              a {
+                  height: 100%;
+              }
+          }
+      }
+      .event-article {
+          width: 100%;
+
+          .vertical-item {
+              display: flex;
+              align-items: stretch;
+              direction: rtl;
+          }
+          .thumb {
+              width: 50%;
+              margin: 20px;
+
+              a {
+                  height: 100%;
+                  overflow: hidden;
+              }
+              img {
+                  position: absolute;
+                  height: auto;
+                  width: 105%;
+                  top: 0;
+                  left: -3%;
+                  bottom: 0;
+                  right: -3%;
+                  margin: auto;
+              }
+          }
+          .item-text {
+              width: 50%;
+              direction: ltr;
+          }
+      }
   }
   .videos-section > div:last-child {
       height: 31.5vw;
