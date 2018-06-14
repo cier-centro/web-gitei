@@ -15,6 +15,11 @@
         }
     }
 }
+@media screen and (max-width: 1199px) {
+    .footer-buttons .container {
+        width: 100%;
+    }
+}
 @media screen and (min-width: 992px) and (max-width: 1499px) {
     .education-trends .title-section {
         padding-left: 15px !important;
@@ -40,6 +45,9 @@
     }
     .footer-buttons .btn-link {
         font-size: 15px;
+    }
+    .footer .container {
+        width: 90%;
     }
 }
 @media screen and (min-width: 992px) {
@@ -279,7 +287,7 @@
         .whatsapp {
             display: none;
         }
-    }    
+    }
     .left-insidetext {
         float: left;
         width: 50%;
@@ -382,6 +390,9 @@
     .footer {
         img {
             min-width: 100%;
+        }
+        .container {
+            width: 90%;
         }
     }
 }

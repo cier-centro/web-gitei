@@ -835,6 +835,9 @@ h2 {
     right: -15vw !important; }
   div.slider .master-slider-parent .master-slider .ms-nav-prev {
     left: -15vw !important; } }
+@media screen and (max-width: 1199px) {
+  .footer-buttons .container {
+    width: 100%; } }
 @media screen and (min-width: 992px) and (max-width: 1499px) {
   .education-trends .title-section {
     padding-left: 15px !important;
@@ -848,7 +851,10 @@ h2 {
     left: -7vw !important; }
 
   .footer-buttons .btn-link {
-    font-size: 15px; } }
+    font-size: 15px; }
+
+  .footer .container {
+    width: 90%; } }
 @media screen and (min-width: 992px) {
   .home-header .gitei-logo {
     position: absolute;
@@ -1065,6 +1071,8 @@ h2 {
     margin-top: 18px; }
 
   .footer img {
-    min-width: 100%; } }
+    min-width: 100%; }
+  .footer .container {
+    width: 90%; } }
 
 /*# sourceMappingURL=style.css.map */
