@@ -26,6 +26,11 @@
   font-style: normal;
   font-weight: 700;
   src: url(../fonts/Comfortaa/Comfortaa-Bold.ttf); }
+@font-face {
+  font-family: 'Comfortaa-Light';
+  font-style: normal;
+  font-weight: 300;
+  src: url(../fonts/Comfortaa/Comfortaa-Light.ttf); }
 /*----------------------------------
 ----------------Slider--------------
 ------------------------------------*/
@@ -240,6 +245,15 @@ h2 {
     margin-bottom: 20px; }
     .article-content .gallery-images .modal .image-container img {
       margin: auto; }
+
+.image-foot span {
+  font-family: 'Comfortaa-Light';
+  color: gray;
+  text-align: right;
+  display: block;
+  font-size: 13px;
+  margin: 2px 4px;
+  font-variant: small-caps; }
 
 .nf-form-cont .nf-form-title {
   display: none; }

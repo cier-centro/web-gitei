@@ -132,6 +132,17 @@ h2 {
         }
     }
 }
+.image-foot {
+      span {
+          font-family: 'Comfortaa-Light';
+          color: gray;
+          text-align: right;
+          display: block;
+          font-size: 13px;
+          margin: 2px 4px;
+          font-variant: small-caps;
+      }
+}
 .nf-form-cont {
     .nf-form-title {
         display: none;
