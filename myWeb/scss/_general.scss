@@ -71,7 +71,7 @@ h2 {
 }
 .article-content {
     .banner {
-        height: 24vw;
+        height: 20vw;
         overflow: hidden;
         display: flex;
         align-items: center;
@@ -133,7 +133,7 @@ h2 {
     }
 }
 .image-foot {
-      span {
+      .foot-text {
           font-family: 'Comfortaa-Light';
           color: gray;
           text-align: right;

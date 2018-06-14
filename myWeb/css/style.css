@@ -203,7 +203,7 @@ h2 {
   color: #322e6d; }
 
 .article-content .banner {
-  height: 24vw;
+  height: 20vw;
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -246,7 +246,7 @@ h2 {
     .article-content .gallery-images .modal .image-container img {
       margin: auto; }
 
-.image-foot span {
+.image-foot .foot-text {
   font-family: 'Comfortaa-Light';
   color: gray;
   text-align: right;
