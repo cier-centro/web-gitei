@@ -1073,6 +1073,9 @@ h2 {
   .footer img {
     min-width: 100%; }
   .footer .container {
-    width: 90%; } }
+    width: 90%; }
+
+  .footer-buttons .btn-link {
+    font-size: 16px; } }
 
 /*# sourceMappingURL=style.css.map */
