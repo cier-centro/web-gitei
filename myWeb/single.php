@@ -50,6 +50,7 @@
                       <p><?php the_content(); ?>
                       </p>
                     </div>
+                    <span class="go-start"><a href="#page-up" class="btn btn-block btn-link" role="button">Ir al inicio >></a></span>
                 </div>
             </div>
 

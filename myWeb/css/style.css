@@ -360,7 +360,7 @@ h2 {
   font-weight: 600; }
 
 .home-header {
-  background: rgba(0, 0, 0, 0.8);
+  background: #322f6c;
   position: relative; }
   .home-header .slider.closed {
     position: absolute;
@@ -598,6 +598,19 @@ h2 {
       .vertical-item .item-text .group .post-categories a {
         color: #00c0c9;
         font-size: 15px; }
+  .vertical-item .go-start {
+    width: 100%;
+    text-align: left;
+    display: flex;
+    padding: 0 15px;
+    align-items: center;
+    justify-content: space-between; }
+    .vertical-item .go-start a {
+      padding-right: 0;
+      font-size: 12px;
+      color: gray;
+      text-align: right;
+      font-family: 'Comfortaa-Regular'; }
 
 /*----------------------------------
 -----------Education-Trends---------
@@ -761,20 +774,6 @@ h2 {
       font-size: 14px;
       margin: -5px 0 15px;
       display: block; }
-  .footer .right-section .title {
-    width: 100%;
-    text-align: left;
-    display: flex;
-    padding: 0 15px;
-    align-items: center;
-    justify-content: space-between; }
-    .footer .right-section .title a {
-      padding-right: 0;
-      font-size: 12px;
-      color: white;
-      text-align: right;
-      margin-top: 15px;
-      font-family: 'Comfortaa-Regular'; }
   .footer .right-section form {
     padding: 15px;
     color: white; }

@@ -1,5 +1,6 @@
 <?php include (TEMPLATEPATH. '/headsite.php'); ?>
 <body>
+<a name="page-up"></a>
 <div class="home-header content-header">
   <div class="header-items">
     <a href="<?php echo get_home_url(); ?>">

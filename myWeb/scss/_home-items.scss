@@ -93,4 +93,20 @@
           }
        }
     }
+    .go-start {
+        width: 100%;
+        text-align: left;
+        display: flex;
+        padding: 0 15px;
+        align-items: center;
+        justify-content: space-between;
+
+        a {
+            padding-right: 0;
+            font-size: 12px;
+            color: gray;
+            text-align: right;
+            font-family: 'Comfortaa-Regular';
+        }
+    }
 }

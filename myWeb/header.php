@@ -1,5 +1,6 @@
 <?php include (TEMPLATEPATH. '/headsite.php'); ?>
 <body>
+<a name="page-up"></a>
 <div class="home-header">
   <div class="flip-slider">
     <a href="<?php echo get_home_url(); ?>">
@@ -11,7 +12,7 @@
             <?php echo do_shortcode('[masterslider id="1"]') ?>
         </div>
         <div class="slider closed">
-            <iframe class="slider-iframe" style="height:100%; width:100%; border:none;"></iframe>            
+            <iframe class="slider-iframe" style="height:100%; width:100%; border:none;"></iframe>
         </div>
     </div>
     <div class="header-links">

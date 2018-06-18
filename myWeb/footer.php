@@ -41,8 +41,7 @@
               <div class="col-xs-12 col-md-4 right-section">
             <form>
               <?php echo do_shortcode('[ninja_form id=5]') ?>
-            </form>
-            <span class="title"><a href="#" class="btn btn-block btn-link" role="button">Ir al inicio >></a></span>
+            </form>            
         </div>
           </div>
       </div>
