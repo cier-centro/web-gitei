@@ -169,6 +169,8 @@ h2 {
     }
 }
 .gmedia_gallery {
+    margin-top: 20px;
+
     .gmPhantom_Container {
         * {
             box-sizing: border-box;
@@ -195,6 +197,7 @@ h2 {
                 }
                 strong {
                     color: black;
+                    display: none;
                 }
             }
             .gmPhantom_title {
@@ -244,4 +247,8 @@ h2 {
             font-weight: 600;
         }
     }
+}
+.gmedia-phantom .mfp-zoom-in.mfp-ready.mfp-bg, .gmedia-phantom .mfp-zoom-in.mfp-ready button, .gmedia-phantom .mfp-zoom-in.mfp-ready .mfp-button, .gmedia-phantom .mfp-ready .mfp-gmedia-stuff08 {
+    opacity: 0.9 !important;
+    filter: alpha(opacity=90) !important;
 }
