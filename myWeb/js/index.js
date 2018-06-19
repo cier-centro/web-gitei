@@ -31,7 +31,11 @@ $( document ).ready(function() {
 		if ( $( knownLinks ).length > 0) {
 				$( knownLinks ).attr("onclick", "setTitle(this)");
 		}
+		setHeightToGphotosGallery();
 });
+window.onresize = function(){
+		setHeightToGphotosGallery();
+};
 function changeSlider(link, selectedElement) {
 		if (currentElement != selectedElement) {
 				selectedSlider = $( ".home-header .slider" ).get(selectedElement);
@@ -54,6 +58,24 @@ function changeSlider(link, selectedElement) {
 }
 function setTitle(link) {
 		selectedLinkTitle = $(link).attr("title");
+}
+function setHeightToGphotosGallery() {
+		var currentWidth = window.innerWidth;
+		if (( $(".gmedia_gallery").length > 0)) {
+				var gphotoGallery = document.getElementsByClassName('gmPhantom_ThumbContainer');
+				var gphotoGalleryHeights = Array.prototype.map.call(gphotoGallery, function(gphoto)  {
+					return gphoto.clientHeight;
+				});
+				Array.prototype.forEach.call(gphotoGallery, function(gphoto) {
+					gphoto.style.height = "auto";
+				});
+				var maxHeight = Math.max.apply(null, gphotoGalleryHeights);
+				if ( ((currentWidth >= 517) && (currentWidth <= 991)) || (currentWidth >= 1159) ) {
+						Array.prototype.forEach.call(gphotoGallery, function(gphoto) {
+							gphoto.style.height = maxHeight + "px";
+						});
+				}
+		}
 }
 $( document ).bind('DOMSubtreeModified',function() {
 		if ( ( $("#sggPrettyPhototooltip").length > 0 ) && ( $( "#sggPrettyPhototooltip" ).text() != selectedLinkTitle ) && ( selectedLinkTitle != "") && ( $( "#sggPrettyPhototooltip" ).text() != "") ) {
