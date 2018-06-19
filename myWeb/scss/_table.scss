@@ -1,0 +1,45 @@
+/*----------------------------------
+----------------Table--------------
+------------------------------------*/
+.table {
+    color: white;
+    font-family: 'Comfortaa-Light';
+
+    thead {
+        background-color: $head-table-bg;
+
+         th {
+            font-weight: 400;
+            font-size: 16px !important;
+            border: none !important;
+         }
+    }
+    tbody {
+        background-color: $body-table-bg;
+    }
+    tr {
+        &:first-child {
+            td {
+                border: none;
+            }
+        }
+        td {
+            &:first-child {
+                font-family: 'Comfortaa-Bold'
+            }
+        }
+    }
+    & > tbody > tr > td, & > tbody > tr > th, & > thead > tr > td, & > thead > tr > th {
+        padding: 15px;
+    }
+    & > tbody > tr > td, & > tbody > tr > th {
+        font-size: 13px !important;
+    }
+}
+.table-hover {
+    & > tbody > tr {
+        &:hover {
+            background-color: $head-table-bg;
+        }
+    }
+}
