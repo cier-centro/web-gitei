@@ -272,6 +272,53 @@ h2 {
   .alm-load-more-btn:hover, .btn-site:hover {
     background-color: #3284BC; }
 
+.gmedia_gallery .gmPhantom_Container * {
+  box-sizing: border-box; }
+.gmedia_gallery .gmPhantom_Container div.gmPhantom_ThumbContainer, .gmedia_gallery .gmPhantom_Container div.gmPhantom_LoadMore {
+  height: auto;
+  box-shadow: none;
+  border: none; }
+.gmedia_gallery .gmPhantom_Container div.gmPhantom_ThumbContainer:hover img {
+  width: 115% !important;
+  transition: all 0.2s; }
+.gmedia_gallery .gmPhantom_Container .gmPhantom_Details {
+  font-family: 'Comfortaa-Regular'; }
+  .gmedia_gallery .gmPhantom_Container .gmPhantom_Details .gmPhantom_text p {
+    color: gray; }
+  .gmedia_gallery .gmPhantom_Container .gmPhantom_Details .gmPhantom_text strong {
+    color: black; }
+  .gmedia_gallery .gmPhantom_Container .gmPhantom_Details .gmPhantom_title {
+    color: black; }
+.gmedia_gallery .gmPhantom_Container .gmPhantom_ThumbLabel, .gmedia_gallery .gmPhantom_Container .gmPhantom_terms {
+  display: none !important; }
+.gmedia_gallery .gmPhantom_Container .gmPhantom_Thumb {
+  margin: 0; }
+.gmedia_gallery .gmPhantom_Container .gmPhantom_ThumbContainer:hover .gmPhantom_Thumb {
+  transform: none; }
+
+.mfp-wrap .mfp-buttons-bar, .mfp-wrap .gmPhantom_terms {
+  display: none !important; }
+
+.mfp-wrap .gmPhantom_Details, .gmedia_gallery .gmPhantom_Details {
+  display: block !important;
+  background: transparent;
+  padding: 10px;
+  font-family: 'Comfortaa-Regular'; }
+  .mfp-wrap .gmPhantom_Details .gmPhantom_text, .gmedia_gallery .gmPhantom_Details .gmPhantom_text {
+    margin-top: 5px !important; }
+    .mfp-wrap .gmPhantom_Details .gmPhantom_text p, .gmedia_gallery .gmPhantom_Details .gmPhantom_text p {
+      text-align: center;
+      text-transform: uppercase; }
+    .mfp-wrap .gmPhantom_Details .gmPhantom_text strong, .gmedia_gallery .gmPhantom_Details .gmPhantom_text strong {
+      font-weight: 400;
+      display: block;
+      margin: 10px 0;
+      text-transform: none; }
+  .mfp-wrap .gmPhantom_Details .gmPhantom_title, .gmedia_gallery .gmPhantom_Details .gmPhantom_title {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600; }
+
 /*----------------------------------
 ----------------Content Menu--------------
 ------------------------------------*/
@@ -989,6 +1036,14 @@ h2 {
     bottom: 0;
     right: 0;
     margin: auto; } }
+@media screen and (min-width: 658px) {
+  .gmedia_gallery .gmPhantom_Container .gmPhantom_Thumb {
+    width: 196px;
+    height: 196px; } }
+@media screen and (max-width: 657px) {
+  .gmedia_gallery .gmPhantom_Container .gmPhantom_Thumb {
+    width: 146px;
+    height: 146px; } }
 @media screen and (min-width: 768px) and (max-width: 991px) {
   .footer img {
     min-width: 75%; } }
