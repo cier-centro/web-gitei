@@ -301,6 +301,8 @@ h2 {
 
 .mfp-wrap .mfp-buttons-bar, .mfp-wrap .gmPhantom_terms {
   display: none !important; }
+.mfp-wrap .gmPhantom_Details .gmPhantom_title {
+  margin-top: 20px !important; }
 
 .mfp-wrap .gmPhantom_Details, .gmedia_gallery .gmPhantom_Details {
   display: block !important;
