@@ -2,7 +2,7 @@
 
 <div class="container">
   <div class="row">
-    <div class="col-xs-12 col-md-9">
+    <div class="col-xs-12 col-lg-9">
       <div class="row">
         <div class="col-xs-12">
           <div class="vertical-item ">
@@ -37,7 +37,7 @@
 
 											<div class="home-articles">
 											<h1 class="title"><?php echo('Nada encontrado con: '. esc_html( get_search_query() )); ?></h1>
-												
+
 											<?php get_template_part( 'template-parts/content', 'none' );
 
 											endif;

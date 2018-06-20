@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <div class="container">
     <div class="row">
-      <div class="col-xs-12 col-md-9">
+      <div class="col-xs-12 col-lg-9">
         <div class="row home-articles event-articles">
             <?php
                  $index = 0;
