@@ -272,6 +272,9 @@ h2 {
   .alm-load-more-btn:hover, .btn-site:hover {
     background-color: #3284BC; }
 
+.alm-btn-wrap {
+  padding: 0 !important; }
+
 .gmedia_gallery {
   margin-top: 20px; }
   .gmedia_gallery .gmPhantom_Container * {
@@ -672,9 +675,8 @@ h2 {
 -----------Education-Trends---------
 ------------------------------------*/
 .education-trends {
-  margin: 15px 0;
+  margin: 15px -15px;
   border-radius: 5px;
-  border: 1px solid lightgray;
   overflow: hidden; }
   .education-trends .title-section:before {
     background-position: -6px -300px; }
@@ -717,8 +719,7 @@ h2 {
 
 .nav-tabs {
   border-bottom: 2px solid #00c0c9;
-  display: flex;
-  margin-top: 15px; }
+  display: flex; }
   .nav-tabs > li > a {
     color: #00c0c9;
     font-weight: 600;
@@ -746,7 +747,13 @@ h2 {
     right: 0; }
 
 .tab-content {
-  margin-bottom: 15px; }
+  margin-bottom: 15px;
+  border: 1px solid lightgray;
+  border-top: none;
+  border-radius: 5px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  padding: 0 15px 15px; }
 
 /*----------------------------------
 ------------Videos-Section----------
@@ -1142,6 +1149,9 @@ h2 {
 
   .container {
     width: 75%; }
+
+  .alm-btn-wrap .alm-load-more-btn {
+    margin: 5px 0 10px !important; }
 
   .pp_pic_holder #sggPrettyPhototooltip {
     margin: 35px 10% !important;

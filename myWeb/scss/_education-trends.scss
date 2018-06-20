@@ -2,9 +2,8 @@
 -----------Education-Trends---------
 ------------------------------------*/
 .education-trends {
-    margin: 15px 0;
+    margin: 15px -15px;
     border-radius: 5px;
-    border: 1px solid lightgray;
     overflow: hidden;
 
     .title-section {
@@ -64,7 +63,6 @@
 .nav-tabs {
     border-bottom: 2px solid $social-bar-bg;
     display: flex;
-    margin-top: 15px;
 
     & > li {
         & > a {
@@ -103,4 +101,10 @@
 }
 .tab-content {
     margin-bottom: 15px;
+    border: 1px solid lightgray;
+    border-top: none;
+    border-radius: 5px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    padding: 0 15px 15px;
 }
