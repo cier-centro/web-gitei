@@ -684,7 +684,7 @@ h2 {
       display: flex;
       align-items: center;
       justify-content: flex-start;
-      margin: 15px 0;
+      margin-top: 15px;
       border-radius: 20px;
       overflow: hidden; }
       .education-trends .trend-body a:hover {
@@ -744,6 +744,9 @@ h2 {
     margin: 0 auto;
     left: 0;
     right: 0; }
+
+.tab-content {
+  margin-bottom: 15px; }
 
 /*----------------------------------
 ------------Videos-Section----------
@@ -1153,7 +1156,7 @@ h2 {
 
   .education-trends .trend-body a {
     max-width: 250px;
-    margin: 15px auto; }
+    margin: 15px auto 0; }
 
   .flip-slider div.slider .master-slider-parent .ms-slide-info {
     top: 0;

@@ -19,7 +19,7 @@
             display: flex;
             align-items: center;
             justify-content: flex-start;
-            margin: 15px 0;
+            margin-top: 15px;
             border-radius: 20px;
             overflow: hidden;
 
@@ -100,4 +100,7 @@
             }
         }
     }
+}
+.tab-content {
+    margin-bottom: 15px;
 }
