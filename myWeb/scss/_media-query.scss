@@ -15,6 +15,12 @@
         }
     }
 }
+@media screen and (min-width: 1200px) and (max-width: 1499px) {
+    .nav-tabs > li > a {
+        padding: 10px 5px;
+        font-size: 13px;
+    }
+}
 @media screen and (max-width: 1199px) {
     .footer-buttons .container {
         width: 100%;
