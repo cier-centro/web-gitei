@@ -1151,6 +1151,10 @@ h2 {
     margin-top: 25px;
     margin-left: -55px; }
 
+  .education-trends .trend-body a {
+    max-width: 250px;
+    margin: 15px auto; }
+
   .flip-slider div.slider .master-slider-parent .ms-slide-info {
     top: 0;
     margin-top: 0px !important;
