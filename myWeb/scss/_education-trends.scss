@@ -61,3 +61,43 @@
          }
     }
 }
+.nav-tabs {
+    border-bottom: 2px solid $social-bar-bg;
+    display: flex;
+    margin-top: 15px;
+
+    & > li {
+        & > a {
+            color: $social-bar-bg;
+            font-weight: 600;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            position: relative;
+
+            &:hover, &:focus {
+                background-color: $tabs-hover-bg;
+            }
+        }
+        &.active > a {
+            &, &:focus, &:hover {
+                background-color: $social-bar-bg;
+                color: white;
+            }
+            &:before {
+                content: "";
+                position: absolute;
+                width: 0;
+                height: 0;
+                border-style: solid;
+                border-width: 10px 12.5px 0 12.5px;
+                border-color: $social-bar-bg transparent transparent transparent;
+                top: 100%;
+                margin: 0 auto;
+                left: 0;
+                right: 0;
+            }
+        }
+    }
+}

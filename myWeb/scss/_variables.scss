@@ -18,7 +18,8 @@ $section-title-bg:                      $social-bar-bg !default;
 $footer-bg:                             $heading-color !default;
 $main-menu-items:                       #804AA0 !default;
 $head-table-bg:                         #6559bc;
-$body-table-bg:                         #322d6c;
+$body-table-bg:                         $heading-color;
+$tabs-hover-bg:                         #c3edec;
 
 //Measures
 // -------------------------------

@@ -715,6 +715,36 @@ h2 {
         color: gray;
         margin-bottom: 0; }
 
+.nav-tabs {
+  border-bottom: 2px solid #00c0c9;
+  display: flex;
+  margin-top: 15px; }
+  .nav-tabs > li > a {
+    color: #00c0c9;
+    font-weight: 600;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    position: relative; }
+    .nav-tabs > li > a:hover, .nav-tabs > li > a:focus {
+      background-color: #c3edec; }
+  .nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+    background-color: #00c0c9;
+    color: white; }
+  .nav-tabs > li.active > a:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 12.5px 0 12.5px;
+    border-color: #00c0c9 transparent transparent transparent;
+    top: 100%;
+    margin: 0 auto;
+    left: 0;
+    right: 0; }
+
 /*----------------------------------
 ------------Videos-Section----------
 ------------------------------------*/
@@ -895,7 +925,7 @@ h2 {
       font-size: 16px !important;
       border: none !important; }
   .table tbody {
-    background-color: #322d6c; }
+    background-color: #322e6d; }
   .table tr:first-child td {
     border: none; }
   .table tr td:first-child {
