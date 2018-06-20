@@ -18,8 +18,8 @@
     <div class="header-links">
       <div class="links-container">
         <ul class="nav nav-tabs">
-          <li><a href="#" class="selected" role="button" onclick="changeSlider(this, 0)">Lo que más nos gusta</a></li>
-          <li><a href="#" role="button" onclick="changeSlider(this, 1)">Nos conocen por</a></li>
+          <li><a href="#" class="selected" role="button" onclick="changeSlider(this, 0)">Nuestras líneas de acción</a></li>
+          <li><a href="#" role="button" onclick="changeSlider(this, 1)">Nuestra experiencia</a></li>
         </ul>
       </div>
     </div>
