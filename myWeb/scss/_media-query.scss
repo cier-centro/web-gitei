@@ -314,10 +314,13 @@
             display: none;
         }
     }
-    .left-insidetext, .wp-caption {
+    .left-insidetext, .wp-caption.alignleft {
         float: left;
         width: 50% !important;
         margin: 0 20px 15px 0;
+    }
+    .wp-caption.aligncenter {
+        width: 100% !important;
     }
     .videos-section {
         h1 {
