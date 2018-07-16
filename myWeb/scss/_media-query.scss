@@ -314,9 +314,9 @@
             display: none;
         }
     }
-    .left-insidetext {
+    .left-insidetext, .wp-caption {
         float: left;
-        width: 50%;
+        width: 50% !important;
         margin: 0 20px 15px 0;
     }
     .videos-section {
@@ -432,5 +432,8 @@
     }
     .footer-buttons .btn-link {
         font-size: 16px;
+    }
+    .wp-caption {
+        width: 100% !important;
     }
 }

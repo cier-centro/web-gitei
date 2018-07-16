@@ -132,16 +132,21 @@ h2 {
         }
     }
 }
-.image-foot {
-      .foot-text {
-          font-family: 'Comfortaa-Light';
-          color: gray;
-          text-align: right;
-          display: block;
-          font-size: 13px;
-          margin: 2px 4px;
-          font-variant: small-caps;
-      }
+.image-foot .foot-text, .wp-caption .wp-caption-text {
+      font-family: 'Comfortaa-Light';
+      color: gray;
+      text-align: right;
+      display: block;
+      font-size: 13px;
+      margin: 2px 4px;
+      font-variant: small-caps;
+}
+.wp-caption {
+    img {
+      width: 100%;
+      height: auto;
+      margin-bottom: 10px;
+    }
 }
 .nf-form-cont {
     .nf-form-title {
