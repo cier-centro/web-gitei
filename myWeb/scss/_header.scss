@@ -36,6 +36,10 @@
         max-width: 15vw;
         min-width: 180px;
     }
+    .separator-logo {
+        max-width: 22vw;
+        min-width: 330px;
+    }
     .btn-menu {
         @extend %header-button;
         background-position: 0 0;

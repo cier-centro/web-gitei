@@ -436,6 +436,9 @@ h2 {
   .home-header .gitei-logo, .home-header .gitei-logo-dark {
     max-width: 15vw;
     min-width: 180px; }
+  .home-header .separator-logo {
+    max-width: 22vw;
+    min-width: 330px; }
   .home-header .btn-menu {
     background-position: 0 0; }
     .home-header .btn-menu:hover {
