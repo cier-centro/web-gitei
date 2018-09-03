@@ -3,7 +3,7 @@
             <div class="col-xs-12">
                 <ul class="nav nav-tabs">
                     <li class="active"><a data-toggle="tab" href="#trends">Tendencias Educativas</a></li>
-                    <!--<li><a data-toggle="tab" href="#services">Servicios</a></li>-->
+                    <li><a data-toggle="tab" href="#services">Servicios</a></li>
                 </ul>
                 <div class="tab-content">
                   <div id="trends" class="row tab-pane fade in active">
@@ -47,7 +47,7 @@
                                             "duration": "2",
                                             "rotationY":"45",
                                             "z":"-30"}'>
-                                <a href="<?php echo($urlPost); ?>" target="_blank">
+                                <a href="<?php echo ($urlPost == "" ? the_permalink() : $urlPost) ?>" target="<?php echo ($urlPost == "" ? "_self" : "_blank") ?>">
                                     <?php if ( has_post_thumbnail() ) { the_post_thumbnail('large', array( 'alt' => get_the_title(), 'title' => get_the_title() )); }?>
                                 </a>
                               </div>
