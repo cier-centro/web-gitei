@@ -86,7 +86,7 @@
               <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#image<?php echo $index; ?>">
                   <div class="thumbnail">
                       <?php if( !empty($url) ){ ?><a href="<?php echo $url; ?>" <?php echo ($target == 'true' )? 'target="_blank"': ''; ?>><?php } ?>
-                          <img src="<?php echo $full_image_url_thumbnail; ?>" alt="<?php echo $title; ?>" title="<?php echo $title; ?>">
+                          <img src="<?php echo $full_image_url_thumbnail; ?>" alt="<?php echo ($caption == "" ? $title : $caption); ?>" title="<?php echo $title; ?>">
                       <?php if( !empty($url) ){ ?></a><?php } ?>
                   </div>
               </button>
