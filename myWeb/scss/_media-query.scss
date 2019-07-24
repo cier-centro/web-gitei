@@ -70,14 +70,14 @@
     .gitei-logo {
       position: absolute;
       left: 10%;
-      top: 2.5vw;
+      top: 2vw;
       z-index: 1;
     }
 
     .btn-menu {
       position: absolute;
       right: 10%;
-      top: 4vw;
+      top: 2vw;
       z-index: 1;
     }
   }
@@ -244,6 +244,11 @@
       .vertical-separator {
         margin: 0 20px;
       }
+
+      .gitei-logo {
+        margin-top: 0.5vw;
+        max-width: 4.5vw;
+      }
     }
   }
 }
@@ -283,6 +288,11 @@
 
       .vertical-separator {
         margin: 0 2vw;
+      }
+
+      .gitei-logo {
+        margin-top: 2vw;
+        min-width: 80px;
       }
     }
 

@@ -1,26 +1,22 @@
 /*----------------------------------
 ---------------Variables------------
 ------------------------------------*/
-
-$site-name:                        site-bienestar-laboral;
-$site-slider:                      bienestar_laboral_home_slider;
-$path-site:                        edu-buscandocarrera;
-$images-path:                      "../img/";
-
- // Colors
- // -------------------------------
-$main-bg:                               #fff !default;
-$heading-color:                         #322e6d !default;
-$social-bar-bg:                         #00c0c9 !default;
-$see-more-hover:                        #3284BC !default;
-$header-link-selected:                  #ff8361 !default;
-$section-title-bg:                      $social-bar-bg !default;
-$footer-bg:                             $heading-color !default;
-$main-menu-items:                       #804AA0 !default;
-$head-table-bg:                         #6559bc;
-$body-table-bg:                         $heading-color;
-$tabs-hover-bg:                         #c3edec;
-
-//Measures
+$site-name: site-bienestar-laboral;
+$site-slider: bienestar_laboral_home_slider;
+$path-site: edu-buscandocarrera;
+$images-path: "../img/";
+// Colors
 // -------------------------------
-$main-header-height:              132px;
+$main-bg: #fff !default;
+$heading-color: #1f2c53 !default;
+$social-bar-bg: #00c5ff !default;
+$see-more-hover: #3284BC !default;
+$header-link-selected: #ff8361 !default;
+$section-title-bg: $social-bar-bg !default;
+$footer-bg: $heading-color !default;
+$main-menu-items: #804AA0 !default;
+$head-table-bg: #6559bc;
+$body-table-bg: $heading-color;
+$tabs-hover-bg: #c3edec; //Measures
+// -------------------------------
+$main-header-height: 132px;

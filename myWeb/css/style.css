@@ -153,13 +153,13 @@
   -ms-border-radius: 3px;
   border-radius: 3px;
   background: #804AA0 !important;
-  background: -moz-linear-gradient(top, #804AA0 0%, #322e6d 100%) !important;
-  background: -webkit-gradient(left top, left bottom, color-stop(0%, #804AA0), color-stop(100%, #322e6d)) !important;
-  background: -webkit-linear-gradient(top, #804AA0 0%, #322e6d 100%) !important;
-  background: -o-linear-gradient(top, #804AA0 0%, #322e6d 100%) !important;
-  background: -ms-linear-gradient(top, #804AA0 0%, #322e6d 100%) !important;
-  background: linear-gradient(to bottom, #804AA0 0%, #322e6d 100%) !important;
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#804AA0", endColorstr="#322e6d", GradientType=0 ) !important;
+  background: -moz-linear-gradient(top, #804AA0 0%, #1f2c53 100%) !important;
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, #804AA0), color-stop(100%, #1f2c53)) !important;
+  background: -webkit-linear-gradient(top, #804AA0 0%, #1f2c53 100%) !important;
+  background: -o-linear-gradient(top, #804AA0 0%, #1f2c53 100%) !important;
+  background: -ms-linear-gradient(top, #804AA0 0%, #1f2c53 100%) !important;
+  background: linear-gradient(to bottom, #804AA0 0%, #1f2c53 100%) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#804AA0", endColorstr="#1f2c53", GradientType=0 ) !important;
 }
 .pp_pic_holder .pp_close {
   padding-right: 9%;
@@ -207,7 +207,7 @@ a {
 
 .title-section {
   font-size: 29px;
-  color: #322e6d;
+  color: #1f2c53;
   padding: 20px 15px 20px 70px;
   margin: 0;
   font-weight: 700;
@@ -233,18 +233,18 @@ a {
   border-radius: 0;
 }
 .breadcrumb, .breadcrumb a {
-  color: #322e6d;
+  color: #1f2c53;
 }
 .breadcrumb a {
   display: inline-block;
 }
 .breadcrumb .home-link {
-  color: #00c0c9;
+  color: #00c5ff;
 }
 
 h2 {
   font-size: 26px;
-  color: #322e6d;
+  color: #1f2c53;
 }
 
 .article-content .banner {
@@ -325,7 +325,7 @@ h2 {
 }
 
 .alm-load-more-btn, .btn-site {
-  background-color: #00c0c9;
+  background-color: #00c5ff;
   display: inline-block !important;
   color: white !important;
   line-height: 1.42857143 !important;
@@ -429,7 +429,7 @@ h2 {
   padding: 15px 0;
   display: block;
   margin: 0;
-  color: #322e6d;
+  color: #1f2c53;
 }
 .category-menu .menus-container {
   border-radius: 15px;
@@ -533,13 +533,14 @@ h2 {
   transition: all 1s ease-out;
   opacity: 1;
 }
-.home-header .gitei-logo, .home-header .gitei-logo-dark {
+.home-header .gitei-logo,
+.home-header .gitei-logo-dark {
   max-width: 15vw;
   min-width: 180px;
 }
 .home-header .separator-logo {
-  max-width: 28vw;
-  min-width: 330px;
+  max-width: 11vw;
+  min-width: 150px;
 }
 .home-header .btn-menu {
   background-position: 0 0;
@@ -561,7 +562,7 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 5px 0px;
+  padding: 5px 0;
   background: rgba(0, 0, 0, 0.65);
 }
 .home-header .header-links .links-container .nav {
@@ -601,7 +602,7 @@ h2 {
 .home-header .social-bar {
   text-align: center;
   padding: 5px 0;
-  background: #00c0c9;
+  background: #00c5ff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -655,8 +656,8 @@ h2 {
 }
 .home-header .social-bar .subscribe-form:before {
   content: "";
-  width: 0px;
-  height: 0px;
+  width: 0;
+  height: 0;
   border-left: 15px solid transparent;
   border-right: 15px solid transparent;
   border-bottom: 15px solid #2f2f2f;
@@ -686,16 +687,17 @@ h2 {
 .home-header .modal-content .close:active {
   background-position: -138px -64px;
 }
-.home-header .modal-content .modal-body a, .home-header .modal-content .modal-body p {
+.home-header .modal-content .modal-body a,
+.home-header .modal-content .modal-body p {
   color: white;
   font-size: 15px;
 }
 .home-header .modal-content .modal-body a:hover {
-  color: #00c0c9;
+  color: #00c5ff;
   font-weight: 700;
 }
 .home-header .modal-content .modal-body #main-menu {
-  margin: 0 0 20px 0;
+  margin: 0 0 20px;
   border-bottom: 1px solid white;
   padding: 0 15px 15px;
 }
@@ -718,7 +720,7 @@ h2 {
 }
 .home-header .modal-content .glyphicon {
   font-size: 25px;
-  color: #322e6d;
+  color: #1f2c53;
 }
 
 .content-header .header-items {
@@ -727,7 +729,8 @@ h2 {
   justify-content: space-between;
   padding: 1% 10%;
 }
-.content-header .header-items .gitei-logo, .content-header .header-items .btn-menu {
+.content-header .header-items .btn-menu,
+.content-header .header-items .gitei-logo {
   position: static;
   margin: 0;
 }
@@ -780,7 +783,7 @@ h2 {
 }
 .vertical-item .item-text .title {
   font-size: 28px;
-  color: #322e6d;
+  color: #1f2c53;
   padding: 15px 0;
   border-bottom: 1px solid lightgray;
   font-weight: 700;
@@ -817,7 +820,7 @@ h2 {
   margin: 0;
 }
 .vertical-item .item-text .group .post-categories a {
-  color: #00c0c9;
+  color: #00c5ff;
   font-size: 15px;
 }
 .vertical-item .go-start {
@@ -894,11 +897,11 @@ h2 {
 }
 
 .nav-tabs {
-  border-bottom: 2px solid #00c0c9;
+  border-bottom: 2px solid #00c5ff;
   display: flex;
 }
 .nav-tabs > li > a {
-  color: #00c0c9;
+  color: #00c5ff;
   font-weight: 600;
   height: 100%;
   display: flex;
@@ -910,7 +913,7 @@ h2 {
   background-color: #c3edec;
 }
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
-  background-color: #00c0c9;
+  background-color: #00c5ff;
   color: white;
 }
 .nav-tabs > li.active > a:before {
@@ -920,7 +923,7 @@ h2 {
   height: 0;
   border-style: solid;
   border-width: 10px 12.5px 0 12.5px;
-  border-color: #00c0c9 transparent transparent transparent;
+  border-color: #00c5ff transparent transparent transparent;
   top: 100%;
   margin: 0 auto;
   left: 0;
@@ -971,13 +974,13 @@ h2 {
   margin: 1% 1% 0;
 }
 #video-gallery .zTitfHov2 {
-  background-color: rgba(0, 192, 201, 0.4) !important;
+  background-color: rgba(0, 197, 255, 0.4) !important;
 }
 #video-gallery .zTitfHov2 span {
   font-family: "Montserrat", sans-serif !important;
 }
 #video-gallery .TotalsofthPIcon1 {
-  color: #00c0c9 !important;
+  color: #00c5ff !important;
 }
 
 .lg-outer .lg-inner {
@@ -989,7 +992,7 @@ h2 {
 ------------------------------------*/
 .footer-buttons {
   margin: 0;
-  background: #00c0c9;
+  background: #00c5ff;
 }
 .footer-buttons .btn-link {
   color: white;
@@ -998,7 +1001,7 @@ h2 {
   font-family: "Comfortaa-Regular";
 }
 .footer-buttons .btn-link:hover {
-  color: #322e6d;
+  color: #1f2c53;
 }
 .footer-buttons .btn-link:before {
   content: "";
@@ -1048,7 +1051,7 @@ h2 {
 
 .footer {
   padding-bottom: 30px;
-  background: #322e6d;
+  background: #1f2c53;
   margin: 0;
 }
 .footer .logo-container {
@@ -1094,7 +1097,7 @@ h2 {
   margin-top: 2px;
 }
 .footer .right-section form .glyphicon {
-  color: #322e6d;
+  color: #1f2c53;
   font-size: 16px;
 }
 .footer .right-section form .footer-form p, .footer .right-section form .footer-form label {
@@ -1109,10 +1112,10 @@ h2 {
   margin: 0 !important;
 }
 .footer .right-section form .footer-form .nf-error-msg, .footer .right-section form .footer-form .ninja-forms-req-symbol {
-  color: #00c0c9 !important;
+  color: #00c5ff !important;
 }
 .footer .right-section form .footer-form .nf-error .ninja-forms-field {
-  border: 1px solid #00c0c9;
+  border: 1px solid #00c5ff;
 }
 .footer .right-section form .footer-form .checkbox-inline {
   margin: 0 !important;
@@ -1169,7 +1172,7 @@ h2 {
   border: none !important;
 }
 .table tbody {
-  background-color: #322e6d;
+  background-color: #1f2c53;
 }
 .table tr:first-child td {
   border: none;
@@ -1244,13 +1247,13 @@ h2 {
   .home-header .gitei-logo {
     position: absolute;
     left: 10%;
-    top: 2.5vw;
+    top: 2vw;
     z-index: 1;
   }
   .home-header .btn-menu {
     position: absolute;
     right: 10%;
-    top: 4vw;
+    top: 2vw;
     z-index: 1;
   }
 
@@ -1369,6 +1372,10 @@ h2 {
   .footer .logo-container .vertical-separator {
     margin: 0 20px;
   }
+  .footer .logo-container .gitei-logo {
+    margin-top: 0.5vw;
+    max-width: 4.5vw;
+  }
 }
 @media screen and (max-width: 991px) {
   .home-header .gitei-logo {
@@ -1393,6 +1400,10 @@ h2 {
   }
   .footer .logo-container .vertical-separator {
     margin: 0 2vw;
+  }
+  .footer .logo-container .gitei-logo {
+    margin-top: 2vw;
+    min-width: 80px;
   }
   .footer .right-section .title {
     padding-top: 30px;
