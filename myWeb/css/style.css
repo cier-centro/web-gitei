@@ -200,9 +200,9 @@ a {
 
 .home-header + .container {
   background: white;
-  -webkit-box-shadow: 0px 0px 11px 3px rgba(0, 0, 0, 0.15);
-  -moz-box-shadow: 0px 0px 11px 3px rgba(0, 0, 0, 0.15);
-  box-shadow: 0px 0px 11px 3px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0 0 11px 3px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 0 11px 3px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 11px 3px rgba(0, 0, 0, 0.15);
 }
 
 .title-section {
@@ -232,7 +232,8 @@ a {
   border-bottom: 1px solid lightgray;
   border-radius: 0;
 }
-.breadcrumb, .breadcrumb a {
+.breadcrumb,
+.breadcrumb a {
   color: #1f2c53;
 }
 .breadcrumb a {
@@ -301,7 +302,8 @@ h2 {
   margin: auto;
 }
 
-.image-foot .foot-text, .wp-caption .wp-caption-text {
+.image-foot .foot-text,
+.wp-caption .wp-caption-text {
   font-family: "Comfortaa-Light";
   color: gray;
   text-align: right;
@@ -324,7 +326,8 @@ h2 {
   margin-bottom: 35px;
 }
 
-.alm-load-more-btn, .btn-site {
+.alm-load-more-btn,
+.btn-site {
   background-color: #00c5ff;
   display: inline-block !important;
   color: white !important;
@@ -332,10 +335,12 @@ h2 {
   font-family: "Comfortaa-Regular";
   border: none;
 }
-.alm-load-more-btn.done, .btn-site.done {
+.alm-load-more-btn.done,
+.btn-site.done {
   display: none !important;
 }
-.alm-load-more-btn:hover, .btn-site:hover {
+.alm-load-more-btn:hover,
+.btn-site:hover {
   background-color: #3284BC;
 }
 
@@ -349,7 +354,8 @@ h2 {
 .gmedia_gallery .gmPhantom_Container * {
   box-sizing: border-box;
 }
-.gmedia_gallery .gmPhantom_Container div.gmPhantom_ThumbContainer, .gmedia_gallery .gmPhantom_Container div.gmPhantom_LoadMore {
+.gmedia_gallery .gmPhantom_Container div.gmPhantom_LoadMore,
+.gmedia_gallery .gmPhantom_Container div.gmPhantom_ThumbContainer {
   height: auto;
   box-shadow: none;
   border: none;
@@ -371,7 +377,8 @@ h2 {
 .gmedia_gallery .gmPhantom_Container .gmPhantom_Details .gmPhantom_title {
   color: black;
 }
-.gmedia_gallery .gmPhantom_Container .gmPhantom_ThumbLabel, .gmedia_gallery .gmPhantom_Container .gmPhantom_terms {
+.gmedia_gallery .gmPhantom_Container .gmPhantom_ThumbLabel,
+.gmedia_gallery .gmPhantom_Container .gmPhantom_terms {
   display: none !important;
 }
 .gmedia_gallery .gmPhantom_Container .gmPhantom_Thumb {
@@ -381,39 +388,48 @@ h2 {
   transform: none;
 }
 
-.mfp-wrap .mfp-buttons-bar, .mfp-wrap .gmPhantom_terms {
+.mfp-wrap .gmPhantom_terms,
+.mfp-wrap .mfp-buttons-bar {
   display: none !important;
 }
 .mfp-wrap .gmPhantom_Details .gmPhantom_title {
   margin-top: 20px !important;
 }
 
-.mfp-wrap .gmPhantom_Details, .gmedia_gallery .gmPhantom_Details {
+.gmedia_gallery .gmPhantom_Details,
+.mfp-wrap .gmPhantom_Details {
   display: block !important;
   background: transparent;
   padding: 10px;
   font-family: "Comfortaa-Regular";
 }
-.mfp-wrap .gmPhantom_Details .gmPhantom_text, .gmedia_gallery .gmPhantom_Details .gmPhantom_text {
+.gmedia_gallery .gmPhantom_Details .gmPhantom_text,
+.mfp-wrap .gmPhantom_Details .gmPhantom_text {
   margin-top: 5px !important;
 }
-.mfp-wrap .gmPhantom_Details .gmPhantom_text p, .gmedia_gallery .gmPhantom_Details .gmPhantom_text p {
+.gmedia_gallery .gmPhantom_Details .gmPhantom_text p,
+.mfp-wrap .gmPhantom_Details .gmPhantom_text p {
   text-align: center;
   text-transform: uppercase;
 }
-.mfp-wrap .gmPhantom_Details .gmPhantom_text strong, .gmedia_gallery .gmPhantom_Details .gmPhantom_text strong {
+.gmedia_gallery .gmPhantom_Details .gmPhantom_text strong,
+.mfp-wrap .gmPhantom_Details .gmPhantom_text strong {
   font-weight: 400;
   display: block;
   margin: 10px 0;
   text-transform: none;
 }
-.mfp-wrap .gmPhantom_Details .gmPhantom_title, .gmedia_gallery .gmPhantom_Details .gmPhantom_title {
+.gmedia_gallery .gmPhantom_Details .gmPhantom_title,
+.mfp-wrap .gmPhantom_Details .gmPhantom_title {
   text-transform: uppercase;
   text-align: center;
   font-weight: 600;
 }
 
-.gmedia-phantom .mfp-zoom-in.mfp-ready.mfp-bg, .gmedia-phantom .mfp-zoom-in.mfp-ready button, .gmedia-phantom .mfp-zoom-in.mfp-ready .mfp-button, .gmedia-phantom .mfp-ready .mfp-gmedia-stuff08 {
+.gmedia-phantom .mfp-ready .mfp-gmedia-stuff08,
+.gmedia-phantom .mfp-zoom-in.mfp-ready .mfp-button,
+.gmedia-phantom .mfp-zoom-in.mfp-ready button,
+.gmedia-phantom .mfp-zoom-in.mfp-ready.mfp-bg {
   opacity: 0.9 !important;
   filter: alpha(opacity=90) !important;
 }
@@ -521,7 +537,7 @@ h2 {
 }
 
 .home-header {
-  background: #322f6c;
+  background: #1f2c53;
   position: relative;
 }
 .home-header .slider.closed {
@@ -593,7 +609,7 @@ h2 {
   border: none !important;
 }
 .home-header .header-links .links-container .nav .selected {
-  color: #ff8361;
+  color: #ff6c47;
   font-weight: 600;
 }
 .home-header .header-links .vertical-separator {
@@ -1164,7 +1180,7 @@ h2 {
   font-family: "Comfortaa-Light";
 }
 .table thead {
-  background-color: #6559bc;
+  background-color: #5f4db8;
 }
 .table thead th {
   font-weight: 400;
@@ -1188,7 +1204,7 @@ h2 {
 }
 
 .table-hover > tbody > tr:hover {
-  background-color: #6559bc;
+  background-color: #5f4db8;
 }
 
 /*----------------------------------

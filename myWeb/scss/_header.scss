@@ -19,7 +19,7 @@
 }
 
 .home-header {
-  background: rgb(50, 47, 108);
+  background: $heading-color;
   position: relative;
 
   .slider {
@@ -183,7 +183,7 @@
         height: 0;
         border-left: 15px solid transparent;
         border-right: 15px solid transparent;
-        border-bottom: 15px solid #2f2f2f;
+        border-bottom: 15px solid $strong-gray;
         position: absolute;
         top: -15px;
       }
