@@ -22,6 +22,8 @@
   }
 
   div.slider {
+    display: flex;
+    align-items: center;
     padding: 0 15px;
 
     .master-slider-parent {
@@ -37,10 +39,10 @@
           background-image: url("#{$images-path}img_spritesheet.png") !important;
           width: 16px;
           height: 16px;
-          background-position: -357px -26px;
+          background-position: -358px -27px;
 
           &.ms-bullet-selected {
-            background-position: -332px -26px !important;
+            background-position: -332px -27px !important;
           }
         }
 
@@ -65,11 +67,6 @@
           &:hover {
             background-position: -273px -69px;
           }
-        }
-
-        .ms-slide,
-        .ms-view {
-          height: 42vw !important;
         }
 
         .ms-slide-info {

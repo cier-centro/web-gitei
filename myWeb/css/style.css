@@ -56,6 +56,8 @@
   margin-bottom: -8px;
 }
 .flip-slider div.slider {
+  display: flex;
+  align-items: center;
   padding: 0 15px;
 }
 .flip-slider div.slider .master-slider-parent .master-slider {
@@ -69,10 +71,10 @@
   background-image: url("../img/img_spritesheet.png") !important;
   width: 16px;
   height: 16px;
-  background-position: -357px -26px;
+  background-position: -358px -27px;
 }
 .flip-slider div.slider .master-slider-parent .master-slider .ms-bullet.ms-bullet-selected {
-  background-position: -332px -26px !important;
+  background-position: -332px -27px !important;
 }
 .flip-slider div.slider .master-slider-parent .master-slider .ms-nav-next,
 .flip-slider div.slider .master-slider-parent .master-slider .ms-nav-prev {
@@ -91,10 +93,6 @@
 }
 .flip-slider div.slider .master-slider-parent .master-slider .ms-nav-next:hover {
   background-position: -273px -69px;
-}
-.flip-slider div.slider .master-slider-parent .master-slider .ms-slide,
-.flip-slider div.slider .master-slider-parent .master-slider .ms-view {
-  height: 42vw !important;
 }
 .flip-slider div.slider .master-slider-parent .master-slider .ms-slide-info {
   background-color: rgba(0, 0, 0, 0.65);
@@ -337,6 +335,7 @@ h2 {
   line-height: 1.42857143 !important;
   font-family: "Comfortaa-Regular";
   border: none;
+  border-radius: 100px !important;
 }
 .alm-load-more-btn.done,
 .btn-site.done {
@@ -344,7 +343,7 @@ h2 {
 }
 .alm-load-more-btn:hover,
 .btn-site:hover {
-  background-color: #1f2c53 !important;
+  background-color: #3284BC !important;
 }
 
 .alm-btn-wrap {
@@ -554,7 +553,7 @@ h2 {
 }
 .home-header .gitei-logo,
 .home-header .gitei-logo-dark {
-  max-width: 15vw;
+  max-width: 10vw;
   min-width: 120px;
 }
 .home-header .separator-logo {
@@ -621,7 +620,7 @@ h2 {
 .home-header .social-bar {
   text-align: center;
   padding: 5px 0;
-  background: #00c5ff;
+  background: #d3d3d3;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -640,11 +639,35 @@ h2 {
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
+.home-header .social-bar .facebook {
+  background-position: -8px -200px;
+}
+.home-header .social-bar .facebook:hover {
+  background-position: -8px -151px;
+}
+.home-header .social-bar .twitter {
+  background-position: -55px -200px;
+}
+.home-header .social-bar .twitter:hover {
+  background-position: -55px -151px;
+}
 .home-header .social-bar .youtube {
   background-position: -103px -200px;
 }
 .home-header .social-bar .youtube:hover {
   background-position: -103px -151px;
+}
+.home-header .social-bar .instagram {
+  background-position: -150px -200px;
+}
+.home-header .social-bar .instagram:hover {
+  background-position: -150px -151px;
+}
+.home-header .social-bar .linkedin {
+  background-position: -197px -200px;
+}
+.home-header .social-bar .linkedin:hover {
+  background-position: -197px -151px;
 }
 .home-header .social-bar .mail {
   background-position: -246px -200px;
@@ -1211,14 +1234,23 @@ h2 {
 /*----------------------------------
 --------------Media Query-----------
 ------------------------------------*/
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1400px) {
+  div.slider .master-slider-parent .master-slider .ms-nav-next {
+    right: -19vw !important;
+  }
+  div.slider .master-slider-parent .master-slider .ms-nav-prev {
+    left: -19vw !important;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
   div.slider .master-slider-parent .master-slider .ms-nav-next {
     right: -15vw !important;
   }
   div.slider .master-slider-parent .master-slider .ms-nav-prev {
     left: -15vw !important;
   }
-
+}
+@media screen and (min-width: 1200px) {
   .nav-tabs > li > a {
     padding: 15px 8px;
     font-size: 13px;
@@ -1473,19 +1505,24 @@ h2 {
     width: 100% !important;
   }
 
+  .flip-slider div.slider .master-slider-parent .master-slider .ms-slide,
+.flip-slider div.slider .master-slider-parent .master-slider .ms-view {
+    height: 30vw !important;
+  }
+
   .videos-section h1 {
     display: flex;
   }
 
   .flip-slider div.slider .master-slider-parent .ms-slide-info {
-    bottom: 25%;
+    bottom: 30%;
     width: 35%;
     left: 32.5%;
     position: absolute !important;
     border-radius: 15px;
   }
   .flip-slider .slider {
-    height: 41.5vw;
+    height: 30vw;
   }
 
   .container {
@@ -1525,6 +1562,10 @@ h2 {
     height: 32vw !important;
     border-radius: 0 !important;
     font-size: 13px;
+  }
+  .flip-slider div.slider .master-slider-parent .master-slider .ms-slide,
+.flip-slider div.slider .master-slider-parent .master-slider .ms-view {
+    height: 42vw !important;
   }
   .flip-slider .slider {
     height: 73vw;

@@ -1,6 +1,7 @@
 /*----------------------------------
 ----------------Header--------------
 ------------------------------------*/
+
 %header-button {
   background-color: transparent !important;
   background-image: url("#{$images-path}img_spritesheet.png");
@@ -36,7 +37,7 @@
 
   .gitei-logo,
   .gitei-logo-dark {
-    max-width: 15vw;
+    max-width: 10vw;
     min-width: 120px;
   }
 
@@ -120,7 +121,7 @@
   .social-bar {
     text-align: center;
     padding: 5px 0;
-    background: $social-bar-bg;
+    background: $lightgray;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -136,11 +137,43 @@
       @include transition-properties(all 0.3s ease);
     }
 
+    .facebook {
+      background-position: -8px -200px;
+
+      &:hover {
+        background-position: -8px -151px;
+      }
+    }
+
+    .twitter {
+      background-position: -55px -200px;
+
+      &:hover {
+        background-position: -55px -151px;
+      }
+    }
+
     .youtube {
       background-position: -103px -200px;
 
       &:hover {
         background-position: -103px -151px;
+      }
+    }
+
+    .instagram {
+      background-position: -150px -200px;
+
+      &:hover {
+        background-position: -150px -151px;
+      }
+    }
+
+    .linkedin {
+      background-position: -197px -200px;
+
+      &:hover {
+        background-position: -197px -151px;
       }
     }
 

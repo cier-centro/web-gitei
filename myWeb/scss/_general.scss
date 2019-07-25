@@ -1,7 +1,6 @@
 /*----------------------------------
 ----------------General--------------
 ------------------------------------*/
-
 * {
   box-sizing: border-box;
 }
@@ -185,13 +184,14 @@ h2 {
   line-height: 1.42857143 !important;
   font-family: 'Comfortaa-Regular';
   border: none;
+  border-radius: 100px !important;
 
   &.done {
     display: none !important;
   }
 
   &:hover {
-    background-color: $heading-color !important;
+    background-color: $see-more-hover !important;
   }
 }
 
