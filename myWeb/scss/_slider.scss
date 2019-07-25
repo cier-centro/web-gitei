@@ -1,130 +1,154 @@
 /*----------------------------------
 ----------------Slider--------------
 ------------------------------------*/
+
 .flip-slider {
- 	position: relative;
- 	width: 100%;
- 	overflow: hidden;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
 
   .slider-container {
-      overflow: hidden;
+    overflow: hidden;
 
-      .slider:nth-child(2) {
-          overflow-y: hidden;
-          background: black;
-      }
+    .slider:nth-child(2) {
+      overflow-y: hidden;
+      background: black;
+    }
   }
+
   .slider {
-      width: 100%;
-      margin-bottom: -8px;
+    width: 100%;
+    margin-bottom: -8px;
   }
+
   div.slider {
-      padding: 0 15px;
+    padding: 0 15px;
 
-      .master-slider-parent {
-          .master-slider {
-              position: relative;
+    .master-slider-parent {
+      .master-slider {
+        position: relative;
 
-              .ms-bullets {
-                  opacity: 1 !important;
-                  bottom: 6vw !important;
-              }
-              .ms-bullet {
-                  background-image: url('#{$images-path}img_spritesheet.png') !important;
-                  width: 16px;
-                  height: 16px;
-                  background-position: -357px -26px;
+        .ms-bullets {
+          opacity: 1 !important;
+          bottom: 6vw !important;
+        }
 
-                  &.ms-bullet-selected {
-                      background-position: -332px -26px !important;
-                  }
-              }
-              .ms-nav-next, .ms-nav-prev {
-                  background: url('#{$images-path}img_spritesheet.png');
-                  width: 42px;
-                  height: 42px;
-              }
-              .ms-nav-prev {
-                  background-position: -218px -13px;
+        .ms-bullet {
+          background-image: url("#{$images-path}img_spritesheet.png") !important;
+          width: 16px;
+          height: 16px;
+          background-position: -357px -26px;
 
-                  &:hover {
-                      background-position: -218px -69px;
-                  }
-              }
-              .ms-nav-next {
-                  background-position: -273px -13px;
-
-                  &:hover {
-                      background-position: -273px -69px;
-                  }
-              }
-              .ms-view, .ms-slide{
-                  height: 42vw !important;
-              }
-              .ms-slide-info {
-                  background-color: rgba(0,0,0,0.65);
-                  padding: 15px;
-                  min-height: 40px !important;
-                  display: flex;
-                  align-items: center;
-
-                  .ms-info {
-                    width: 100%;
-                    text-align: center;
-                    color: white;
-                  }
-              }
+          &.ms-bullet-selected {
+            background-position: -332px -26px !important;
           }
-      }
+        }
 
-      .ms-slide-bgcont:before {
-          background: url('#{$images-path}img_banner_bg.png') no-repeat center / cover;
-          content: "";
-          position: absolute;
-          top: -1%;
-          left: -1%;
-          width: 102%;
-          height: 102%;
-          z-index: 1;
+        .ms-nav-next,
+        .ms-nav-prev {
+          background: url("#{$images-path}img_spritesheet.png");
+          width: 42px;
+          height: 42px;
+        }
+
+        .ms-nav-prev {
+          background-position: -218px -13px;
+
+          &:hover {
+            background-position: -218px -69px;
+          }
+        }
+
+        .ms-nav-next {
+          background-position: -273px -13px;
+
+          &:hover {
+            background-position: -273px -69px;
+          }
+        }
+
+        .ms-slide,
+        .ms-view {
+          height: 42vw !important;
+        }
+
+        .ms-slide-info {
+          background-color: rgba(0,0,0,0.65);
+          padding: 15px;
+          min-height: 40px !important;
+          display: flex;
+          align-items: center;
+
+          .ms-info {
+            width: 100%;
+            text-align: center;
+            color: white;
+          }
+        }
       }
+    }
+
+    .ms-slide-bgcont:before {
+      background: url("#{$images-path}img_banner_bg.png") no-repeat center / cover;
+      content: "";
+      position: absolute;
+      top: -1%;
+      left: -1%;
+      /*width: 102%;
+          height: 102%;*/
+      z-index: 1;
+    }
   }
 }
+
 .pp_pic_holder {
-    #pp_full_res {
-        text-align: center;
-    }
-    #fullResImage {
-        max-width: 90%;
-        height: auto !important;
-    }
-    .pp_content {
-        height: auto !important;
-        padding: 20px 0;
-    }
-    .pp_description {
-        white-space: normal !important;
-        margin: 0 4vw !important;
-        border: 1px solid lightgray;
-        padding: 15px !important;
-        overflow-y: auto !important;
-        @include border-radius-properties(5px);
-    }
-    .pp_details {
-        float: none !important;
-        padding-top: 35px;
-    }
-    #sggPrettyPhototooltip {
-        z-index: 10000 !important;
-        display: block !important;
-        line-height: 100%;
-        font-weight: 700;
-        @include border-radius-properties(3px);
-        @include background-button-properties($main-menu-items, $heading-color);
-    }
-    .pp_close {
-        padding-right: 9%;
-    }
-    .pp_nav, .pp_hoverContainer, .pp_gallery, .pp_expand, .pp_top, .pp_bottom {
-        display: none !important;
-    }
+  #pp_full_res {
+    text-align: center;
+  }
+
+  #fullResImage {
+    max-width: 90%;
+    height: auto !important;
+  }
+
+  .pp_content {
+    height: auto !important;
+    padding: 20px 0;
+  }
+
+  .pp_description {
+    white-space: normal !important;
+    margin: 0 4vw !important;
+    border: 1px solid lightgray;
+    padding: 15px !important;
+    overflow-y: auto !important;
+    @include border-radius-properties(5px);
+  }
+
+  .pp_details {
+    float: none !important;
+    padding-top: 35px;
+  }
+
+  #sggPrettyPhototooltip {
+    z-index: 10000 !important;
+    display: block !important;
+    line-height: 100%;
+    font-weight: 700;
+    @include border-radius-properties(3px);
+    @include background-button-properties($main-menu-items, $heading-color);
+  }
+
+  .pp_close {
+    padding-right: 9%;
+  }
+
+  .pp_bottom,
+  .pp_expand,
+  .pp_gallery,
+  .pp_hoverContainer,
+  .pp_nav,
+  .pp_top {
+    display: none !important;
+  }
 }

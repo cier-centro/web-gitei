@@ -13,7 +13,6 @@ html {
 body {
   font-family: 'Montserrat', sans-serif;
   color: $black;
-  background: $main-bg url('#{$images-path}img_main_bg.png') 0 50%;
 }
 
 a {
@@ -31,7 +30,6 @@ a {
 
 .home-header + .container {
   background: white;
-  @include box-shadow-properties(0 0 11px 3px rgba(0, 0, 0, 0.15));
 }
 
 .title-section {
@@ -181,7 +179,7 @@ h2 {
 
 .alm-load-more-btn,
 .btn-site {
-  background-color: $social-bar-bg;
+  background-color: $social-bar-bg !important;
   display: inline-block !important;
   color: white !important;
   line-height: 1.42857143 !important;
@@ -193,7 +191,7 @@ h2 {
   }
 
   &:hover {
-    background-color: $see-more-hover;
+    background-color: $heading-color !important;
   }
 }
 

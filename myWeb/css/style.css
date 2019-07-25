@@ -74,7 +74,8 @@
 .flip-slider div.slider .master-slider-parent .master-slider .ms-bullet.ms-bullet-selected {
   background-position: -332px -26px !important;
 }
-.flip-slider div.slider .master-slider-parent .master-slider .ms-nav-next, .flip-slider div.slider .master-slider-parent .master-slider .ms-nav-prev {
+.flip-slider div.slider .master-slider-parent .master-slider .ms-nav-next,
+.flip-slider div.slider .master-slider-parent .master-slider .ms-nav-prev {
   background: url("../img/img_spritesheet.png");
   width: 42px;
   height: 42px;
@@ -91,7 +92,8 @@
 .flip-slider div.slider .master-slider-parent .master-slider .ms-nav-next:hover {
   background-position: -273px -69px;
 }
-.flip-slider div.slider .master-slider-parent .master-slider .ms-view, .flip-slider div.slider .master-slider-parent .master-slider .ms-slide {
+.flip-slider div.slider .master-slider-parent .master-slider .ms-slide,
+.flip-slider div.slider .master-slider-parent .master-slider .ms-view {
   height: 42vw !important;
 }
 .flip-slider div.slider .master-slider-parent .master-slider .ms-slide-info {
@@ -112,8 +114,8 @@
   position: absolute;
   top: -1%;
   left: -1%;
-  width: 102%;
-  height: 102%;
+  /*width: 102%;
+      height: 102%;*/
   z-index: 1;
 }
 
@@ -164,7 +166,12 @@
 .pp_pic_holder .pp_close {
   padding-right: 9%;
 }
-.pp_pic_holder .pp_nav, .pp_pic_holder .pp_hoverContainer, .pp_pic_holder .pp_gallery, .pp_pic_holder .pp_expand, .pp_pic_holder .pp_top, .pp_pic_holder .pp_bottom {
+.pp_pic_holder .pp_bottom,
+.pp_pic_holder .pp_expand,
+.pp_pic_holder .pp_gallery,
+.pp_pic_holder .pp_hoverContainer,
+.pp_pic_holder .pp_nav,
+.pp_pic_holder .pp_top {
   display: none !important;
 }
 
@@ -182,7 +189,6 @@ html {
 body {
   font-family: "Montserrat", sans-serif;
   color: #000;
-  background: #fff url("../img/img_main_bg.png") 0 50%;
 }
 
 a {
@@ -200,9 +206,6 @@ a {
 
 .home-header + .container {
   background: white;
-  -webkit-box-shadow: 0 0 11px 3px rgba(0, 0, 0, 0.15);
-  -moz-box-shadow: 0 0 11px 3px rgba(0, 0, 0, 0.15);
-  box-shadow: 0 0 11px 3px rgba(0, 0, 0, 0.15);
 }
 
 .title-section {
@@ -328,7 +331,7 @@ h2 {
 
 .alm-load-more-btn,
 .btn-site {
-  background-color: #00c5ff;
+  background-color: #00c5ff !important;
   display: inline-block !important;
   color: white !important;
   line-height: 1.42857143 !important;
@@ -341,7 +344,7 @@ h2 {
 }
 .alm-load-more-btn:hover,
 .btn-site:hover {
-  background-color: #3284BC;
+  background-color: #1f2c53 !important;
 }
 
 .alm-btn-wrap {
@@ -552,10 +555,10 @@ h2 {
 .home-header .gitei-logo,
 .home-header .gitei-logo-dark {
   max-width: 15vw;
-  min-width: 180px;
+  min-width: 120px;
 }
 .home-header .separator-logo {
-  max-width: 11vw;
+  max-width: 7vw;
   min-width: 150px;
 }
 .home-header .btn-menu {
@@ -925,7 +928,7 @@ h2 {
   text-align: center;
   position: relative;
 }
-.nav-tabs > li > a:hover, .nav-tabs > li > a:focus {
+.nav-tabs > li > a:focus, .nav-tabs > li > a:hover {
   background-color: #c3edec;
 }
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
@@ -948,7 +951,6 @@ h2 {
 
 .tab-content {
   margin-bottom: 15px;
-  border: 1px solid lightgray;
   border-top: none;
   border-radius: 5px;
   border-top-left-radius: 0;
@@ -960,9 +962,8 @@ h2 {
 ------------Videos-Section----------
 ------------------------------------*/
 .videos-section {
-  border: 1px solid lightgray;
+  border-top: 1px solid lightgray;
   margin: 15px 0;
-  border-radius: 5px;
 }
 .videos-section .title-section:before {
   background-position: -65px -300px;

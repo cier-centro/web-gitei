@@ -1,7 +1,6 @@
 /*----------------------------------
 ----------------Header--------------
 ------------------------------------*/
-
 %header-button {
   background-color: transparent !important;
   background-image: url("#{$images-path}img_spritesheet.png");
@@ -38,11 +37,11 @@
   .gitei-logo,
   .gitei-logo-dark {
     max-width: 15vw;
-    min-width: 180px;
+    min-width: 120px;
   }
 
   .separator-logo {
-    max-width: 11vw;
+    max-width: 7vw;
     min-width: 150px;
   }
 

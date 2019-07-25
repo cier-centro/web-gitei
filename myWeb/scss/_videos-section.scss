@@ -1,52 +1,58 @@
 /*----------------------------------
 ------------Videos-Section----------
 ------------------------------------*/
+
 .videos-section {
-    border: 1px solid lightgray;
-    margin: 15px 0;
-    border-radius: 5px;
+  border-top: 1px solid lightgray;
+  margin: 15px 0;
 
-    .title-section {
-        &:before {
-            background-position: -65px -300px;
-        }
+  .title-section {
+    &:before {
+      background-position: -65px -300px;
     }
+  }
 
-    h1 {
-      position: relative;
-      align-items: center;
-      justify-content: space-between;
+  h1 {
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
 
-      a {
-          font-size: 12px;
-          border: 1px solid lightgray;
-          padding: 10px;
-          border-radius: 5px;
-          color: gray;
-      }
+    a {
+      font-size: 12px;
+      border: 1px solid lightgray;
+      padding: 10px;
+      border-radius: 5px;
+      color: gray;
     }
-    .video-widget {
-        .pagination {
-            display: none !important;
-        }
+  }
+
+  .video-widget {
+    .pagination {
+      display: none !important;
     }
+  }
 }
+
 #video-gallery {
-    padding: 2% 4%;
+  padding: 2% 4%;
 
-    & > div {
-        margin: 1% 1% 0;
+  & > div {
+    margin: 1% 1% 0;
+  }
+
+  .zTitfHov2 {
+    background-color: rgba($social-bar-bg, 0.4) !important;
+
+    span {
+      font-family: 'Montserrat', sans-serif !important;
     }
-    .zTitfHov2 {
-        background-color: rgba($social-bar-bg, 0.4) !important;
-        span {
-            font-family: 'Montserrat', sans-serif !important;
-        }
-    }
-    .TotalsofthPIcon1 {
-        color: $social-bar-bg !important;
-    }
+  }
+
+  .TotalsofthPIcon1 {
+    color: $social-bar-bg !important;
+  }
 }
+
 .lg-outer .lg-inner {
-    background: rgba(0,0,0,0.7);
+  background: rgba(0,0,0,0.7);
 }
