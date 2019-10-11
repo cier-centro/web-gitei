@@ -1,7 +1,6 @@
 /*----------------------------------
 ----------------Slider--------------
 ------------------------------------*/
-
 .flip-slider {
   position: relative;
   width: 100%;
@@ -51,6 +50,7 @@
           background: url("#{$images-path}img_spritesheet.png");
           width: 42px;
           height: 42px;
+          z-index: 2;
         }
 
         .ms-nav-prev {

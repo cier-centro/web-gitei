@@ -41,11 +41,12 @@
               <div class="col-xs-12 col-md-4 right-section">
             <form>
               <?php echo do_shortcode('[ninja_form id=5]') ?>
-            </form>            
+            </form>
         </div>
           </div>
       </div>
 </div>
+<?php include (TEMPLATEPATH. '/unalfooter.php'); ?>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.16.1/TweenMax.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.16.1/plugins/ScrollToPlugin.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.16.1/plugins/EaselPlugin.min.js"></script>
