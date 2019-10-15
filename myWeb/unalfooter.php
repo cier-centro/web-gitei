@@ -34,15 +34,15 @@
       <a href="index.html#">Acerca de este sitio web</a><br />
       -->
       <?php
-      $u_time = get_the_time('U');
-      $u_modified_time = get_the_modified_time('U');
-      if ($u_modified_time >= $u_time + 86400) {
+      //$u_time = get_the_time('U');
+      //$u_modified_time = get_the_modified_time('U');
+      //if ($u_modified_time >= $u_time + 86400) {
       echo "Actualización: ";
       the_modified_time('F j/Y');
       //Muestra la hora
       //echo " at ";
       //the_modified_time();
-      }
+      //}
       ?>
     </p>
   </div>
